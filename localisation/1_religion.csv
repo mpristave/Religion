@@ -1,0 +1,976 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### RELIGION GROUP NAMES ###;;;;;;;;;;;;;;x
+abrahamic_group;Abrahamic;;;;;;;;;;;;;x
+anatolian_group;Anatolian;;;;;;;;;;;;;x
+arabpagan_group;Arabo-Sabaean;;;;;;;;;;;;;x
+aztec_group;Mesoamerican;;;;;;;;;;;;;x
+baltic_group;Baltic;;;;;;;;;;;;;x
+bantu_group;Bantu;;;;;;;;;;;;;x
+berberpagan_group;Amazigh;;;;;;;;;;;;;x
+bud_group;Buddhist;;;;;;;;;;;;;x
+celtic_group;Celtic;;;;;;;;;;;;;x
+chinese_group;Chinese;;;;;;;;;;;;;x
+christian;Christian;Chrétien;Christlich;;Cristiano;;;;;;;;;x
+east_african_group;Eastern African;;;;;;;;;;;;;x
+egyptian_group;Ancient Egyptian;;;;;;;;;;;;;x
+fiction_group;Custom Religions;;;;;;;;;;;;;x
+finnish_group;Finnic;;;;;;;;;;;;;x
+graecoroman_group;Graeco-Roman;;;;;;;;;;;;;x
+indohelen_group;Indo-Hellenic;;;;;;;;;;;;;x
+inuit_group;Inuit;;;;;;;;;;;;;x
+jewish_group;Jewish;;;;;;;;;;;;;x
+luwian_group;Hittite;;;;;;;;;;;;;x
+mand_group;Mandaean;;;;;;;;;;;;;x
+mani_group;Manichaean;;;;;;;;;;;;;x
+mithra_group;Mithraic;;;;;;;;;;;;;x
+muslim;Islamic;;;;;;;;;;;;;x
+neoplato_group;Neoplatonic;;;;;;;;;;;;;x
+norsegerman_group;Germanic;;;;;;;;;;;;;x
+pagan_group;Indo-European;;;;;;;;;;;;;x
+palmyranpagan_group;Canaanite;;;;;;;;;;;;;x
+serer_group;Western African;;;;;;;;;;;;;x
+slavic_group;Slavic;;;;;;;;;;;;;x
+sol_group;Solar;;;;;;;;;;;;;x
+tengri_group;Turkic;;;;;;;;;;;;;x
+yazd_group;Kurdish;;;;;;;;;;;;;x
+zal_group;Zalmoxian;;;;;;;;;;;;;x
+zoroastrian_group;Zoroastrian;Zoroastrien;Zoroastrier;;Zoroastriano;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### RELIGION NAMES ###;;;;;;;;;;;;;;x
+adoptionist;Adoptionist;;;;;;;;;;;;;x
+aglibol;Aglibôli;;;;;;;;;;;;;x
+ahriman_reformed;Akomanic;;;;;;;;;;;;;x
+alexandros;Alexandros-Ammonite;;;;;;;;;;;;;x
+allat;Al-Lati;;;;;;;;;;;;;x
+allfather;Wodanazic;;;;;;;;;;;;;x
+almaqah;Almaqahi;;;;;;;;;;;;;x
+amanai;Amanaii;;;;;;;;;;;;;x
+amun;Amunite;;;;;;;;;;;;;x
+amun_reformed;Kemetic;;;;;;;;;;;;;x
+anansi;Anansi;;;;;;;;;;;;;x
+antinomian;Antinomian;;;;;;;;;;;;;x
+apollinarist;Apollinarist;;;;;;;;;;;;;x
+arab_pagan_reformed;Abeed ash-Shamsi;;;;;;;;;;;;;x
+arian;Arian;;;;;;;;;;;;;x
+ashari;Ash'ari;;;;;;;;;;;;;x
+aten;Atenist;;;;;;;;;;;;;x
+aten_reformed;Amarnist;;;;;;;;;;;;;x
+athari;Athari;;;;;;;;;;;;;x
+attar;Attari;;;;;;;;;;;;;x
+audianist;Audianist;;;;;;;;;;;;;x
+aztec;Tlateotocani;;;;;;;;;;;;;x
+baal_monotheistic_reformed;Ba'alite;;;;;;;;;;;;;x
+baltic_pagan_reformed;Romuvan;;;;;;;;;;;;;x
+bantu_pagan_reformed;Munguist;;;;;;;;;;;;;x
+batembuzi;Batembuzi;;;;;;;;;;;;;x
+beelshamen;Beelshameni;;;;;;;;;;;;;x
+berber_pagan;Amazigh;;;;;;;;;;;;;x
+berber_pagan_reformed;Mastimani;;;;;;;;;;;;;x
+bogomilist;Bogomilist;;;;;;;;;;;;;x
+bon;Bön;;;;;;;;;;;;;x
+bon_reformed;Dzogchen;;;;;;;;;;;;;x
+bud_bahusrutiya;Bahushrutiya;;;;;;;;;;;;;x
+bud_mahayana;Mahayana;;;;;;;;;;;;;x
+bud_pratyeka;Pratyekan;;;;;;;;;;;;;x
+bud_pureland;Buddhaksetran;;;;;;;;;;;;;x
+bud_sthaviravada;Sthaviravada;;;;;;;;;;;;;x
+bud_vajrayana;Vajrayana;;;;;;;;;;;;;x
+bud_zen;Chán;;;;;;;;;;;;;x
+bud_zen_reformed;Linji;;;;;;;;;;;;;x
+bud_zor;Buddha-Mazdan;;;;;;;;;;;;;x
+bud_zor_reformed;Mahadipika;;;;;;;;;;;;;x
+cathar;Cathar;;;;;;;;;;;;;x
+cathar_reformed;Consolamentian;;;;;;;;;;;;;x
+catholic;Catholic;;;;;;;;;;;;;x
+celtic_christ;Hibernicist;;;;;;;;;;;;;x
+celtic_christ_reformed;Cúchulainnist;;;;;;;;;;;;;x
+celtic_pagan;Druidic;;;;;;;;;;;;;x
+celtic_pagan_reformed;Tuatha Dé;;;;;;;;;;;;;x
+christian_populist_reformed;Franciscan;;;;;;;;;;;;;x
+chumbylat;Chumbylatic;;;;;;;;;;;;;x
+chumbylat_reformed;Küsotist;;;;;;;;;;;;;x
+confucian;Confucian;;;;;;;;;;;;;x
+cybele;Cybelite;;;;;;;;;;;;;x
+cybele_reformed;Matar Kubileyan;;;;;;;;;;;;;x
+dazhbog;Dažbogite;;;;;;;;;;;;;x
+dievas;Dievasic;;;;;;;;;;;;;x
+dionysos;Dionysian;;;;;;;;;;;;;x
+docetist;Docetist;;;;;;;;;;;;;x
+donatist;Donatist;;;;;;;;;;;;;x
+druze;Druze;Druze;Druse;;Druso;;;;;;;;;x
+druze_reformed;Ahl al-Tahwidi;;;;;;;;;;;;;x
+endovellico;Endovellico-Netan;;;;;;;;;;;;;x
+erlik;Erliki;;;;;;;;;;;;;x
+erlik_reformed;Ulu Erliki;;;;;;;;;;;;;x
+ethiopian_war_reformed;Maher Aelshadayi;;;;;;;;;;;;;x
+finnish_pagan;Suomenuskan;;;;;;;;;;;;;x
+finnish_pagan_reformed;Kalevalan;;;;;;;;;;;;;x
+fraticelli;Fraticelli;;;;;;;;;;;;;x
+german_pagan;Furistaz Siduzic;;;;;;;;;;;;;x
+german_pagan_reformed;Niwjaz Siduzic;;;;;;;;;;;;;x
+ghazi_islam;Ghazi Muslim;;;;;;;;;;;;;x
+graeco_roman;Hellenic;;;;;;;;;;;;;x
+graeco_roman_reformed;Olympist;;;;;;;;;;;;;x
+gurzil;Gurzili;;;;;;;;;;;;;x
+hadad;Hadadi;;;;;;;;;;;;;x
+haruri;Haruri;;;;;;;;;;;;;x
+hindu;Hindu;;;;;;;;;;;;;x
+horus_re;Ra-Horakhtic;;;;;;;;;;;;;x
+hubal;Hubali;;;;;;;;;;;;;x
+hurufi;Hurufi;;;;;;;;;;;;;x
+ibadi;Ibadi;;;;;;;;;;;;;x
+iberian_pagan_reformed;Iberist;;;;;;;;;;;;;x
+iconoclast;Iconoclast;;;;;;;;;;;;;x
+illuyanka;Illuyankan;;;;;;;;;;;;;x
+illuyanka_reformed;Typhonist;;;;;;;;;;;;;x
+ilm_islam;'Ilmi;;;;;;;;;;;;;x
+ilmatar;Ilmattarenpalvoja;;;;;;;;;;;;;x
+imana;Imanai;;;;;;;;;;;;;x
+indoh_bud;Eusebeian;;;;;;;;;;;;;x
+indoh_confucian;Konphosian;;;;;;;;;;;;;x
+indoh_hindu;Sindhian Hindu;;;;;;;;;;;;;x
+indoh_zor;Pyromantic;;;;;;;;;;;;;x
+indohelen;Indo-Hellenic;;;;;;;;;;;;;x
+indohelen_reformed;Indolatreían;;;;;;;;;;;;;x
+inuit_pagan;Ukpirniq;;;;;;;;;;;;;x
+inuit_pagan_reformed;Angakkuqi;;;;;;;;;;;;;x
+irminsul;Irminsulic;;;;;;;;;;;;;x
+isis;Isetite;;;;;;;;;;;;;x
+isis_reformed;Osirian;;;;;;;;;;;;;x
+jain;Jaina;;;;;;;;;;;;;x
+jud_ark;Arôn Habrîtan;;;;;;;;;;;;;x
+jud_ark_reformed;Shekinahi;;;;;;;;;;;;;x
+jud_sabaoth;Yahweh Sabaothite;;;;;;;;;;;;;x
+jud_zion;Khawdash Siyunic;;;;;;;;;;;;;x
+judaism;Yehudi;;;;;;;;;;;;;x
+judaism_reformed;Bnai Yisra'eli;;;;;;;;;;;;;x
+jumala;Jumalanpalvoja;;;;;;;;;;;;;x
+jupiter;Jovian;;;;;;;;;;;;;x
+kharijite;Kharijite;;;;;;;;;;;;;x
+kintu;Kintu;;;;;;;;;;;;;x
+kothar;Kothar-wa-Khasisi;;;;;;;;;;;;;x
+kubera;Kuberan;;;;;;;;;;;;;x
+kubera_reformed;Sarvahnai;;;;;;;;;;;;;x
+lubu;Fengxian Chóngbài;;;;;;;;;;;;;x
+lubu_reformed;Lushèngdìjun Chóngbài;;;;;;;;;;;;;x
+lugh;Lughite;;;;;;;;;;;;;x
+luwian;Luwian;;;;;;;;;;;;;x
+maher;Maherite;;;;;;;;;;;;;x
+makonde_pagan;Msolo;;;;;;;;;;;;;x
+malakbel;Malakbêlite;;;;;;;;;;;;;x
+mand_ruha;Ruha d-Qudshai;;;;;;;;;;;;;x
+mand_ruha_reformed;Adunayic;;;;;;;;;;;;;x
+mandaean;Mandaean;;;;;;;;;;;;;x
+mandaean_reformed;Rišamman;;;;;;;;;;;;;x
+mande_pagan;Serer;;;;;;;;;;;;;x
+mani;Manichaean;;;;;;;;;;;;;x
+mani_ahriman;Ahrimanic;;;;;;;;;;;;;x
+mani_germanic;Wulfilist;;;;;;;;;;;;;x
+mani_germanic_reformed;Woriibarstist;;;;;;;;;;;;;x
+mani_mithra;Theomachian;;;;;;;;;;;;;x
+mani_slavic;Dragomirist;;;;;;;;;;;;;x
+mani_slavic_reformed;Woriijadtist;;;;;;;;;;;;;x
+marabout;Marabouti;;;;;;;;;;;;;x
+marcionist;Marcionist;;;;;;;;;;;;;x
+mari_christ;Euskalist;;;;;;;;;;;;;x
+mari_christ_reformed;Marianist;;;;;;;;;;;;;x
+maturidi;Maturidi;;;;;;;;;;;;;x
+mazdakism;Mazdakist;;;;;;;;;;;;;x
+mazdakism_reformed;Desnadi;;;;;;;;;;;;;x
+melkite;Melkite;;;;;;;;;;;;;x
+mithra;Mithraic;;;;;;;;;;;;;x
+mithra_christ;Mithraic-Christian;;;;;;;;;;;;;x
+mithra_sol;Eosphorist;;;;;;;;;;;;;x
+monophysite;Monophysite;;;;;;;;;;;;;x
+monothelite;Eutychianist;;;;;;;;;;;;;x
+montanist;Montanist;;;;;;;;;;;;;x
+montanist_reformed;Phrygian;;;;;;;;;;;;;x
+murjiah;Murji'i;;;;;;;;;;;;;x
+murugan;Kartikeyan;;;;;;;;;;;;;x
+murugan_reformed;Arumugani;;;;;;;;;;;;;x
+muslim_aliite_reformed;Imam al Asri Muslim;;;;;;;;;;;;;x
+muslim_domination_reformed;Mujahed;;;;;;;;;;;;;x
+muslim_sufi_reformed;Sufi Muslim;;;;;;;;;;;;;x
+mutazil;Mu'tazili;;;;;;;;;;;;;x
+mwari;Mwari;;;;;;;;;;;;;x
+nasrani;Nasrani;;;;;;;;;;;;;x
+nasrani_reformed;Malankara;;;;;;;;;;;;;x
+neoplato;Neoplatonic;;;;;;;;;;;;;x
+nestorian;Nestorian;;;;;;;;;;;;;x
+norse_christ;Scandinist;;;;;;;;;;;;;x
+norse_christ_reformed;Kristatrúar;;;;;;;;;;;;;x
+norse_pagan;Forn Siðric;;;;;;;;;;;;;x
+norse_pagan_reformed;Ásatrúar;;;;;;;;;;;;;x
+norse_war;Ófriðartrívaric;;;;;;;;;;;;;x
+northern_sun_reformed;Sehuli;;;;;;;;;;;;;x
+nott;Njóla;;;;;;;;;;;;;x
+nyakalagan_reformed;Ruoth Nyasayi;;;;;;;;;;;;;x
+nyame;Nyame;;;;;;;;;;;;;x
+nyasaye;Nyakalagan;;;;;;;;;;;;;x
+nyau;Nyau;;;;;;;;;;;;;x
+orthodox;Orthodox;;;;;;;;;;;;;x
+palmyran_pagan;Elohimi;;;;;;;;;;;;;x
+peckols;Peckolsic;;;;;;;;;;;;;x
+pelagian;Pelagian;;;;;;;;;;;;;x
+perkunas;Perkunan;;;;;;;;;;;;;x
+perun;Perunic;;;;;;;;;;;;;x
+plato_christ;Platonic Christian;;;;;;;;;;;;;x
+plato_islam;Platonic Islamic;;;;;;;;;;;;;x
+plato_pythagorean;Platonic Pythagorean;;;;;;;;;;;;;x
+porphyryan;Porphyryan;;;;;;;;;;;;;x
+priscillian;Priscillian;;;;;;;;;;;;;x
+priscillian_reformed;Apologetic;;;;;;;;;;;;;x
+qarmatian;Qarmatian;;;;;;;;;;;;;x
+ragnarok;Ragnarökic;;;;;;;;;;;;;x
+ragnarok_reformed;Røkkatrúar;;;;;;;;;;;;;x
+rod;Rodic;;;;;;;;;;;;;x
+roman_imperial;Imperial Cultist;;;;;;;;;;;;;x
+sabellianist;Sabellianist;;;;;;;;;;;;;x
+saule;Saulic;;;;;;;;;;;;;x
+saura;Saura;;;;;;;;;;;;;x
+saura_reformed;Surya Brahmani;;;;;;;;;;;;;x
+semipelagian;Semipelagian;;;;;;;;;;;;;x
+serer_reformed;Fat Roogan;;;;;;;;;;;;;x
+set;Setite;;;;;;;;;;;;;x
+set_reformed;Deshreti;;;;;;;;;;;;;x
+sethian;Sethoitae;;;;;;;;;;;;;x
+sethian_reformed;Tertifilian;;;;;;;;;;;;;x
+shams;Shamsi;;;;;;;;;;;;;x
+shaytana;Shaytanic;;;;;;;;;;;;;x
+shiite;Shia;Shiite;Schia;;Chía;;;;;;;;;x
+slavic_christian;Slavic Christian;;;;;;;;;;;;;x
+slavic_christian_reformed;Slavonic Theantropist;;;;;;;;;;;;;x
+slavic_pagan;Rodnoveric;;;;;;;;;;;;;x
+slavic_pagan_reformed;Slavianist;;;;;;;;;;;;;x
+sol;Solar-Imperial;;;;;;;;;;;;;x
+sol_apollo;Apollo-Heliosean;;;;;;;;;;;;;x
+sol_boreas;Apollo-Boreasean;;;;;;;;;;;;;x
+sol_boreas_reformed;Septentrionist;;;;;;;;;;;;;x
+sol_christ;Solar-Christian;;;;;;;;;;;;;x
+sol_islam;Al-Shams Islamic;;;;;;;;;;;;;x
+sol_islam_reformed;Ahl al-Shamshi;;;;;;;;;;;;;x
+sol_mani;Solar-Manichaean;;;;;;;;;;;;;x
+sol_norse;Óðinn-Sólar;;;;;;;;;;;;;x
+sol_sahara;Dulefukan;;;;;;;;;;;;;x
+sol_sahara_reformed;Dìwwokoan;;;;;;;;;;;;;x
+sol_slav;Horsic;;;;;;;;;;;;;x
+sol_tsahay;Ts'ähäy Mahremite;;;;;;;;;;;;;x
+solomonic_alexandros;Solomonic-Alexandrian;;;;;;;;;;;;;x
+solomonic_christ;Solomonic Christian;;;;;;;;;;;;;x
+sowilo;Sunnutrúar;;;;;;;;;;;;;x
+sufi;Sufi;;;;;;;;;;;;;x
+sunni;Sunni;Sunnite;Sunni;;Suní;;;;;;;;;x
+svaroh;Svarogan;;;;;;;;;;;;;x
+svetovid;Svetovidan;;;;;;;;;;;;;x
+talab;Ta'labi;;;;;;;;;;;;;x
+tao;Daojiao;;;;;;;;;;;;;x
+tao_reformed;Tàipíng Dào;;;;;;;;;;;;;x
+tarhunt;Tarhuntite;;;;;;;;;;;;;x
+tarhunt_reformed;Tarhuntist;;;;;;;;;;;;;x
+teiwaz;Teiwazic;;;;;;;;;;;;;x
+teiwaz_reformed;Lagô Siduzic;;;;;;;;;;;;;x
+tengri_ahriman;Ahriman Tanrili;;;;;;;;;;;;;x
+tengri_bud;Ata Burkhanli;;;;;;;;;;;;;x
+tengri_bud_reformed;Datsanist;;;;;;;;;;;;;x
+tengri_confucian;Kong Tanrili;;;;;;;;;;;;;x
+tengri_confucian_reformed;Yitian Chóngbài;;;;;;;;;;;;;x
+tengri_mani;Ak-Koyashli;;;;;;;;;;;;;x
+tengri_mani_reformed;Bai-Ülgeni;;;;;;;;;;;;;x
+tengri_pagan;Gökh Tanrili;;;;;;;;;;;;;x
+tengri_pagan_reformed;Ulu Gökh Tanrili;;;;;;;;;;;;;x
+tengri_rod;Rod Tanrili;;;;;;;;;;;;;x
+tengri_rod_reformed;Rodist;;;;;;;;;;;;;x
+unctionist;Unctionist;;;;;;;;;;;;;x
+valentinian;Valentinian;;;;;;;;;;;;;x
+vattisenyaly;Vattisen Yalist;;;;;;;;;;;;;x
+vattisenyaly_reformed;Sardashi;;;;;;;;;;;;;x
+veles;Velesic;;;;;;;;;;;;;x
+vidharma;Vaishnava;;;;;;;;;;;;;x
+vidharma_reformed;Vithoban;;;;;;;;;;;;;x 
+voipel;Voipel'ean;;;;;;;;;;;;;x
+voipel_reformed;Voittoisa Talvi;;;;;;;;;;;;;x
+waaq;Waaqi;;;;;;;;;;;;;x
+waldensian;Waldensian;;;;;;;;;;;;;x
+yahyanism;Yahyanist;;;;;;;;;;;;;x
+yazdanism;Yazdâni;;;;;;;;;;;;;x
+yazdanism_reformed;Yârsâni;;;;;;;;;;;;;x
+yazidism;Yazidi;Yazidi;Yazidi;;Yazidí;;;;;;;;;x
+yoruba;Yorùbá;;;;;;;;;;;;;x
+zahiri;Zahiri;;;;;;;;;;;;;x
+zal;Zalmoxian;;;;;;;;;;;;;x
+zal_christ;Christo-Zalmoxian;;;;;;;;;;;;;x
+zal_mani;Apogenesianist;;;;;;;;;;;;;x
+zande_pagan;Kurembori;;;;;;;;;;;;;x
+zande_pagan_reformed;Mbambui;;;;;;;;;;;;;x
+zor_angra;Angra Mainyui;;;;;;;;;;;;;x
+zor_angra_reformed;Angrayasnan;;;;;;;;;;;;;x
+zor_hindu;Zoroastrian Hindu;;;;;;;;;;;;;x
+zoroastrian;Zoroastrian;;;;;;;;;;;;;x
+zulu_pagan;Amatongo;;;;;;;;;;;;;x
+zulu_pagan_reformed;Unkulunkulan;;;;;;;;;;;;;x
+zurvanism;Zurvanite;;;;;;;;;;;;;x
+zurvanism_reformed;Ptâ Zrvânahê;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### DEITY/PROPHET NAMES ###;;;;;;;;;;;;;;x
+AHREMANUS;Arimanio;;;;;;;;;;;;;x
+AITE_MARA;Aite-Mara;;;;;;;;;;;;;x
+AKERBELTZ;Akerbeltz;;;;;;;;;;;;;x
+AMAGUQ;Amaguq;;;;;;;;;;;;;x
+ARIAMANUS;Ariamanus;;;;;;;;;;;;;x
+AVERNUS;Avernus;;;;;;;;;;;;;x
+AZYREN;Azyren;;;;;;;;;;;;;x
+BALEROS;Baleros;;;;;;;;;;;;;x
+BALOR;Balor;;;;;;;;;;;;;x
+BODHISATTVAS;The Bodhisattvas;;;;;;;;;;;;;x
+BODHISATTVA_ALEXANDROS;Bodhisattva Alexandros;;;;;;;;;;;;;x
+BRES;Bres;;;;;;;;;;;;;x
+CHAOS;CHAOS;;;;;;;;;;;;;x
+CHRIST;Christ;;;;;;;;;;;;;x
+CHRISTZAL;Zalmoxis-Christos;;;;;;;;;;;;;x
+COMMANDER_OF_GODS;The Commander of Gods;;;;;;;;;;;;;x
+CONQUEST;The Rider of Conquest;;;;;;;;;;;;;x
+COSMIC_GODS;The Cosmic Gods;;;;;;;;;;;;;x
+DARKNESS;Darkness;;;;;;;;;;;;;x
+DEATH;Death;;;;;;;;;;;;;x
+DEMONS_OF_DARKNESS;The Demons of Darkness;;;;;;;;;;;;;x
+DISCORDIA;Discordia;;;;;;;;;;;;;x
+DONN;Donn;;;;;;;;;;;;;x
+EREBOS;Erebos;;;;;;;;;;;;;x
+ERIS;Eris;;;;;;;;;;;;;x
+ESU;Esu;;;;;;;;;;;;;x
+ETERNAL_DARKNESS;The Eternal Darkness;;;;;;;;;;;;;x
+EURUS;Eurus;;;;;;;;;;;;;x
+FLESH;The temptations of Flesh;;;;;;;;;;;;;x
+GOD_AAKULUJJUSI;A'akuluujjusi;;;;;;;;;;;;;x
+GOD_ABATUR;Abatur;;;;;;;;;;;;;x
+GOD_AEONS;The Aeons;;;;;;;;;;;;;x
+GOD_AESHMA;Aeshma;;;;;;;;;;;;;x
+GOD_AGLIBOL;Aglibol;;;;;;;;;;;;;x
+GOD_AGNI;Agni;;;;;;;;;;;;;x
+GOD_AHRIMAN;Ahriman;;;;;;;;;;;;;x
+GOD_AHRIMANTENGRI;Ahriman-Tengri;;;;;;;;;;;;;x
+GOD_AHURA_MAZDA;Ahura Mazda;;;;;;;;;;;;;x
+GOD_AKAMANAH;Aka Manah;;;;;;;;;;;;;x
+GOD_ALEXAMON;Alexandros-Amon;;;;;;;;;;;;;x
+GOD_ALEXANDROS;Megas Alexandros;;;;;;;;;;;;;x
+GOD_ALLAH;Allah;Allah;Allah;;Alá;;;;;;;;;x
+GOD_ALLAT;Al-Lat;;;;;;;;;;;;;x
+GOD_ALLLOVING;All-Loving God;;;;;;;;;;;;;x
+GOD_ALMAQAH;Almaqah;;;;;;;;;;;;;x
+GOD_ALUZZA;Al-Uzza;;;;;;;;;;;;;x
+GOD_AMANAI;Amanai;;;;;;;;;;;;;x
+GOD_AMONRA;Amon-Ra;;;;;;;;;;;;;x
+GOD_ANAHITA;Anahita;;;;;;;;;;;;;x
+GOD_ANANSI;Anansi;;;;;;;;;;;;;x
+GOD_ANGRA_MAINYU;Angra Mainyu;;;;;;;;;;;;;x
+GOD_ANUBIS;Anubis;;;;;;;;;;;;;x
+GOD_ANZAR;Anzar;;;;;;;;;;;;;x
+GOD_APEP;Apep;;;;;;;;;;;;;x
+GOD_APHRODIRAMBA;Aphrodirhamba;;;;;;;;;;;;;x
+GOD_APOLLO;Apollo;;;;;;;;;;;;;x
+GOD_APOLLOBOREAS;Apollo-Boreas;;;;;;;;;;;;;x
+GOD_APOLLOMITHRAS;Apollo Mithras;;;;;;;;;;;;;x
+GOD_APOLLOSURYA;Helios-Surya;;;;;;;;;;;;;x
+GOD_ARES;Ares;;;;;;;;;;;;;x
+GOD_ARESKARTIKEYA;Ares-Kartikeya;;;;;;;;;;;;;x
+GOD_ARINNA;Arinniti;;;;;;;;;;;;;x
+GOD_ARTEMISANAHITA;Artemis Anahita;;;;;;;;;;;;;x
+GOD_ARUNA;Aruna;;;;;;;;;;;;;x
+GOD_ASASEYA;Asase Ya;;;;;;;;;;;;;x
+GOD_ASHTAR;Ashtar;;;;;;;;;;;;;x
+GOD_ASHTART;Ashtart;;;;;;;;;;;;;
+GOD_ATEN;Aten;;;;;;;;;;;;;x
+GOD_ATHENABUDDHA;Athenaswasti;;;;;;;;;;;;;x
+GOD_ATHENANANAIYA;Athena-Nanaiya;;;;;;;;;;;;;x
+GOD_ATTAR;Attar;;;;;;;;;;;;;x
+GOD_AUZAWANDILAZ;Auzawandilaz;;;;;;;;;;;;;x
+GOD_AY_DEDE;Ay Dede;;;;;;;;;;;;;x
+GOD_BAAL;Baal;;;;;;;;;;;;;x
+GOD_BAALHADAD;Baal-Hadad;;;;;;;;;;;;;x
+GOD_BAALHAMMON;Baal-Hammon;;;;;;;;;;;;;x
+GOD_BAI-ULGAN;Bai-ulgan;;;;;;;;;;;;;x
+GOD_BANDUA;Bandua;;;;;;;;;;;;;x
+GOD_BEELSHAMEN;Beelshamen;;;;;;;;;;;;;x
+GOD_BLUESKY;The Eternal Blue Sky;;;;;;;;;;;;;x
+GOD_BOREAS;Boreas;;;;;;;;;;;;;x
+GOD_BRAHMA;Brahma;;;;;;;;;;;;;x
+GOD_BRIGHID;Brighid;;;;;;;;;;;;;x
+GOD_BUD;Gautama Buddha;;;;;;;;;;;;;x
+GOD_BURKHAN;Ata Burkhan;;;;;;;;;;;;;x
+GOD_CAESAR;Jupiter Julius;;;;;;;;;;;;;x
+GOD_CAILLEACH;Cailleach;;;;;;;;;;;;;x
+GOD_CELT;Lugh;;;;;;;;;;;;;x
+GOD_CENTEOTL;Centeotl;;;;;;;;;;;;;x
+GOD_CERNUNNOS;Cernunnos;;;;;;;;;;;;;x
+GOD_CHALCHIUTLICUE;Chalchiuhtlicue;;;;;;;;;;;;;x
+GOD_CHENGLI;Cheng-li;;;;;;;;;;;;;x
+GOD_CHIUTA;Chiuta;;;;;;;;;;;;;x
+GOD_CHRISTDIVINE;Christ the Divine;;;;;;;;;;;;;x
+GOD_CHRISTHUMAN;Christ the Human;;;;;;;;;;;;;x
+GOD_CHRISTSOL;Christ, Sol Incarnate;;;;;;;;;;;;;x
+GOD_CHRISTZAL;Zalmoxis-Christos;;;;;;;;;;;;;x
+GOD_CHUMBYLAT;Chumbylat;;;;;;;;;;;;;x
+GOD_CRONUS;Cronus;;;;;;;;;;;;;x
+GOD_CYBELE;Cybele;;;;;;;;;;;;;x
+GOD_DAGON;Dagon;;;;;;;;;;;;;x
+GOD_DARKSTORM;The Storm of Darkness;;;;;;;;;;;;;x
+GOD_DAZBOG;Dažbog;;;;;;;;;;;;;x
+GOD_DEATH;Mors Aeterna;;;;;;;;;;;;;x
+GOD_DESTRUCTIVESPIRIT;The Destructive Spirit;;;;;;;;;;;;;x
+GOD_DHARMA;Dharma;;;;;;;;;;;;;x
+GOD_DIEVAS;Dievas;;;;;;;;;;;;;x
+GOD_DIONYSUS;Dionysus;;;;;;;;;;;;;x
+GOD_DYONISOSSHIVA;Dyonisos Shiva;;;;;;;;;;;;;x
+GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
+GOD_EMPEROR;The Emperor;;;;;;;;;;;;;x
+GOD_ENDOVELICUS;Endovelicus;;;;;;;;;;;;;x
+GOD_EOSPHOROS;Eosphoros;;;;;;;;;;;;;x
+GOD_EPONA;Epona;;;;;;;;;;;;;x
+GOD_EQUATIONS;The Great Equations;;;;;;;;;;;;;x
+GOD_ERLIK_KHAN;Erlik Khan;;;;;;;;;;;;;x
+GOD_ESHMUN;Eshmun;;;;;;;;;;;;;x
+GOD_ETERNALDARKNESS;Aka Mainyu;;;;;;;;;;;;;x
+GOD_FATHER;The Father;;;;;;;;;;;;;x
+GOD_FEATHERS;The Feathered Serpent;;;;;;;;;;;;;x
+GOD_FENGXIAN;Fengxian;;;;;;;;;;;;;x
+GOD_FENRIR;Fenrir;;;;;;;;;;;;;x
+GOD_FENRISBINDER;The Binder of Fenris;;;;;;;;;;;;;x
+GOD_FLYINGGENERAL;The Flying General;;;;;;;;;;;;;x
+GOD_FRAUJAZ;Fraujaz;;;;;;;;;;;;;x
+GOD_FREYJA;Freya;;;;;;;;;;;;;x
+GOD_FRIIJO;Friijo;;;;;;;;;;;;;x
+GOD_GABIJA;Gabija;Gabija;Gabija;;Gabija;;;;;;;;;x
+GOD_GGULU;Ggulu;;;;;;;;;;;;;x
+GOD_GOD;God;Dieu;Gott;;Dios;;;;;;;;;x
+GOD_GODEMPEROR;The God-Emperor;;;;;;;;;;;;;x
+GOD_GOPATSHAH;Gopatshah;;;;;;;;;;;;;x
+GOD_GREATDRAGON;The Great Dragon;;;;;;;;;;;;;x
+GOD_GREATPILLAR;The Great Pillar That Supports All;;;;;;;;;;;;;x
+GOD_GREATWOLF;The Great Wolf;;;;;;;;;;;;;x
+GOD_GUN_ANA;Gun Ana;;;;;;;;;;;;;x
+GOD_GURZIL;Gurzil;;;;;;;;;;;;;x
+GOD_HADES;Hades;;;;;;;;;;;;;x
+GOD_HEAVENLY;The Heavenly Father;;;;;;;;;;;;;x
+GOD_HELEN;The Divine;;;;;;;;;;;;;x
+GOD_HELIOS;Helios;;;;;;;;;;;;;x
+GOD_HEPHAESTUSAGNI;Hephaestus-Agni;;;;;;;;;;;;;x
+GOD_HERA;Hera;;;;;;;;;;;;;x
+GOD_HERAKLESVAJRAPANI;Herakles Vajrapani;;;;;;;;;;;;;x
+GOD_HERCULES;Hercules;;;;;;;;;;;;;x
+GOD_HERMESNARADA;Hermes Narada;;;;;;;;;;;;;x
+GOD_HODR;Hoder;;;;;;;;;;;;;x
+GOD_HORS;Hors;;;;;;;;;;;;;x
+GOD_HORUS;Horus;;;;;;;;;;;;;x
+GOD_HORUSRE;Ra-Horakhty;;;;;;;;;;;;;x
+GOD_HUBAL;Hubal;;;;;;;;;;;;;x
+GOD_HUITZ;Huitzilopochtli;;;;;;;;;;;;;x
+GOD_HUMANGOD;God Incarnate;;;;;;;;;;;;;x
+GOD_HURMUZ;Hurmuz;;;;;;;;;;;;;x
+GOD_IGALUK;Igaluk;;;;;;;;;;;;;x
+GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
+GOD_ILLUYANKATYPHON;Illuyanka-Typhon;;;;;;;;;;;;;x
+GOD_ILMATAR;Ilmatar;;;;;;;;;;;;;x
+GOD_IRMIN;The Irminsul;;;;;;;;;;;;;x
+GOD_ISIS;Isis;;;;;;;;;;;;;x
+GOD_JARILO;Jarilo;;;;;;;;;;;;;x
+GOD_JESUS;Jesus;Jésus;Jesus;;Jesús;;;;;;;;;x
+GOD_JUMALA;Jumala;;;;;;;;;;;;;x
+GOD_JUMI;Jumi;;;;;;;;;;;;;x
+GOD_JUNO;Juno;;;;;;;;;;;;;x
+GOD_JUPITER;Jupiter;;;;;;;;;;;;;x
+GOD_JUPITEROPTIMUSMAXIMUS;Iovis Optimus Maximus;;;;;;;;;;;;;x
+GOD_KARMA;The Karma;;;;;;;;;;;;;x
+GOD_KARTIKEYA;Kartikeya;;;;;;;;;;;;;x
+GOD_KINGOFDARKNESS;The King of Darkness;;;;;;;;;;;;;x
+GOD_KINTO;Kinto;;;;;;;;;;;;;x
+GOD_KOTHAR;Kothar-wa-Khasis;;;;;;;;;;;;;x
+GOD_KRISHNAHERAKLES;Kresnerakles;;;;;;;;;;;;;x
+GOD_KRISTUR;Baldr Kristr;;;;;;;;;;;;;x
+GOD_KUBERA;Kubera;;;;;;;;;;;;;x
+GOD_KUBRAT;Kubrat;;;;;;;;;;;;;x
+GOD_LAIMA;Laima;;;;;;;;;;;;;x
+GOD_LIGHTWINDS;The Winds of the Light;;;;;;;;;;;;;x
+GOD_LILU;Lilu;;;;;;;;;;;;;x
+GOD_LOKI;Loki;;;;;;;;;;;;;x
+GOD_LOLCAT;Lolcat the Divine;;;;;;;;;;;;;x
+GOD_LORDOFHOSTS;The Lord of Hosts;;;;;;;;;;;;;x
+GOD_LORDOFLIGHT;The Lord of Light;;;;;;;;;;;;;x
+GOD_LUBU;Lu Bu;;;;;;;;;;;;;x
+GOD_MACHA;Macha;;;;;;;;;;;;;x
+GOD_MAHER;Maher;;;;;;;;;;;;;x
+GOD_MAHREM;Mahrem;;;;;;;;;;;;;x
+GOD_MAITREYA;Maitreya the Saviour;;;;;;;;;;;;;x
+GOD_MALAKBEL;Malakbel;;;;;;;;;;;;;x
+GOD_MAN;The Light of Humanity;;;;;;;;;;;;;x
+GOD_MANAH;Manah;Manah;Manah;;Manat;;;;;;;;;x
+GOD_MANAT;Manat;;;;;;;;;;;;;x
+GOD_MANI;The Father of Greatness;;;;;;;;;;;;;x
+GOD_MARI;Mari;;;;;;;;;;;;;x
+GOD_MARIURRACA;Mari Urraca;;;;;;;;;;;;;x
+GOD_MARS;Mars;;;;;;;;;;;;;x
+GOD_MASTOR_AVA;Mastor Ava;;;;;;;;;;;;;x
+GOD_MEHNUT;Mehnut;;;;;;;;;;;;;x
+GOD_MELQART;Melqart;;;;;;;;;;;;;x
+GOD_MERCURYHANUMAN;Hermanumanes;;;;;;;;;;;;;x
+GOD_MICTLANTECUHTLI;Mictlantecuhtli;;;;;;;;;;;;;x
+GOD_MITHRA;Mithras;;;;;;;;;;;;;x
+GOD_MITHRACHRIST;Mithras Christos;;;;;;;;;;;;;x
+GOD_MITRA;Mitra;;;;;;;;;;;;;x
+GOD_MONAD;Monad;;;;;;;;;;;;;x
+GOD_MONTANINCARNATION;Montanus, God-Incarnate;;;;;;;;;;;;;x
+GOD_MWARI;Mwari;;;;;;;;;;;;;x
+GOD_NABIA;Nabia;;;;;;;;;;;;;x
+GOD_NAMALANGO;Namalango;;;;;;;;;;;;;x
+GOD_NEPTUNE;Neptune;;;;;;;;;;;;;x
+GOD_NETO;Neto;;;;;;;;;;;;;x
+GOD_NKYA;Nkya;;;;;;;;;;;;;x
+GOD_NORSE_SOL;Sunna;;;;;;;;;;;;;x
+GOD_NOTT;Nótt;;;;;;;;;;;;;x
+GOD_NOX;Nox;;;;;;;;;;;;;x
+GOD_NOX_DIRA;Nox Aeterna;;;;;;;;;;;;;x
+GOD_NYAME;Nyame;;;;;;;;;;;;;x
+GOD_NYX;Nyx;;;;;;;;;;;;;x
+GOD_ODINSOL;Ódinn-Sól;;;;;;;;;;;;;x
+GOD_OGMA;Ogma;;;;;;;;;;;;;x
+GOD_OGUN;Ogun;;;;;;;;;;;;;x
+GOD_OHRMAZD;Ohrmazd;;;;;;;;;;;;;x
+GOD_OLORUN;Olorun;;;;;;;;;;;;;x
+GOD_OMOL;Omol;;;;;;;;;;;;;x
+GOD_OROMASDES;Oromasdes;;;;;;;;;;;;;x
+GOD_ORUNMILA;Orunmila;;;;;;;;;;;;;x
+GOD_OSIRIS;Osiris;;;;;;;;;;;;;x
+GOD_PAL;Shamayim;;;;;;;;;;;;;x
+GOD_PATOLLO;Patollo;;;;;;;;;;;;;x
+GOD_PECKOLS;Peckols;;;;;;;;;;;;;x
+GOD_PERKELE;Perkele;;;;;;;;;;;;;x
+GOD_PERKUNAS;Perkunas;;;;;;;;;;;;;x
+GOD_PERUN;Perun;;;;;;;;;;;;;x
+GOD_PERUNCHRIST;Perun the Almighty;;;;;;;;;;;;;x
+GOD_PINGA;Pinga;;;;;;;;;;;;;x
+GOD_PLATO;The One;;;;;;;;;;;;;x
+GOD_POORGOD;God of the Poor;;;;;;;;;;;;;x
+GOD_POSEIDON;Poseidon;;;;;;;;;;;;;x
+GOD_PROJECTIONJESUS;The Projection of Christ;;;;;;;;;;;;;x
+GOD_QUETZALCOATL;Quetzalcoatl;;;;;;;;;;;;;x
+GOD_RADEGAST;Radegast;;;;;;;;;;;;;x
+GOD_REALMOFLIGHT;The Realm of Light;;;;;;;;;;;;;x
+GOD_ROD;Rod;;;;;;;;;;;;;x
+GOD_RODTENGRI;Rod-Tanri;;;;;;;;;;;;;x
+GOD_ROOG;Roog;;;;;;;;;;;;;x
+GOD_RUHA;Ruha d-Qudshai;;;;;;;;;;;;;x
+GOD_RUHANGA;Ruhanga;;;;;;;;;;;;;x
+GOD_RUNDAS;Rundas;;;;;;;;;;;;;x
+GOD_SARAT;Sarat;;;;;;;;;;;;;x
+GOD_SAULE;Saule;;;;;;;;;;;;;x
+GOD_SEDNA;Sedna;;;;;;;;;;;;;x
+GOD_SEHUL;Sehul;;;;;;;;;;;;;x
+GOD_SET;Set;;;;;;;;;;;;;x
+GOD_SETH;Seth;;;;;;;;;;;;;x
+GOD_SHAMS;Shamash;;;;;;;;;;;;;x
+GOD_SHAYTANA;Shaytana Invictus;;;;;;;;;;;;;x
+GOD_SHENLA_OKAR;Shenla Okar;;;;;;;;;;;;;x
+GOD_SHIVA;Shiva;;;;;;;;;;;;;x
+GOD_SOL;Sol Invictus;;;;;;;;;;;;;x
+GOD_SOLAR_GOD;The Solar God;;;;;;;;;;;;;x
+GOD_SOPHIA;Sophia;;;;;;;;;;;;;x
+GOD_SOWILO;Sowilo;;;;;;;;;;;;;x
+GOD_STTYR;Saint Tyr;;;;;;;;;;;;;x
+GOD_STTHOR;Saint Thor;;;;;;;;;;;;;x
+GOD_STFREY;Saint Frey;;;;;;;;;;;;;x
+GOD_STFREYJA;Saint Freyja;;;;;;;;;;;;;x
+GOD_SPENTA_MAINYU;Spenta Mainyu;;;;;;;;;;;;;x
+GOD_SUNEMPEROR;The Sol-Imperator;;;;;;;;;;;;;x
+GOD_SUNINCARNATE;Sol Incarnate;;;;;;;;;;;;;x
+GOD_SVAROG;Svarog;;;;;;;;;;;;;x
+GOD_SVETOVID;Svetovid;;;;;;;;;;;;;x
+GOD_TAKHAR;Takhar;;;;;;;;;;;;;x
+GOD_TALAB;Ta'lab;;;;;;;;;;;;;x
+GOD_TANNIT;Tannit;;;;;;;;;;;;;x
+GOD_TAPIO;Tapio;;;;;;;;;;;;;x
+GOD_TARANIS;Taranis;;;;;;;;;;;;;x
+GOD_TARHUNT;Tarhunt;;;;;;;;;;;;;x
+GOD_TARHUNTZEUS;Tarhunt-Zeus;;;;;;;;;;;;;x
+GOD_TAWUSEMELEK;Tawuse Melek;;;;;;;;;;;;;x
+GOD_TEIWAZ;Teiwaz;;;;;;;;;;;;;x
+GOD_TENGRI;Tengri;Tengri;Tengri;;Tengri;;;;;;;;;x
+GOD_TEUTATIS;Teutatis;;;;;;;;;;;;;x
+GOD_TEZCAT;Tezcatlipoca;;;;;;;;;;;;;x
+GOD_THANATOS;Thanatos;;;;;;;;;;;;;x
+GOD_THE_ALLFATHER;The Allfather;Le Tout Puissant;der Allvater;;El Todopoderoso;;;;;;;;;x
+GOD_THE_ANCESTORS;The Ancestors;Les Ancêtres;die Ahnen;;Los Ancestros;;;;;;;;;x
+GOD_THE_BLESSED_VIRGIN;The Blessed Virgin;la Vierge Marie;die gesegnete Jungfrau;;La Santa Virgen;;;;;;;;;x
+GOD_THE_FOUR_CORRELATES;The Four Correlates;Les Quatre Corrélats;die Vier Korrelate;;Cuatro de los Correlatos;;;;;;;;;x
+GOD_THE_GREATEST;The Greatest;Le Plus grand;der Größte;;El Altísimo;;;;;;;;;x
+GOD_THE_GREAT_BEAR;The Great Bear;Le Grand Ours;der Große Bär;;El Gran Oso;;;;;;;;;x
+GOD_THE_HEAVEN;The Heavens;;;;;;;;;;;;;x
+GOD_THE_LORD;The Lord;Le Seigneur;der Herr;;El Señor;;;;;;;;;x
+GOD_THE_ODIN;Odin;Odin;Odin;;Odín;;;;;;;;;x
+GOD_THE_ONEHANDED;The One-Handed God;;;;;;;;;;;;;x
+GOD_THE_SPIRITS;The spirits;;;;;;;;;;;;;x
+GOD_THE_THUNDERER;The Thunderer;Le Tonnant;der Donnerer;;Dios del Trueno;;;;;;;;;x
+GOD_THE_TWELVE_PHILOSOPHERS;The Twelve Philosophers;Les Douze Philosophes;Die Zwölf Philosophen;;Los Doce Filósofos;;;;;;;;;x
+GOD_THE_YAZDANI;The Yazdani;;;;;;;;;;;;;x
+GOD_THOUSAND;The Thousand Gods;;;;;;;;;;;;;x
+GOD_THUNARAZ;Thunaraz;;;;;;;;;;;;;x
+GOD_TIURAKH;Tiurakh;;;;;;;;;;;;;x
+GOD_TLALOC;Tlaloc;;;;;;;;;;;;;x
+GOD_TRIGLAV;Triglav;;;;;;;;;;;;;x
+GOD_TRIMURTI;The Trimurti;;;;;;;;;;;;;x
+GOD_TSAHAYMAHREM;Ts'ähäy Mahrem;;;;;;;;;;;;;x
+GOD_TURA;Tura;;;;;;;;;;;;;x
+GOD_TWELVE;The Twelve Patriarchs;;;;;;;;;;;;;x
+GOD_TYR;Týr;;;;;;;;;;;;;x
+GOD_UKKO;Ukko;;;;;;;;;;;;;x
+GOD_UMAY;Umay;;;;;;;;;;;;;x
+GOD_UNKNOWN_GOD;The Unknown God;;;;;;;;;;;;;x
+GOD_UNKULUNKULU;Unkulunkulu;;;;;;;;;;;;;x
+GOD_VARUN;Varun;;;;;;;;;;;;;x
+GOD_VELES;Veles;;;;;;;;;;;;;x
+GOD_VERETHRAGNA;Verethragna;;;;;;;;;;;;;x
+GOD_VISHNU;Vishnu;;;;;;;;;;;;;x
+GOD_VOIPEL;Voipel';;;;;;;;;;;;;x
+GOD_WAAQ;Waaq;;;;;;;;;;;;;x
+GOD_WODANAZ;Wodanaz;;;;;;;;;;;;;x
+GOD_XIPE_TOTEC;Xipe Totec;;;;;;;;;;;;;x
+GOD_XIUHTECUHTLI;Xiuhtecuhtli;;;;;;;;;;;;;x
+GOD_YAHWEH;Yahweh;;;;;;;;;;;;;x
+GOD_YAHWEHS;Yahweh Sabaoth;;;;;;;;;;;;;x
+GOD_YAHYA;Yahya;;;;;;;;;;;;;x
+GOD_YALDABAOTH;Yaldabaoth;;;;;;;;;;;;;x
+GOD_YANG;Yang;;;;;;;;;;;;;x
+GOD_YEMOJA;Yemoja;;;;;;;;;;;;;x
+GOD_YESHE_WALMO;Yeshe Walmo;;;;;;;;;;;;;x
+GOD_ZAL;Zalmoxis;;;;;;;;;;;;;x
+GOD_ZEUS;Zeus;;;;;;;;;;;;;x
+GOD_ZEUSINDRA;Sesindra;;;;;;;;;;;;;x
+GOD_ZEUSOROMASDES;Zeus Oromasdes;;;;;;;;;;;;;x
+GOD_ZHANG_ZHUNG_MERI;Zhang Zhung Meri;;;;;;;;;;;;;x
+GOD_ZURVAN;Zurvan;;;;;;;;;;;;;x
+GREAT_OPPONENT;The Great Opponent;;;;;;;;;;;;;x
+HADES_YAMA;Hadayama;;;;;;;;;;;;;x
+HALJO;Haljo;;;;;;;;;;;;;x
+HERO_CUC;Cúchulain;;;;;;;;;;;;;x
+HYLE;Mwari;;;;;;;;;;;;;x
+HYPERCOSMIC_GODS;The Hypercosmic Gods;;;;;;;;;;;;;x
+IGNORANCE;Ignorance;;;;;;;;;;;;;x
+INCARNATION_ALEXANDROS;Alekjendara, 11th Avatar of Vishnu;;;;;;;;;;;;;x
+KAKIA_MARA;Kakia-Mara;;;;;;;;;;;;;x
+KAKODAIMONES;the Kakodaimones;;;;;;;;;;;;;x
+KARASHKHAN;Karash Khan;;;;;;;;;;;;;x
+KERES;the Keres;;;;;;;;;;;;;x
+KUK;Kuk;;;;;;;;;;;;;x
+KUL;Kul';;;;;;;;;;;;;x
+LAMIA;Lamia;;;;;;;;;;;;;x
+LETUM;the Letum;;;;;;;;;;;;;x
+LIGHTBRINGER;The Lightbringer;;;;;;;;;;;;;x
+LORD_OF_WEALTH;The Lord of Wealth;;;;;;;;;;;;;x
+MARA;Klesa-mara;;;;;;;;;;;;;x
+MARABOUTS;The Marabouts;;;;;;;;;;;;;x
+MATER;Magna Mater;;;;;;;;;;;;;x
+MORS;Mors;;;;;;;;;;;;;x
+MOTHER_LIGHT;The Mother of Light;;;;;;;;;;;;;x
+MUTHSPELL;Muþspell;;;;;;;;;;;;;x
+NEO_ZION;The new land of Zion;;;;;;;;;;;;;x
+NOTUS;Notus;;;;;;;;;;;;;x
+OPRESSOR_GOD;The Opressor God;;;;;;;;;;;;;x
+ORACLE_FIRES;The Oracle of Fires;;;;;;;;;;;;;x
+PROHPET_ISKANDAR;Al-Iskandar Al-Akbar;;;;;;;;;;;;;x
+PROHPET_MUHAMMAD;Prophet Muhammad;;;;;;;;;;;;;x
+PROHPET_PELIAGIUS;Pelagius;;;;;;;;;;;;;x
+PROHPET_PHYTAGORAS;Pythagoras;;;;;;;;;;;;;x
+PROHPET_PLATO;Plato;;;;;;;;;;;;;x
+PROHPET_PORPHYRY;Porphyry;;;;;;;;;;;;;x
+PROHPET_SOLOMON;King Solomon;;;;;;;;;;;;;x
+PROPHET_APOLLINARIS;Apollinaris;;;;;;;;;;;;;x
+PROPHET_ARIUS;Arius;;;;;;;;;;;;;x
+PROPHET_AUDAEUS;Audaeus;;;;;;;;;;;;;x
+PROPHET_BOGOMIL;Bogomil;;;;;;;;;;;;;x
+PROPHET_CONFUCIUS;Confucius;;;;;;;;;;;;;x
+PROPHET_DONATUS;Donatus Magnus;;;;;;;;;;;;;x
+PROPHET_DRAGOMIR;The Prophet Dragomir;;;;;;;;;;;;;x
+PROPHET_GESER_KHAN;Geser Khan;;;;;;;;;;;;;x
+PROPHET_KONGPHOSIOS;Kongphosios;;;;;;;;;;;;;x
+PROPHET_LAOZI;Laozi;;;;;;;;;;;;;x
+PROPHET_MANI;The Prophet Mani;;;;;;;;;;;;;x
+PROPHET_MARCION;Marcion;;;;;;;;;;;;;x
+PROPHET_MAZDAK;The Prophet Mazdak;;;;;;;;;;;;;x
+PROPHET_MEGAPROSTATISDAMAS;Megaprostatis Damas;;;;;;;;;;;;;x
+PROPHET_MONTANUS;Montanus;;;;;;;;;;;;;x
+PROPHET_MOSES;Moses;;;;;;;;;;;;;x
+PROPHET_NESTORIUS;Nestorius;;;;;;;;;;;;;x
+PROPHET_PRISCILLIAN;Priscillian;;;;;;;;;;;;;x
+PROPHET_SABELLIUS;Sabellius;;;;;;;;;;;;;x
+PROPHET_SAINT_THOMAS;Saint Thomas;;;;;;;;;;;;;x
+PROPHET_SOCRATES;Socrates;;;;;;;;;;;;;x
+PROPHET_WULFIL;The Prophet Wulfil;;;;;;;;;;;;;x
+PROPHET_YAHYA;Yahya;;;;;;;;;;;;;x
+PROPHET_ZHUANGZI;Zhuangzi;;;;;;;;;;;;;x
+PROPHET_ZOROASTER;The Prophet Zarathustra;;;;;;;;;;;;;x
+PTAHIL;Ptahil;;;;;;;;;;;;;x
+RAGA;Raga;;;;;;;;;;;;;x
+REVERED_ANCESTORS;The Revered Ancestors;;;;;;;;;;;;;x
+SHINMU;Shinmu;;;;;;;;;;;;;x
+SON_OF_THE_SUN;The Son of the Sun;;;;;;;;;;;;;x
+TANHA;Tanha;;;;;;;;;;;;;x
+THE_BAHAMUT;Bahamut;;;;;;;;;;;;;x
+THE_DEMIURGE;The Demiurge;;;;;;;;;;;;;x
+THE_FOMORIANS;The Fomorians;;;;;;;;;;;;;x
+THE_GHOULS;Ghouls;;;;;;;;;;;;;x
+THE_IFRIT;The Ifrit;;;;;;;;;;;;;x
+THE_KING_OF_DARKNESS;The King of Darkness;;;;;;;;;;;;;x
+THE_LIBERATOR;The Liberator;;;;;;;;;;;;;x
+THE_MOTHER_OF_LIFE;The Mother of Light;;;;;;;;;;;;;x
+THE_NASNAS;Nasnas;;;;;;;;;;;;;x
+THE_WHITE_RIDER;The White Rider;;;;;;;;;;;;;x
+TULE;Tule;;;;;;;;;;;;;x
+VINAYAKAS_KERES;the Vinakeres;;;;;;;;;;;;;x
+VINE_GIVER;The Vine Giver;;;;;;;;;;;;;x
+XIAOREN;Xiaoren;;;;;;;;;;;;;x
+YAMA;Yama;;;;;;;;;;;;;x
+YANGUOWANG;Yanguowang;;;;;;;;;;;;;x
+YAOGUAI;The Yaoguai;;;;;;;;;;;;;x
+YIN;Yin;;;;;;;;;;;;;x
+ZEPHYRUS;Zephyrus;;;;;;;;;;;;;x
+ZMEY;Zmey;;;;;;;;;;;;;x
+GOD_THREE_PURE_ONES;The Three Pure Ones;;;;;;;;;;;;;x
+YANLOWANG;Yanlowang;;;;;;;;;;;;;x
+GOD_SHANGDI;Shangdi;;;;;;;;;;;;;x
+GOD_JADEEMPEROR;The Jade Emperor;;;;;;;;;;;;;x
+GOD_VESTA;Vesta;;;;;;;;;;;;;x
+GOD_MINERVA;Minerva;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### HOLY BOOK NAMES ###;;;;;;;;;;;;;;x
+THE_12TEACHINGS;the Liber Apologeticus;;;;;;;;;;;;;x
+THE_ADOPTION;the Writings of Theodotus;;;;;;;;;;;;;x
+THE_APOLLINARIS;the Teachings of Apollinaris;;;;;;;;;;;;;x
+THE_ARIAN;the Thalia;;;;;;;;;;;;;x
+THE_BALLADS;the Ballads;;;;;;;;;;;;;x
+THE_BEARCHRONICLES;the Bear Chronicles;;;;;;;;;;;;;x
+THE_BIBLE;the Bible;La Bible;Die Bibel;;La Biblia;;;;;;;;;x
+THE_BOGOMIL;the Teachings of Bogomil;;;;;;;;;;;;;x
+THE_BUD;the Sutras;;;;;;;;;;;;;x
+THE_BUDTENGRI;the Sutras of Tengri;;;;;;;;;;;;;x
+THE_CATHAR;the Interrogatio Iohannis;;;;;;;;;;;;;x
+THE_CHRISTSAGA;the Sagas of Christ;;;;;;;;;;;;;x
+THE_DARKFIRES;the Angra Mainyu Gatha;;;;;;;;;;;;;x
+THE_DARKNESS;the Gospel of Ahriman;;;;;;;;;;;;;x
+THE_DOCETIST;the Gospel of Clement;;;;;;;;;;;;;x
+THE_DONATUS;the Scriptures of Donatus Magnus;;;;;;;;;;;;;x
+THE_ERLIKLEGENDS;the Legends of Erlik;;;;;;;;;;;;;x
+THE_FATHER;the Gospel of Phillip;;;;;;;;;;;;;x
+THE_FIRES;the Sacred Fires;;;;;;;;;;;;;x
+THE_FRATICELLI;the Teachings of Brother Angelo;;;;;;;;;;;;;x
+THE_GATHAS;the Gathas;Les Gathas;Die Gathas;;Los Gathas;;;;;;;;;x
+THE_GRACE;the Gospel of Grace;;;;;;;;;;;;;x
+THE_GREAT_SECRET;the Great Secret of Zurvan;;;;;;;;;;;;;x
+THE_ICONOCLAST;the Decree of Leo III;;;;;;;;;;;;;x
+THE_IMPERIALDOCTRINE;the Imperial Doctrine;;;;;;;;;;;;;x
+THE_KALEVALA;the Kalevala;;;;;;;;;;;;;x
+THE_KELLS;the Book of Kells;;;;;;;;;;;;;x
+THE_KORAN;the Holy Qur'an;Le Coran;Der Koran;;El Corán;;;;;;;;;x
+THE_LEGENDS;the Legends;Les Légendes;Die Legenden;;Las Leyendas;;;;;;;;;x
+THE_LEGENDSLAVCHRIST;the Legend of St. Andrew;;;;;;;;;;;;;x
+THE_LEGENDSVETOVID;the Legend of Svetovid;;;;;;;;;;;;;x
+THE_LEGENDTENGRI;the Legend of the Endless Sky;;;;;;;;;;;;;x
+THE_LUBU;the Tales of Fengxian;;;;;;;;;;;;;x
+THE_LUGHCELTIC;the Legend of Lugh;;;;;;;;;;;;;x
+THE_MAND;the Scriptures of Mani;;;;;;;;;;;;;x
+THE_MANI;the Living Gospel;;;;;;;;;;;;;x
+THE_MARCION;the Gospel of the Lord;;;;;;;;;;;;;x
+THE_MARIBIBLE;the Legend of Mari;;;;;;;;;;;;;x
+THE_MAZDAK;the Desnad;;;;;;;;;;;;;x
+THE_MDZOD_PHUG;the mDzod Phug;Le mDzod Phug;Die mDzod Phug;;El mDzod Phug;;;;;;;;;x
+THE_MITHRA;the Mysteries of Mithra;;;;;;;;;;;;;x
+THE_MONTANIST;the New Prophecy;;;;;;;;;;;;;x
+THE_NESTORIAN;the Doctrine of Nestorius;;;;;;;;;;;;;x
+THE_NOX;the Necrologue;;;;;;;;;;;;;x
+THE_PLATO;the Enneads;;;;;;;;;;;;;x
+THE_PORPHYRY;the Advocation of Porphyry;;;;;;;;;;;;;x
+THE_PYTHAGORAS;the Pythagorean Texts;;;;;;;;;;;;;x
+THE_RAGNAROKPROPHECY;the Prophecy of Ragnarok;;;;;;;;;;;;;x
+THE_ROOG;the Will of Roog;;;;;;;;;;;;;x
+THE_ROYALDECREE;the Royal Decree;;;;;;;;;;;;;x
+THE_RUNESOFWAR;the Runes of Týr;;;;;;;;;;;;;x
+THE_SABELLIAN;the Book of Sabellius;;;;;;;;;;;;;x
+THE_SACRED_TEXTS;the Sacred Texts;;;;;;;;;;;;;x
+THE_SAGAS;the Sagas;Les Sagas;Die Sagen;;Las Sagas;;;;;;;;;x
+THE_SETH;the Apocalypse of Adam;;;;;;;;;;;;;x
+THE_SHAY;Codex Illuminatoris;;;;;;;;;;;;;x
+THE_SHISAN_JING;the Shísän Jïng;Le Shísän Jïng;Die Shísän Jïng;;El Shísän Jïng;;;;;;;;;x
+THE_SOL;the Scriptures;;;;;;;;;;;;;x
+THE_SOLARBIBLE;the Solar Bible;;;;;;;;;;;;;x
+THE_SOLARSAGAS;the Solar Sagas;;;;;;;;;;;;;x
+THE_SOWILO;the Sun Runes;;;;;;;;;;;;;x
+THE_STONES;the Sacred Stones;;;;;;;;;;;;;x
+THE_TAO_TE_CHING;the Dao De Ching;;;;;;;;;;;;;x
+THE_TENGRIMANI;the Light of Tengri;;;;;;;;;;;;;x
+THE_TORAH;the Torah;;;;;;;;;;;;;x
+THE_VEDAS;the Vedas;;;;;;;;;;;;;x
+THE_WALDO;the Preachings of Waldo;;;;;;;;;;;;;x
+THE_WAROFDAWN;the Gospel of Eternal War;;;;;;;;;;;;;x
+THE_YAHYA;the Word of Yahya;;;;;;;;;;;;;x
+THE_ZAL;the Codex Zalmoxis;;;;;;;;;;;;;x
+LIBRI_PONTIFICALES;the Libri Pontificales;;;;;;;;;;;;;x
+LIBRI_AUGURALIS;the Libri Auguralis;;;;;;;;;;;;;x
+HYMNS_OF_DYONISUS;the Hymns to Dionysus;;;;;;;;;;;;;x
+ALEXANDRIAD;the Alexiandrad;;;;;;;;;;;;;x
+THE_WISDOM_SOLOMON;the Book of Solomon;;;;;;;;;;;;;x
+THE_WISDOM_ALEXANDROS;the Book of Alexandros Soter;;;;;;;;;;;;;x
+THE_STELES;the Sacred Steles;;;;;;;;;;;;;x
+THE_DANCES;the Dances;;;;;;;;;;;;;x
+THE_MASKS;the Masks;;;;;;;;;;;;;x
+THE_IRMINSUL;the Irminsul;;;;;;;;;;;;;x
+THE_PESHITTA;the Peshitta;;;;;;;;;;;;;x
+BOOK_OF_THE_DEAD;the Book of the Dead;;;;;;;;;;;;;x
+THE_ATEN;the Great Hymn to Aten;;;;;;;;;;;;;x
+THE_WULF;the Gospel of Wulfila;;;;;;;;;;;;;x
+THE_DRAGO;the Gospel of Dragomir;;;;;;;;;;;;;x
+THE_EOSPHOROS;the Mysteries of Eosphoros;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### PRIEST NAMES ####;;;;;;;;;;;;;;x
+DRUID;Druid;;;;;;;;;;;;;x
+LAMA;Lama;;;;;;;;;;;;;x
+MUSHI;Mùshi;;;;;;;;;;;;;x
+SVIKIRO;Svikiro;;;;;;;;;;;;;x
+PYRAITHOS;Pyraithos;;;;;;;;;;;;;x
+PONTIFEX;Pontifex;;;;;;;;;;;;;x
+HIEREUS;Hiereus;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### CRUSADE NAMES ###;;;;;;;;;;;;;;x
+BELLUMSOLISINVICTI;Bellvm Solis Invicti;;;;;;;;;;;;;x
+CRUSADE;Crusade;;;;;;;;;;;;;x
+EXALTED_MARCH;Exalted March;;;;;;;;;;;;;x
+FRASHOKERETI;Frashokereti;;;;;;;;;;;;;x
+HONOREDWAR;Honored War;;;;;;;;;;;;;x
+JIHAD;Jihad;;;;;;;;;;;;;x
+WAROFCOVENANT;War of the Covenant;;;;;;;;;;;;;x
+WAROFEXAMPLE;March of Good Example;;;;;;;;;;;;;x
+ZALMOXIANWAR;Struggle for the Skies;;;;;;;;;;;;;x
+LUMINOUS_MARCH;Luminous March;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### RELIGIOUS TITLES/FOAs ###;;;;;;;;;;;;;;x
+APOLLINARIST_PATRIARCH;Apollinarist Patriarch;;;;;;;;;;;;;x
+AUDIANIST_PATRIARCH;Audianist Patriarch;;;;;;;;;;;;;x
+ARCHBISHOP;Archbishop;;;;;;;;;;;;;x
+ARKKEEPER;Keeper of the Ark;;;;;;;;;;;;;x
+ARCHEGOS;Archegos;;;;;;;;;;;;;x
+BRAHMIN;Brahmarishi;;;;;;;;;;;;;x
+BRAHMIN_FOA;O All-Seeing One;;;;;;;;;;;;;x
+CALIPH;Caliph;Calife;Kalif;;Califa;;;;;;;;;x
+CALIPH_FOA;Your Imperial Majesty;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Real Majestad;;;;;;;;;x
+COPTIC_POPE;Coptic Pope;;;;;;;;;;;;;x
+DEUS_IMPERATOR;Imperator Deus;;;;;;;;;;;;;x
+DOCETIST_PATRIARCH;Docetist Patriarch;;;;;;;;;;;;;x
+ECUMENICAL_PATRIARCH;Ecumenical Patriarch;Patriarche œcuménique;Ökumenischer Patriarch;;Patriarca ecuménico;;;;;;;;;x
+ECUMENICAL_PATRIARCH_FOA;Your Holiness;Votre Sainteté;Eure Heiligkeit;;Su Santidad;;;;;;;;;x
+ELDER_CHAMPION;Elder Champion;;;;;;;;;;;;;x
+HEAD_PRIEST;High Priest;;;;;;;;;;;;;x
+HEAD_PRIEST_FOA;Your Mysticism;;;;;;;;;;;;;x
+HEAD_PRIESTESS;High Priestess;;;;;;;;;;;;;x
+HEAD_SHAMAN;High Shaman;;;;;;;;;;;;;x
+HIEROPHANT;Hierophant;;;;;;;;;;;;;x
+GRAILKEEPER;Grail Keeper;;;;;;;;;;;;;x
+LIGHT_YAMAG;Nouri-Yamag;;;;;;;;;;;;;x
+MEGAS_LAMA;Megas lama;;;;;;;;;;;;;x
+MELKITE_POPE;Melkatus;;;;;;;;;;;;;x
+MUKARRIB;Mukarrib;;;;;;;;;;;;;x
+MUKARRIBA;Mukarriba;;;;;;;;;;;;;x
+PATER_PATRUM;Pater Patrum;;;;;;;;;;;;;x
+PONTIFEX_MAXIMUS;Pontifex Maximus;;;;;;;;;;;;;x
+POPE_catholic;Pope;Pape;Papst;;Papa;;;;;;;;;x
+POPE_FOA;Your Holiness;Votre Sainteté;Eure Heiligkeit;;Su Santidad;;;;;;;;;x
+PHOSDROMUS;Phosdromus;Pape;Papst;;Papa;;;;;;;;;x
+PRESBYTER;Presbyter;;;;;;;;;;;;;x
+RISHAMMA;Rishamma;;;;;;;;;;;;;x
+SACRED_KING;Sacred King;;;;;;;;;;;;;x
+SACRED_QUEEN;Sacred Queen;;;;;;;;;;;;;x
+SCHOLARCH;Scholarch;;;;;;;;;;;;;x
+SUN_KING_ALMAQAH;Mukarrib al-Shams;;;;;;;;;;;;;x
+SOLAR_ARCHEGOS;Archegos Helios;;;;;;;;;;;;;x
+TRUE_POPE;Rightful Shepherd;;;;;;;;;;;;;x
+TRUE_POPE_FOA;Your True Holiness;;;;;;;;;;;;;x
+UNCTION_KING;Évêque-Roi;;;;;;;;;;;;;x
+UNCTION_QUEEN;Sainte Mère Reine;;;;;;;;;;;;;x
+YAMAG;Yamag;;;;;;;;;;;;;x
+ZARATHUSHTROEMA;Zarathushtrotema;;;;;;;;;;;;;x
+ZARATHUSHTROEMA_FOA;The Most Wise;;;;;;;;;;;;;x
+HEM_NEJTER;Hem Nejter;;;;;;;;;;;;;x
+HEMET_NEJTER;Hemet Netjer;;;;;;;;;;;;;x
+ARCHIGALLUS;Archigallus;;;;;;;;;;;;;x
+APAIZNAGUSI;Apaiz Nagusi;;;;;;;;;;;;;x
+APAIZNAGUSI_female;Apaizeme Nagusi;;;;;;;;;;;;;x
+PRATYEKABUDDHA;Pratyekabuddha;;;;;;;;;;;;;x
+SCHOLAROFFICIAL;Scholar-Official;;;;;;;;;;;;;x
+GREATTEACHER;Great Teacher;;;;;;;;;;;;;x
+PHARAOH;Pharaoh;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### COLLEGE OF CARDINALS ###;;;;;;;;;;;;;;x
+## SOLAR-IMPERIAL;;;;;;;;;;;;;;x
+POPE;Religious Head;;;;;;;;;;;;;x
+COLLEGE_OF_CARDINALS;The Electors;Le Collège des cardinaux;Das Kardinalskollegium;;El Colegio Cardenalicio;;;;;;;;;x
+SHOW_COLLEGE_OF_CARDINALS;The Electors;Le Collège des cardinaux;Das Kolleg der Kardinäle;;El Colegio de Cardenales;;;;;;;;;x
+title_fraticelli_cardinal;Pontifex Elector;Cardinal;Kardinal;;Cardenal;;;;;;;;;x
+expected_next_title_fraticelli_cardinal;Expected Next Pontifex Elector;Prochain cardinal prévu;Erwarteter neuer Kardinal;;Presunto próximo cardenal;;;;;;;;;x
+expected_next_title_fraticelli_cardinal_tooltip;This priest is probably next in line for a Pontifex Electorate when one becomes available.;Cet évêque sera probablement le prochain cardinal dès qu'une place se libérera.;Dieser Bischof wird wahrscheinlich als nächster zum Kardinal ernannt, wenn ein Sitz im Kollegium frei wird.;;Este obispo es, probablemente, el próximo candidato a Cardenal cuando haya una vacante.;;;;;;;;;x
+best_candidate_title_fraticelli_cardinal;My Best Pontifex Elector Candidate;Mes meilleurs cardinaux potentiels;Mein bester Kardinalskandidat;;Mi mejor candidato a Cardenal;;;;;;;;;x
+best_candidate_title_fraticelli_cardinal_tooltip;Of all the priests in my realm, this one is the likeliest to get appointed Pontifex Elector by the Pontifex Maximus.;De tous les évêques de mon royaume, celui-ci est le plus susceptible d'être nommé cardinal par le pape.;Von allen Bischöfen in meinem Reich wird dieser wahrscheinlich am ehesten vom Papst zum Kardinal ernannt.;;De todos los obispos de mi reino, este es el que tiene más probabilidades de que el Papa lo nombre Cardenal.;;;;;;;;;x
+GOD_MAWT;Mawt;;;;;;;;;;;;;x
+THE_KITEBA_CILWE;the Kiteba Cilwe;;;;;;;;;;;;;x
+GOD_XWA;Xwa;;;;;;;;;;;;;x
+GOD_THE_HEPTAD;the Heptad;;;;;;;;;;;;;x
+GOD_TENGRI_AHRIMAN;Tengri-Ahriman;;;;;;;;;;;;;x
+THE_ANCESTORS;the Ancestors;;;;;;;;;;;;;x
+THE_SPIRITS;the Spirits;;;;;;;;;;;;;x
+SUPREME_LIGHT;Supreme Light;;;;;;;;;;;;;x
+GOD_SURYA;Surya;;;;;;;;;;;;;x
+IDOLATERS;Idolaters;;;;;;;;;;;;;x
+GOD_NYASAYE;Nyasaye;;;;;;;;;;;;;x
+GOD_IMANA;Imana;;;;;;;;;;;;;x
+GOD_HERAKLES;Herakles;;;;;;;;;;;;;x
+KINGOFDARKNESS;King of Darkness;;;;;;;;;;;;;x
+d_aten_reformed_adj;Amarnist;;;;;;;;;;;;;x
+d_bantu_pagan_reformed_adj;Munguist;;;;;;;;;;;;;x
+d_bon_reformed_adj;Dzogcheni;;;;;;;;;;;;;x
+d_bud_zen_reformed_adj;Linji;;;;;;;;;;;;;x
+d_erlik_reformed_adj;Ulu Ordogh Tanrili;;;;;;;;;;;;;x
+d_iberian_pagan_reformed_adj;Iberist;;;;;;;;;;;;;x
+d_inuit_pagan_reformed_adj;Angakkuqi;;;;;;;;;;;;;x
+d_isis_reformed_adj;Sekhmetist;;;;;;;;;;;;;x
+d_kubera_reformed_adj;Sarvahnai;;;;;;;;;;;;;x
+d_lubu_reformed_adj;Lushèngdìjun Chóngbài;;;;;;;;;;;;;x
+d_murugan_reformed_adj;Arumugani;;;;;;;;;;;;;x
+d_nasrani_reformed_adj;Qûrbani ;;;;;;;;;;;;;x
+d_nyakalagan_reformed_adj;Ruoth Nyasayi;;;;;;;;;;;;;x
+d_saura_reformed_adj;Surya Brahmani;;;;;;;;;;;;;x
+d_set_reformed_adj;Kheprian;;;;;;;;;;;;;x
+d_tao_reformed_adj;Way of Peace;;;;;;;;;;;;;x
+d_tengri_confucian_reformed_adj;Yitian Chóngbài;;;;;;;;;;;;;x
+d_vidharma_reformed_adj;Vithoban;;;;;;;;;;;;;x
+d_zulu_pagan_reformed_adj;Unkulunkulan;;;;;;;;;;;;;x
+GOD_WADD;Wadd;;;;;;;;;;;;;x
+GOD_MUNGU;Mungu;;;;;;;;;;;;;x
+GOD_AKKOYASH;Ak-Koyash;;;;;;;;;;;;;x
+GOD_MAHERAEL;Maher Aelshaday;;;;;;;;;;;;;x
+GOD_RUOTHNYASAY;Ruoth Nyasay;;;;;;;;;;;;;x
+GOD_ATTIS;Attis;;;;;;;;;;;;;x
+SYBILINE_BOOKS;The Sybilline Books;;;;;;;;;;;;;x
+GOD_MASTIMAN;Mastiman;;;;;;;;;;x
+GOD_OLODUMARE;Olodumare;;;;;;;;x
+YANLUOWANG;Yanluowang;;;;;;;;;;;;;x
+GOD_SHENLHA_OKAR;Shenlha Okar;;;;;;;;;;;;;x
+d_zal_mani;The Apogenesian Assembly;;;;;;;;;;;;;x
+d_zal_mani_adj;Apogenesianist;;;;;;;;;;;;;x
+d_bud_pureland;The Pure Land Sect;;;;;;;;;;;;;x
+d_bud_pureland_adj;Buddhaksetran;;;;;;;;;;;;;x
+d_jain;The Jaina Temple;;;;;;;;;;;;;x
+d_jain_adj;Jaina;;;;;;;;;;;;;x
+d_bud_mahayana;The Mahayana Temple;;;;;;;;;;;;;x
+d_bud_mahayana_adj;Mahayana;;;;;;;;;;;;;x
+d_bud_sthaviravada;The Sthaviravada Temple;;;;;;;;;;;;;x
+d_bud_sthaviravada_adj;Sthaviravada;;;;;;;;;;;;;x
+d_bud_vajrayana;The Vajrayana Temple;;;;;;;;;;;;;x
+d_bud_vajrayana_adj;Vajrayana;;;;;;;;;;;;;x
+appoint_pontifex_maximus;Appoint a Pontifex Maximus;;;;;;;;;;;;;x
+appoint_pontifex_maximus_short;Appoint [Root.GetFirstName] to be Pontifex Maximus;;;;;;;;;;;;;x
+appoint_pontifex_maximus_desc;Now that you have regained control of Rome and Constantinople, you may appoint yourself or a vassal to be Pontifex Maximus of the Imperial Cult.;;;;;;;;;;;;;x

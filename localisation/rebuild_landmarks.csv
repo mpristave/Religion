@@ -1,0 +1,164 @@
+##Rebuild Chattousa, Luwian group flavor events/decisions;;;;;;;;;;;;;x
+rebuild_chattousa;Rebuild Chattousa;;;;;;;;;;;;;x
+rebuild_chattousa_desc;Now that you have consolidated your power over the heartland of the legendary Hittite empire, you can rebuild their ancient capital.;;;;;;;;;;;;;x
+rebuild_chattousa_city;Rebuild Chattousa city;;;;;;;;;;;;;x
+rebuild_chattousa_city_desc;Rebuild the ruined city of Chattousa, which your predecessor left in ruins when the palace was rebuilt.;;;;;;;;;;;;;x
+rebuild_chattousa_temple;Build temple to Arinniti;;;;;;;;;;;;;x
+rebuild_chattousa_temple_desc;Build a grand temple to Arinniti at Chattousa, which your predecessor neglected to do when the city was rebuilt.;;;;;;;;;;;;;x
+EVTNAMErebuild_chattousa.1;Prepare to rebuild Chattousa;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.1;You have decided to rebuild the capital of the ancient Hittite empire. You comission quarries to deliver large amounts of marble and gather masons from around the realm to build it. How ambitious should this project be?;;;;;;;;;;;;;x
+EVTOPTArebuild_chattousa.1;Rebuild just the royal palace.;;;;;;;;;;;;;x
+EVTOPTBrebuild_chattousa.1;Rebuild the city and fortifications, including the Lion and Sphinx Gates.;;;;;;;;;;;;;x
+EVTOPTCrebuild_chattousa.1;Rebuild the entire city, and consecrate the greatest shrine to Arinniti ever!;;;;;;;;;;;;;x
+EVTOPTDrebuild_chattousa.1;I have better uses for my gold.;;;;;;;;;;;;;x
+EVTNAMErebuild_chattousa.2;Chattousa Palace rebuilt!;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.2;The new palace is complete. The Royal Palace stands in its renewed glory, providing you with a magnificent place to receive tribute from all the peoples in your realm, like the kings of old.;;;;;;;;;;;;;x
+EVTOPTArebuild_chattousa.2;Dedicate it in a great ceremony!;;;;;;;;;;;;;x
+EVTNAMErebuild_chattousa.3;Chattousa City rebuilt!;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.3;The new city is complete. The Royal Palace stands at its highest point in its renewed glory, providing you with a magnificent place to receive tribute from all the peoples in your realm, like the kings of old.\n\n   Impressive city walls protect a vast area where you intend to settle thousands of people, the elite of your empire. The walls are pierced by monumental gates, replicas of the ancient Lion and Sphynx Gates.;;;;;;;;;;;;;x
+EVTNAMErebuild_chattousa.4;Temple of Arinniti completed!;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.4;The new city is complete. The Royal Palace stands at its highest point in its renewed glory, providing you with a magnificent place to receive tributes from all the peoples under your reign, like the kings of old.\n\n   Impressive city walls protect a vast area where you intend to settle thousand of people, the elite of your empire. The walls are garnished with monumental gates, replicas of the ancient Lion and Sphynx Gates.\n\n   A vast area where the ancient priests used to worship their Thousand Gods has been devoted to build a great shrine to Arinniti, the finest you have ever seen. Clearly you enjoy Divine favor!;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.5;As you gaze down from the magnificent palace your predecessor built, it disturbs you to see the ancient city of Chattousa still lying in ruins. Has the time finally come to rebuild it?;;;;;;;;;;;;;x
+EVTOPTArebuild_chattousa.5;Yes, rebuild it!;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.6;The new city is complete, stretching out below the Royal Palace. Impressive city walls protect a vast area where you intend to settle thousand of people, the elite of your empire. The walls are garnished with monumental gates, replicas of the ancient Lion and Sphynx Gates.;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.7;Your sleep has been uneasy in recent months, disturbed by dreams of the Sun Goddess, Arinniti. She seems to be trying to tell you something, but you can never remember what when you wake. Today, gazing down on the magnificent city of Chattousa your predecessor rebuilt from the Royal Palace, you realized what it was...;;;;;;;;;;;;;x
+EVTOPTArebuild_chattousa.7;I must build a temple to Arinniti to match her glory!;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.8;A vast area where the ancient priests used to worship their Thousand Gods has been devoted to build a great shrine to Arinniti, the finest you have ever seen. Clearly you enjoy Divine favor!;;;;;;;;;;;;;x
+rebuilding_chattousa_local;Rebuilding of Chattousa is in progress.;;;;;;;;;;;;;x
+lion_gate;Lion Gate.;;;;;;;;;;;;;x
+EVTDESCrebuild_chattousa.10;Some infidel fool had started an extensive building project in the old ruins years ago. You ordered it shut down.;;;;;;;;;;;;;x
+EVTOPTArebuild_chattousa.10;What a waste of resources.;;;;;;;;;;;;;x
+arinnitifavor;Favored of Arinniti;;;;;;;;;;;;;x
+start_rebuild_palace;Start rebuilding the palace\n;;;;;;;;;;;;;x
+start_rebuild_palace_city;Start rebuilding the palace and city\n;;;;;;;;;;;;;x
+start_rebuild_palace_city_temple;Start rebuilding the palace, city and temple\n;;;;;;;;;;;;;x
+start_rebuild_city;Start rebuilding the city\n;;;;;;;;;;;;;x
+start_build_temple;Start building the temple\n;;;;;;;;;;;;;x
+analyzes_dream;Analyzes your dream\n;;;;;;;;;;;;;x
+formulates_explanation;Formulates [Root.job_spiritual.GetHerHis] explanation\n;;;;;;;;;;;;;x
+continues_explanation;Continues [Root.job_spiritual.GetHerHis] explanation\n;;;;;;;;;;;;;x
+obj_become_arinnitis_consort_title;Become Arinniti's Consort;;;;;;;;;;;;;x
+obj_become_arinnitis_consort_desc;Seek to obtain information on how best to curry the Sun Goddess Arinniti's favor, and ultimately become her consort.;;;;;;;;;;;;;x
+obj_become_arinniti_in_flesh_title;Become Arinniti in Flesh;;;;;;;;;;;;;x
+obj_become_arinniti_in_flesh_desc;Seek to obtain information on how best to curry the Sun Goddess Arinniti's favor, and ultimately become her avatar on earth.;;;;;;;;;;;;;x
+EVTNAMEarinnitis_favor.1;A sign from Arinniti?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.1;Since deciding to seek to become Arinniti's consort, like Emperor Leo III of the Romans had been hundreds of years ago, you had been wondering how to go about it. This morning, you woke from a sleep troubled by a dream of a bright light limning a woman. She seemed to be telling you something... but what? Surely [Root.GetLordSpiritualName] [Root.job_spiritual.GetFullName] will agree that this is a sign of Her divine favor, and that She will accept me as Her consort!;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.1;I must consult my [Root.GetLordSpiritualName]!;;;;;;;;;;;;;x
+EVTOPTBarinnitis_favor.1;This is but a pipedream...;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.2;Since deciding to seek to become Arinniti in Flesh, like Empress Irene of the Romans had been hundreds of years ago, you had been wondering how to go about it. This morning, you woke from a sleep troubled by a dream of a bright light limning a woman. She seemed to be telling you something... but what? Surely [Root.GetLordSpiritualName] [Root.job_spiritual.GetFullName] will agree that this is a sign of Her divine favor, and that She will accept me as Her vessel!;;;;;;;;;;;;;x
+EVTNAMEarinnitis_favor.4;The Response;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.4;[Root.PrimaryTitle.GetFOA], I have prayed, studied [Root.Religion.GetScriptureName], and consulted with my [Root.Religion.GetName] superiors. Now, while I can not entirely rule out the possibility that your dream was a sign from Arinniti that She will accept you as Her consort, given that you lack most of the qualities that She holds dear according to [Root.Religion.GetScriptureName], I highly doubt it. I can not stop you from advancing your case with Her Voice on Earth, but understand this: it is a ritual that may be done but once per lifetime, and should you be rejected, there will be dire consequences.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.4;Please, tell me what I can do to improve myself.;;;;;;;;;;;;;x
+EVTOPTBarinnitis_favor.4;This was a bad idea all along.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.5;[Root.PrimaryTitle.GetFOA], I have prayed, studied [Root.Religion.GetScriptureName], and consulted with my [Root.Religion.GetName] superiors. Now, while I can not entirely rule out the possibility that your dream was a sign from Arinniti that She will accept you as Her vessel, given that you lack most of the qualities that She holds dear according to [Root.Religion.GetScriptureName], I highly doubt it. I can not stop you from advancing your case with Her Voice on Earth, but understand this: it is a ritual that may be done but once per lifetime, and should you be rejected, there will be dire consequences.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.6;[Root.PrimaryTitle.GetFOA], I have prayed, studied [Root.Religion.GetScriptureName], and consulted with my [Root.Religion.GetName] superiors. Now, while I feel in my soul that your dream was a sign from Arinniti that She will accept you as Her consort, given that you have many of the qualities that She holds dear according to [Root.Religion.GetScriptureName], there are still areas where you need improvement. I think you should advance your case with Her Voice on Earth, but understand this: it is a ritual that may be done but once per lifetime, and should you be rejected, there will be dire consequences.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.6;Please, tell me where I need improvement.;;;;;;;;;;;;;x
+EVTOPTBarinnitis_favor.6;This sounds too risky for me.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.7;[Root.PrimaryTitle.GetFOA], I have prayed, studied [Root.Religion.GetScriptureName], and consulted with my [Root.Religion.GetName] superiors. Now, while I feel in my soul that your dream was a sign from Arinniti that She will accept you as Her vessel, given that you have many of the qualities that She holds dear according to [Root.Religion.GetScriptureName], there are still areas where you need improvement. I think you should advance your case with Her Voice on Earth, but understand this: it is a ritual that may be done but once per lifetime, and should you be rejected, there will be dire consequences.;;;;;;;;;;;;;x
+EVTNAMEarinnitis_favor.9;The Explanation;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.9;First of all, you must understand that this is only possible because Her temple in Chattousa has been rebuilt. That you were the one to do so is greatly to your credit.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.9;Yes, but how can I improve myself in Her eyes?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.10;First of all, you must understand that this is only possible because Her temple in Chattousa has been rebuilt. That you were not the one to do so is not to your credit, but neither does it hurt your case.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.12;Arinniti prefers consorts of great Authority. That you are a man of authority is a mark in your favor, but there is still room for improvement.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.12;I see. Go on.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.13;Arinniti wields great authority in her realm. To be worthy to become Her vessel, it is best to already be a woman of authority. That you are is a mark in your favor, but there is still room for improvement.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.14;Arinniti prefers consorts of great Authority. That you are not yet a man of authority is a mark against you, but She might not reject you if there are enough other factors in your favor.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.15;Arinniti wields great authority in her realm. To be worthy to become Her vessel, it is best to already be a woman of authority. That you are not yet one is a mark against you, but She might not reject you if there are enough other factors in your favor.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.17;More even than authority, piety is important to Arinniti. The more pious a man is, the more suitable he will be to become Her consort. That you are already deeply pious is a mark in your favor, but there is still room for improvement.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.17;Is there more?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.18;More even than authority, piety is important to Arinniti. The more pious a woman is, the more suitable she will be to become a vessel filled by Her spirit. That you are already deeply pious is a mark in your favor, but there is still room for improvement.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.19;More even than authority, piety is important to Arinniti. The more pious a man is, the more suitable he will be to become Her consort. That you are not deeply pious is a mark against you, but if there are enough other factors in your favor, She might not reject you.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.20;More even than authority, piety is important to Arinniti. The more pious a woman is, the more suitable she will be to become a vessel filled by Her spirit. That you are not deeply pious is a mark against you, but if there are enough other factors in your favor, She might not reject you.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.25;One thing that all sources agree on is that the ritual must be performed by Her Voice on Earth, at Her temple in Chattousa. Fortunately, the temple has been rebuilt, and [FromFrom.GetBestName] has been established there as Her Voice on Earth. The Goddess' opinion is reflected in the opinion of Her Voice, and fortunately the [FromFrom.GetTitle] is favorably disposed toward you. However, this alone will not be sufficient to become Her Consort.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.25;She doesn't expect much of me, does She?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.26;One thing that all sources agree on is that the ritual must be performed by Her Voice on Earth, at Her temple in Chattousa. Fortunately, the temple has been rebuilt, and [FromFrom.GetBestName] has been established there as Her Voice on Earth. The Goddess' opinion is reflected in the opinion of Her Voice, but unfortunately the [FromFrom.GetTitle] is not favorably disposed toward you. However, this alone will not be sufficient to preclude you from becoming Her Consort.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.26;This doesn't sound promising.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.27;One thing that all sources agree on is that the ritual must be performed by Her Voice on Earth, at Her temple in Chattousa. Fortunately, the temple has been rebuilt, but unfortunately our faith is adrift with no clear Voice to be heard. Before the ritual can be performed, a clear Voice must be established.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.27;Does this mean you want me to intervene in matters of faith?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.29;Arinniti enjoys a good conversation. Therefore it is a mark in your favor that your education was in matters of faith, but unfortunately it seems your education was not of the highest quality...;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.29;And I suppose it would be better if my learning was higher?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.30;Arinniti enjoys a good conversation. Therefore it is a mark in your favor that your education was in matters of faith, and of the highest quality...;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.31;Arinniti enjoys a good conversation. Therefore it is a mark against you that your education was not in matters of faith...;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.33;Yes, I see you are getting the drift of things. Along the same lines, you should not be a wallflower, but rather be comfortable mingling with your guests. I understand you are shy by nature, so that is a mark against you.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.33;I suppose being a poet or scholar would be in my favor?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.34;Yes, I see you are getting the drift of things. Along the same lines, you should not be a wallflower, but rather be comfortable mingling with your guests. I understand you are gregarious by nature, so that is a mark in your favor.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.35;Yes, I see you are getting the drift of things. Along the same lines, you should not be a wallflower, but rather be comfortable mingling with your guests. I understand you are neither shy nor gregarious by nature, so that is neither a mark for nor against you.;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.37;Yes, of course. Arinniti desires a young, handsome, lusty, experienced man as her consort. A man who has not seen the inside of a woman's bedroom, or at most only his wife's, or is wrinkled or otherwise unsightly is not to Her liking. Since you are...;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.37;Yes, get on with it. Don't you have better things to do?;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.38;Yes, of course. Arinniti desires a young, beautiful, chaste woman to be Her vessel. A woman who is past her childbearing years, or is unsightly, or has more lovers than a cat in heat is not to her liking. Since you are...;;;;;;;;;;;;;x
+EVTDESCarinnitis_favor.40;Very well. To be brief, Arinniti favors the diligent and not the slothful, the proud and not the humble, those who enjoy generous portions of good food and not those who eat small portions of bland food, the strong and not the weak. If you wish to continue but feel yourself lacking in some areas, you may go to the mountains to meditate before starting the ritual. If She favors you, some of your faults will be cleansed, though some are beyond even Her power to correct. Understand, though, that once you start the ritual, Her rejection will be like unto a curse upon you, but Her acceptance is a powerful blessing. Will you continue on this path?;;;;;;;;;;;;;x
+EVTOPTAarinnitis_favor.40;Yes, I am determined to become Her Consort.;;;;;;;;;;;;;x
+EVTOPTBarinnitis_favor.40;Yes, I am determined to become the vessel for Her spirit.;;;;;;;;;;;;;x
+EVTOPTCarinnitis_favor.40;No, it all sounds too risky. I shall continue my life untouched by Her.;;;;;;;;;;;;;x
+go_on_luwian_retreat;Go on retreat;;;;;;;;;;;;;x
+go_on_luwian_retreat_desc;Go on a retreat in the mountains to try to cleanse yourself in Arinniti's eyes.;;;;;;;;;;;;;x
+become_arinnitis_consort;Arinniti's Consort;;;;;;;;;;;;;x
+become_arinnitis_consort_desc;Start the ritual to become Arinniti's Consort;;;;;;;;;;;;;x
+become_arinniti_in_flesh;Arinniti in Flesh;;;;;;;;;;;;;x
+become_arinniti_in_flesh_desc;Start the ritual to become Arinniti in Flesh;;;;;;;;;;;;;x
+EVTNAMEarinnitis_ritual;Arinniti's Ritual;;;;;;;;;;;;;x
+EVTDESCarinnitis_consort.3;[Root.PrimaryTitle.GetFOA], if you are truly determined to proceed with the ritual to receive the blessing of becoming Arinniti's Consort, mindful of the possibility of being rejected by Her and receiving her curse instead, I will conduct you into the presence of Her Voice on Earth, [FromFrom.GetBestName]. Remember that during the course of this ritual, which is quite lengthy, you will be sequestered in Her temple unable to conduct the affairs of state, and a regent will be appointed to handle things in your absence.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_ritual;Yes. I shall not waver from my decision.;;;;;;;;;;;;;x
+EVTOPTBarinnitis_ritual;Er... What was I thinking? This was a bad idea all along. Call it off.;;;;;;;;;;;;;x
+EVTDESCarinnitis_consort.4;It has been much too long since you entered seclusion in the temple. Recently your sleep has been disturbed by dreams of Arinniti, which you have discussed with Her Voice for guidance. With this morning's dream, finally all are agreed... you have been chosen to be Her Consort.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_ritual_complete;Praise Arinniti! I am yours, my Goddess.;;;;;;;;;;;;;x
+EVTDESCarinnitis_consort.5;It has been much too long since you entered seclusion in the temple. Recently your sleep has been disturbed by dreams of Arinniti, which you have discussed with Her Voice for guidance. With this morning's dream, finally all are agreed... you have been rejected by the goddess.;;;;;;;;;;;;;x
+EVTOPTAarinnitis_ritual_rejected;Woe is me! Is this life worth living, without Her favor?;;;;;;;;;;;;;x
+EVTDESCarinniti_in_flesh.3;[Root.PrimaryTitle.GetFOA], if you are truly determined to proceed with the ritual to receive the blessing of becoming Arinniti in Flesh, mindful of the possibility of being rejected by Her and receiving her curse instead, I will conduct you into the presence of Her Voice on Earth, [FromFrom.GetBestName]. Remember that during the course of this ritual, which is quite lengthy, you will be sequestered in Her temple unable to conduct the affairs of state, and a regent will be appointed to handle things in your absence.;;;;;;;;;;;;;x
+EVTDESCarinniti_in_flesh.4;It has been much too long since you entered seclusion in the temple. Recently your sleep has been disturbed by dreams of Arinniti, which you have discussed with Her Voice for guidance. With this morning's dream, finally all are agreed... you have been chosen to be the vessel of Her spirit in this world... Arinniti in Flesh.;;;;;;;;;;;;;x
+#Retreat events;;;;;;;;;;;;;;x
+EVTNAMEluwian_retreat;At a mountain shrine\n;;;;;;;;;;;;;x
+meditates;Prays and meditates;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.1;In order to cleanse yourself of vices hateful to Arinniti, you have travelled to a remote mountain shrine, where you will be removed from the temptations of the court while you pray and meditate.;;;;;;;;;;;;;x
+EVTOPTAluwian_retreat.1;I hope this will be worth it.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.2;Even at this remote shrine, news reaches you that war is threatening the realm.;;;;;;;;;;;;;x
+EVTOPTAluwian_retreat.2;I trust my regent to handle it.;;;;;;;;;;;;;x
+EVTOPTBluwian_retreat.2;My realm needs me! Back to the real world!;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.3;Your insensate body is being transported back to the palace, where it can receive better care than at the shrine.;;;;;;;;;;;;;x
+EVTOPTAluwian_retreat.3;Arinniti! Do not abandon me!;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.5;Some time has passed while you prayed and meditated at the shrine, and while you feel you must have made some progress, there have been no breakthroughs.;;;;;;;;;;;;;x
+EVTOPTAluwian_retreat.5;I shall remain yet a while, in hopes of further progress.;;;;;;;;;;;;;x
+EVTOPTBluwian_retreat.5;This is a waste of my time. Back to the real world.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.6;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you no longer view the actions of others cynically.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.7;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you no longer view the men with a lustful eye.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.8;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you are no longer so reserved around women.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.9;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you have given up your former ascetic ways.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.10;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you no longer are as reluctant to spend your money.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.11;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you are no longer as covetous of gaining wealth.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.12;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you are no longer as reluctant to accomplish things in a timely manner.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.13;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you no longer avoid meeting new people.;;;;;;;;;;;;;x
+EVTDESCluwian_retreat.14;Some time has passed while you prayed and meditated at the shrine. Recently Arinniti has appeared in your dreams, and through Her divine favor, you no longer disdain praise that you deserve.;;;;;;;;;;;;;x
+restore_memphis;Restore Memphis;;;;;;;;;;;;;
+restore_memphis_desc;Restore Memphis, great capital of the Old Kingdom, to its former glory;;;;;;;;;;;,,,,,,,,,,,,,,
+EVTNAME1000182319;The Restoration of Memphis;;;;;;;;;;
+EVTNAME1000182320;New Building;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME1000182321;Memphis Restored;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME1000182322;Memphis is Restored!;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC1000182319;Much time has passed since the glory days of the Old Kingdom of Egypt and it's greatest city, Memphis, now it's nothing more than a ruin, it's great monuments now repurposed for building materials, used for construct other lesser cities. A sad sight it is indeed to see it in its current status. You decide that it is in the best interest of everyone to restore this city to its former glory and make it a the center of a new Egyptian empire.;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC1000182320;The restoration of Memphis is nearly complete and your chief architect inquires if you’d like to add a new building, built accordingly to the ancient construction methods.;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC1000182321;The ancient capital has finally been restored to its former glory.;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC1000182322;It would seem that Egypt has been very busy recently. A recent resurgence of Egyptian culture has swept Egypt and the pinnacle of their renaissance has been reached with the restoration of the great capital of the Old Kingdom, Memphis. Located south of the Nile Delta, this great city is both splendid to withhold and enormous in size. It even holds an entirely buildings, built according to the ancient construction methods, the same made to erect the city.;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA1000182319;Make it the greatest city there ever was!;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTB1000182319;Rebuild just the Palace of Apries.;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTC1000182319;Rebuild the entire city.;;;;;;;;;;x
+EVTOPTA1000182320;Build a Great Library, one that outshines the Alexandrian one!.;;;;;;;;;;x
+EVTOPTA1000182321;Excellent;;;;;;;;;;x
+EVTOPTA1000182322;Worrying...;;;;;;;;;;x
+EVTOPTB1000182320;Build a Great Temple dedicated to [Root.Religion.GetRandomGodName]!;;;;;;;;;;x
+EVTOPTC1000182320;Build a Great Palace dedicated to the glory of my dynasty!;;;;;;;;;;x
+memphis_admin;Great Palace of Memphis;;;;;;;;;;;;x
+memphis_fanaticism;Great Temple of Memphis;;;;;;;;;;;;x
+memphis_library;Great Library of Memphis;;;;;;;;;;;;x
+rebuilding_memphis_local;Rebuilding Memphis;;;;;;;;;;;;x
+meditate;Meditate on vices;;;;;;;;;;;;;x
+rejected_by_arinniti;Rejected by Arinniti;;;;;;;;;;;;;x
+arinniti_in_flesh;Arinniti in Flesh;;;;;;;;;;;;;x
+arinnitis_consort;Arinniti's Consort;;;;;;;;;;;;;x
+scion_of_arinniti;Scion of Arinniti;;;;;;;;;;;;;x
+arinnitifavor_desc;This character has earned the favor of Arinniti by building a temple to her at Chattousa;;;;;;;;;;;;;x
+arinnitis_consort_desc;This character has been accepted by Arinniti as Her consort on Earth;;;;;;;;;;;;;x
+arinniti_in_flesh_desc;This character has been accepted by Arinniti to house Her spirit on Earth;;;;;;;;;;;;;x
+scion_of_arinniti_desc;This character is considered to be descended from Arinniti;;;;;;;;;;;;;x
+rejected_by_arinniti_desc;This character attempted to become Arinniti's Consort or Arinniti in Flesh, but was rejected by Her.;;;;;;;;;;;;;x
+rejected_by_arinniti_death;after being rejected by Arinniti;;;;;;;;;;;;;x
+rebuild_chattousa_tooltip;Any 4 of the following must be held by a vassal of [Root.GetBestName] of the [Root.Religion.GetName] faith:\n;;;;;;;;;;;;;x

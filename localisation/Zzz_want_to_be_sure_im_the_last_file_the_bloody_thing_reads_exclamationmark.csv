@@ -1,0 +1,826 @@
+#CODE;ENGLISH;;;;;;;;;;;;;x
+underhanded_rogue;Tactful Appeaser;;;;;;;;;;;;;x
+######################################################################;;;;;;;;;;;;;;x
+#####Descriptions;;;;;;;;;;;;;;x
+######################################################################;;;;;;;;;;;;;;x
+underhanded_rogue_desc;Almost by instinct the Tactful Appeaser always tries to reach a peacefull agreement, luckily he is tactful about it.;;;;;;;;;;;;;x
+######################################################################;;;;;;;;;;;;;;x
+#####New traits;;;;;;;;;;;;;;x
+######################################################################;;;;;;;;;;;;;;x
+athletic;Athletic;;;;;;;;;;;;;x
+athletic_desc;This character is a naturally born athlete.;;;;;;;;;;;;;x
+ambidextrious;Ambidextrous;;;;;;;;;;;;;x
+ambidextrious_desc;This character can use both hands with equal skill.;;;;;;;;;;;;;x
+#cunning;Cunning;;;;;;;;;;;;;x
+#cunning_desc;This character has too much cunning for his own good.;;;;;;;;;;;;;x
+good_cook;Good Cook;;;;;;;;;;;;;x
+good_cook_desc;Food can heal the soul!;;;;;;;;;;;;;x
+dog_breeder;Dog Breeder;;;;;;;;;;;;;x
+dog_breeder_desc;This character breeds dogs.;;;;;;;;;;;;;x
+#funny;Funny;;;;;;;;;;;;;x
+#funny_desc;This character has a healthy sense of humor..;;;;;;;;;;;;;x
+sociable;Sociable;;;;;;;;;;;;;x
+sociable_desc;This character is very sociable.;;;;;;;;;;;;;x
+sociopath;Sociopath;;;;;;;;;;;;;x
+sociopath_desc;This character hates everyone and everything.;;;;;;;;;;;;;x
+judgmental;Judgmental;;;;;;;;;;;;;x
+judgmental_desc;This is very good at noticing other people's flaws.;;;;;;;;;;;;;x
+advent;Adventurous;;;;;;;;;;;;;x
+advent_desc;This character enjoys traveling, meeting new people and trying new things.;;;;;;;;;;;;;x
+immature;Immature;;;;;;;;;;;;;x
+immature_desc;Maturity is too complex a concept.;;;;;;;;;;;;;x
+observant;Observant;;;;;;;;;;;;;x
+observant_desc;God is in the details.;;;;;;;;;;;;;x
+gull;Gullible;;;;;;;;;;;;;x
+gull_desc;This character believes in fairies and assorted sprites.;;;;;;;;;;;;;x
+narc;Narcisist;;;;;;;;;;;;;x
+narc_desc;This character loves himself.;;;;;;;;;;;;;x
+cheap;Cheap;;;;;;;;;;;;;x
+cheap_desc;This character likes money, but not spending it.;;;;;;;;;;;;;x
+#dull;Boring & Dull;;;;;;;;;;;;;x
+#dull_desc;This character can put even God to sleep...;;;;;;;;;;x
+#####Death traits;;;;;;;;;;;;;;x
+beheaded;Beheaded;Beheaded;Beheaded;;Beheaded;;;;;;;;;x
+beheaded_desc;This character has been executed;This character has been executed;This character has been executed;;This character has been executed;;;;;;;;;x
+assassinated;Assassinated;Assassinated;Assassinated;;Assassinated;;;;;;;;;x
+assassinated_desc;This character has been assassinated by someone!;This character has been assassinated by someone;This character has been assassinated by someone;;This character has been assassinated by someone;;;;;;;;;x
+killed_in_battle;Killed in battle;Killed in battle;Killed in battle.;;Killed in battle;;;;;;;;;x
+killed_in_battle_desc;This character has been slain in battle.;This character has been slain in battle;This character has been slain in battle;;This character has been slain in battle;;;;;;;;;x
+hunting_accident;Died in a hunting accident;Died in a hunting accident;Died in a hunting accident;;Died in a hunting accident;;;;;;;;;x
+hunting_accident_desc;This character became the victim of a hunting accident.;This character became a victim of a hunting accident;This character became a victim of a hunting accident;;This character became a victim of a hunting accident;;;;;;;;;x
+tourney_death;Died at a tournement;Died at a tournement;Died at a tournement;;Died at a tournement;;;;;;;;;x
+tourney_death_desc;This character died in an accident during a jousting tournament.;This character died in an accident during jousting tournament;This character died in an accident during jousting tournament;;This character died in an accident during jousting tournament;;;;;;;;;x
+mysterious_death;Mysterious_death;Mysterious_death;Mysterious_death;;Mysterious_death;;;;;;;;;x
+mysterious_death_desc;The cause of this character's death remain unknown.;Consequences of this characters death remain unknown;Consequences of this characters death remain unknown;;Consequences of this characters death remain unknown;;;;;;;;;x
+natural_death_desc;This character died of natural causes;;;;;;;;;;;;;;x
+natural_death;Natural Death;;;;;;;;;;;;;;x
+######################################################################;;;;;;;;;;;;;;x
+#####Trait Events;;;;;;;;;;;;;;x
+######################################################################;;;;;;;;;;;;;;x
+EVTOOLTIP1000030000;I have a cunning plan!;;;;;;;;;;;;;x
+EVTDESC1000030000;I have a cunning plan! I shall sell cider to the other children and make a fortune thusway!;;;;;;;;;;;;;x
+EVTOPTA1000030000;The plan will surely work!!;;;;;;;;;;;;;x
+EVTOOLTIP1000030001;I have a cunning plan!;;;;;;;;;;;;;x
+EVTDESC1000030001;It seems your ward [From.GetBestName] has a cunning plan to sell cider to the other children and make a fortune! Such plans will surely help [From.GetHerHim] as an adult.;;;;;;;;;;;;;x
+EVTOPTA1000030001;Encourage [From.GetHerHim] to go on with [From.GetHerHis] plans.;;;;;;;;;;;;;x
+EVTOPTB1000030001;Stop [From.GetHerHim] from taking advantage of those poor children!;;;;;;;;;;;;;x
+EVTOPTC1000030001;Sounds like an opportunity to make some profit for myself as well!;;;;;;;;;;;;;x
+EVTOOLTIP1000030002;I have a cunning plan!;;;;;;;;;;;;;x
+EVTDESC1000030002;You seem to be very interested in the garments the courtiers are wearing. Yet... not in the usual lustful way. It seems you are also interested in the fabrics themselves, not just what’s underneath them!;;;;;;;;;;;;;x
+EVTOPTA1000030002;This is interesting, I wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTOOLTIP1000030003;A decision needs to be made!;;;;;;;;;;;;;x
+EVTDESC1000030003;Your ward seems to be very interested in the garments the courtiers are wearing. Yet... not in the usual lustful way. It seems [From.GetSheHe] is also interested in the fabrics themselves, not just what’s underneath them!;;;;;;;;;;;;;x
+EVTOPTA1000030003;It's harmless...;;;;;;;;;;;;;x
+EVTOPTB1000030003;Make [From.GetHerHim] concentrate on the more important things in life!;;;;;;;;;;;;;x
+EVTOPTC1000030003;Such a good sense of fashion! I should force everyone to adopt [From.GetHerHis] new trends!;;;;;;;;;;;;;x
+EVTDESC1000030004;While on a casual stroll in the woods you spot something suspicious and alert your guardian!;;;;;;;;;;;;;x
+EVTOPTA1000030004;What is there?!;;;;;;;;;;;;;x
+EVTOOLTIP1000030004;What is there?!;;;;;;;;;;;;;x
+EVTDESC1000030005;While on a casual stroll in the woods, your ward spots something suspicious!;;;;;;;;;;;;;x
+EVTOPTA1000030005;Must be some game out there!;;;;;;;;;;;;;x
+EVTOPTB1000030005;Tell the annoying brat not to bother me!;;;;;;;;;;;;;x
+EVTOPTC1000030005;Yes, I see it... it’s a deer! [From.GetSheHeCap] is a natural tracker, I should learn from [From.GetHerHim]!;;;;;;;;;;;;;x
+EVTOPTD1000030005;Yes, I see it... it’s a deer! I must leave [From.GetHerHim] behind and hunt it on my own!;;;;;;;;;;;;;x
+EVTDESC1000030006;You stumbled upon the kitchen... and decided to try and cook something all by yourself.;;;;;;;;;;;;;x
+EVTOPTA1000030006;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTOOLTIP1000030006;Cooking Something?;;;;;;;;;;;;;x
+EVTDESC1000030007;You stumbled upon the kitchen, where you see your ward [From.GetBestName] all alone... cooking something!;;;;;;;;;;;;;x
+EVTOPTA1000030007;It actually smells good... I will have a taste!;;;;;;;;;;;;;x
+EVTOPTB1000030007;Smells good tastes bad! This is awful!;;;;;;;;;;;;;x
+EVTOPTC1000030007;Smells good tastes better! Encourage the child to cook some more.;;;;;;;;;;;;;x
+EVTOPTD1000030007;Not bad... will be better if we add to it the boar I hunted yesterday!;;;;;;;;;;;;;x
+EVTDESC1000030008;You've been spending most of your free time at the kennels.;;;;;;;;;;;;;x
+EVTOPTA1000030008;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTOOLTIP1000030008;Dogs?;;;;;;;;;;;;;x
+EVTDESC1000030009;You notice your ward, [From.GetFirstName], spends most of [From.GetHerHis] free time at the kennels.;;;;;;;;;;;;;x
+EVTOPTA1000030009;Let [From.GetHerHim] play with the dogs;;;;;;;;;;;;;x
+EVTOPTB1000030009;Ban [From.GetHerHim] from going there and force [From.GetHerHim] to play with the other children!;;;;;;;;;;;;;x
+EVTOPTC1000030009;Encourage [From.GetHerHim] to train the dogs for hunting!;;;;;;;;;;;;;x
+EVTOPTD1000030009;Encourage [From.GetHerHim] to breed a new race of dogs and name it after yourself!;;;;;;;;;;;;;x
+EVTDESC1000030010;You are fascinated by stories of local travelers, they tell of distant new lands and people and exotic foods...;;;;;;;;;;;;;x
+EVTOPTA1000030010;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030011;You notice your ward is fascinated by stories of local travelers, they tell of distant new lands and people and exotic foods...;;;;;;;;;;;;;x
+EVTOPTA1000030011;[From.GetSheHeCap] seems restless, ask the huntmaster to take [From.GetHerHim] somewhere interesting. Yet safe.;;;;;;;;;;;;;x
+EVTOPTB1000030011;Encourage [From.GetHerHim] to stop daydreaming and concentrate on court duties.;;;;;;;;;;;;;x
+EVTOPTC1000030011;Offer to take [From.GetHerHim] on a tour of your demesne!;;;;;;;;;;;;;x
+EVTDESC1000030012;The most amusing thing in the world for you, is to pass wind in public and blame the man next to you.;;;;;;;;;;;;;x
+EVTOPTA1000030012;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030013;You notice your ward passes wind in public and bursts into laughter while pointing at the nearest man to [From.GetHerHim]...;;;;;;;;;;;;;x
+EVTOPTA1000030013;Who cares, i have more important things to do...;;;;;;;;;;;;;x
+EVTOPTB1000030013;Beat it out of [From.GetHerHim]! This is not proper behavior!;;;;;;;;;;;;;x
+EVTDESC1000030014;Your playmates burst into your bedroom in the middle of the night, screaming that dragons are attacking!;;;;;;;;;;;;;x
+EVTOPTA1000030014;I must wake up my guardian, who will know what to do!;;;;;;;;;;;;;x
+EVTDESC1000030015;Your ward wakes you up in the middle of the night to warn you about dragons attacking! Turns out [From.GetSheHe] was pranked by [From.GetHerHis] playmates...;;;;;;;;;;;;;x
+EVTOPTA1000030015;Appoint [From.GetHerHim] "head dragon hunter" as a joke.;;;;;;;;;;;;;x
+EVTOPTB1000030015;Wake up and explain to [From.GetHerHim] about practical jokes.;;;;;;;;;;;;;x
+EVTOPTC1000030015;Dragons?! Beat [From.GetHerHim] to a pulp for waking you up!;;;;;;;;;;;;;x
+EVTDESC1000030016;You decide to wake up your playmate in the middle of the night to warn him of an immenent dragon attack!;;;;;;;;;;;;;x
+EVTOPTA1000030016;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030017;Your ward woke up [From.GetHerHis] playmate in the middle of the night to warn him of an imminent dragon attack! They spent all night outside "hiding".;;;;;;;;;;;;;x
+EVTOPTA1000030017;Laugh with [From.GetHerHim] about it.;;;;;;;;;;;;;x
+EVTOPTB1000030017;Scold [From.GetHerHim] for [From.GetHerHis] behavior!;;;;;;;;;;;;;x
+EVTOPTC1000030017;Appoint [From.GetHerHim] "head dragon hunter" as a joke.;;;;;;;;;;;;;x
+EVTDESC1000030018;You find making friends very easy.;;;;;;;;;;;;;x
+EVTOPTA1000030018;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030019;Your ward finds making friends very easy.;;;;;;;;;;;;;x
+EVTOPTA1000030019;Good for [From.GetHerHim]!;;;;;;;;;;;;;x
+EVTDESC1000030020;You spend a lot of time in front of the mirror.;;;;;;;;;;;;;x
+EVTOPTA1000030020;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030021;Your ward spends too much time in front of the mirror.;;;;;;;;;;;;;x
+EVTOPTA1000030021;Good for [From.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTB1000030021;Scold [From.GetHerHim] for [From.GetHerHis] behavior!;;;;;;;;;;;;;x
+EVTOPTC1000030021;Give [From.GetHerHim] tips about how to look better.;;;;;;;;;;;;;x
+EVTDESC1000030022;Everyone finds you boring.;;;;;;;;;;;;;x
+EVTOPTA1000030022;Why?!;;;;;;;;;;;;;x
+EVTDESC1000030023;Your ward is boring everyone [From.GetSheHe] speaks with...;;;;;;;;;;;;;x
+EVTOPTA1000030023;Including you!;;;;;;;;;;;;;x
+EVTDESC1000030024;You hate everyone.;;;;;;;;;;;;;x
+EVTOPTA1000030024;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030025;Your ward seems to hate everyone...;;;;;;;;;;;;;x
+EVTOPTA1000030025;Good for [From.GetHerHim]!;;;;;;;;;;;;;x
+EVTDESC1000030026;You notice everyone around you makes stupid mistakes, and that it is your duty to point them out to them.;;;;;;;;;;;;;x
+EVTOPTA1000030026;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030027;You notice your ward goes around correcting people.;;;;;;;;;;;;;x
+EVTOPTA1000030027;Good for [From.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTB1000030027;Scold [From.GetHerHim] for [From.GetHerHis] behavior!;;;;;;;;;;;;;x
+EVTDESC1000030028;You find a coin. You decide to keep it. Keep it safe, for a rainy day.;;;;;;;;;;;;;x
+EVTOPTA1000030028;Wonder what my guardian will think about this...;;;;;;;;;;;;;x
+EVTDESC1000030029;You notice your ward never spends any money.;;;;;;;;;;;;;x
+EVTOPTA1000030029;Good for [From.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTB1000030029;Scold [From.GetHerHim] for [From.GetHerHis] behavior!;;;;;;;;;;;;;x
+treasure_whetstone;The Whetstone;;;;;;;;;;;;;x
+treasure_stone_and_ring;The Stone and the Ring;;;;;;;;;;;;;x
+treasure_mantle_tegau;The Mantle of Tegau;;;;;;;;;;;;;x
+treasure_mantle_arthur;The Mantle of Arthur;;;;;;;;;;;;;x
+treasure_knife;The Knife;;;;;;;;;;;;;x
+treasure_horn;The Horn;;;;;;;;;;;;;x
+treasure_hamper;The Hamper;;;;;;;;;;;;;x
+treasure_halter;The Halter;;;;;;;;;;;;;x
+treasure_dyrnwyn;The Dyrnwyn;;;;;;;;;;;;;x
+treasure_crock_and_dish;The Crock and the Dish;;;;;;;;;;;;;x
+treasure_coat;The Coat;;;;;;;;;;;;;x
+treasure_chessboard;The Chessboard;;;;;;;;;;;;;x
+treasure_chariot;The Chariot;;;;;;;;;;;;;x
+treasure_cauldron;The Cauldron;;;;;;;;;;;;;x
+celtic_knight;Celtic knight;;;;;;;;;;;;;x
+rebel;Rebel;;;;;;;;;;;;;x
+loyalist;Loyalist;;;;;;;;;;;;;x
+placeholder15;Placeholder;;;;;;;;;;;;;x
+placeholder14;Placeholder;;;;;;;;;;;;;x
+placeholder13;Placeholder;;;;;;;;;;;;;x
+placeholder12;Placeholder;;;;;;;;;;;;;x
+placeholder11;Placeholder;;;;;;;;;;;;;x
+placeholder10;Placeholder;;;;;;;;;;;;;x
+placeholder9;Placeholder;;;;;;;;;;;;;x
+placeholder8;Placeholder;;;;;;;;;;;;;x
+placeholder7;Placeholder;;;;;;;;;;;;;x
+placeholder6;Placeholder;;;;;;;;;;;;;x
+placeholder5;Placeholder;;;;;;;;;;;;;x
+placeholder4;Placeholder;;;;;;;;;;;;;x
+placeholder3;Placeholder;;;;;;;;;;;;;x
+placeholder2;Placeholder;;;;;;;;;;;;;x
+placeholder1;Placeholder;;;;;;;;;;;;;x
+chinese_placeholder_5;Placeholder;;;;;;;;;;;;;x
+chinese_placeholder_4;Placeholder;;;;;;;;;;;;;x
+chinese_placeholder_3;Placeholder;;;;;;;;;;;;;x
+chinese_placeholder_2;Placeholder;;;;;;;;;;;;;x
+chinese_taoist_sorcerer;Taoist Sorceror;;;;;;;;;;;;;x
+chinese_secret_society;Secret Society;;;;;;;;;;;;;x
+chinese_bandit;Bandit;;;;;;;;;;;;;x
+traditionalist_scholar;Traditionalist Scholar;;;;;;;;;;;;;x
+reformist_scholar;Reformist Scholar;;;;;;;;;;;;;x
+hegemonist_scholar;Hegemonist Scholar;;;;;;;;;;;;;x
+jinshi;Jinshi;;;;;;;;;;;;;x
+tea_master;Tea Master;;;;;;;;;;;;;x
+chinese_painter;Painter;;;;;;;;;;;;;x
+go_player;Go Player;;;;;;;;;;;;;x
+zither_player;Zither Player;;;;;;;;;;;;;x
+calligrapher;Calligrapher;;;;;;;;;;;;;x
+immersion_placeholder_15;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_14;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_13;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_12;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_11;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_10;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_9;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_8;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_7;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_6;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_5;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_4;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_3;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_2;Placeholder;;;;;;;;;;;;;x
+immersion_placeholder_1;Placeholder;;;;;;;;;;;;;x
+chinese_secret_society_leader;Secret Society Leader;;;;;;;;;;;;;x
+bad_priest_hindu;Bad Hindu Priest;;;;;;;;;;;;;x
+bad_priest_manichean;Bad Manichean Priest;;;;;;;;;;;;;x
+bad_priest_buddhist;Bad Buddhist Priest;;;;;;;;;;;;;x
+constantinople_emperor;Emperor in Constantinople;;;;;;;;;;;;;x
+constantinople_emperor_desc;The true emperor of the Imperium Romanum resides in Constantinople.;;;;;;;;;;;;;x
+restorer_byzantium;Restorer of Imperium Romanum;;;;;;;;;;;;;x
+restorer_byzantium_desc;This character has restored the Imperium Romanum to its rightful place on the world stage.;;;;;;;;;;;;;x
+revolutionary;Revolutionary;;;;;;;;;;;;;x
+martial_challenger;Martial Challenger;;;;;;;;;;;;;x
+traits_placeholder_5;Placeholder;;;;;;;;;;;;;x
+traits_placeholder_4;Placeholder;;;;;;;;;;;;;x
+traits_placeholder_3;Placeholder;;;;;;;;;;;;;x
+traits_placeholder_2;Placeholder;;;;;;;;;;;;;x
+traits_placeholder_1;Placeholder;;;;;;;;;;;;;x
+songbird;Songbird;;;;;;;;;;;;;x
+swift_steed;Swift Steed;;;;;;;;;;;;;x
+guard_dog;Guard Dog;;;;;;;;;;;;;x
+silk_dress;Silk Dress;;;;;;;;;;;;;x
+abacus;Abacus;;;;;;;;;;;;;x
+trusty_blade;Trusty Blade;;;;;;;;;;;;;x
+world_map;World Map;;;;;;;;;;;;;x
+scout;Scout;;;;;;;;;;;;;x
+torturer;Torturer;;;;;;;;;;;;;x
+clerk;Clerk;;;;;;;;;;;;;x
+artist;Artist;;;;;;;;;;;;;x
+sufi_master;Sufi Master;;;;;;;;;;;;;x
+translator;Translator;;;;;;;;;;;;;x
+physician;Physician;;;;;;;;;;;;;x
+died_attempting_escape;Died Attempting Escape;;;;;;;;;;;;;x
+d_aktobe_adj;Aktobean;;;;;;;;;;;;;x
+b_xanten;Xanten;;;;;;;;;;;;;x
+b_kabadas;Kabadas;;;;;;;;;;;;;x
+pardon;Pardon;;;;;;;;;;;;;x
+PRIESTKING;Priest-King;;;;;;;;;;;;;x
+PRIESTESSQUEEN;Priestess-Queen;;;;;;;;;;;;;x
+HIGHCHIEF;High Chief;;;;;;;;;;;;;x
+TRIBEOF;Tribe of;;;;;;;;;;;;;x
+STAT_PIETY_PIETY;Piety;;;;;;;;;;;;;x
+STAT_PIETY_DESC_PIETY;Piety is respected by the clergy and especially the head of your Church. It can be spent to petition the head of your Church. Like Authority, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
+MONTHLY_PIETY_PIETY;Monthly Piety;;;;;;;;;;;;;x
+GOD_MBORI;Mbori;;;;;;;;;;;;;x
+THE_YORUBA;The Yoruba;;;;;;;;;;;;;x
+THE_ARK;The Ark;;;;;;;;;;;;;x
+obj_buddhist_stop_drinking_title;Stop Drinking;Fini la boisson;Entsagt dem Alkohl;; Deja de beber;;;;;;;;;x
+nick_one_eye;One-Eye;;;;;;;;;;;;;x
+nick_the_kneecapper;The Kneecapper;;;;;;;;;;;;;x
+nick_the_yellowpaint;The Yellowpaint;;;;;;;;;;;;;x
+demon_child_non_pagan;Demon Child;;;;;;;;;;;;;x
+bad_rel_head;Bad Head of Religion;;;;;;;;;;;;;x
+promised_to_clear_out_heresy;Promised to Clear Out Heresy;;;;;;;;;;;;;x
+launched_prepared_invasion;Launched Prepared Invasion;;;;;;;;;;;;;x
+planning_duchy_adventure;Planning Duchy Adventure;;;;;;;;;;;;;x
+planning_claimant_adventure;Planning Claimant Adventure;;;;;;;;;;;;;x
+faction_antiking_ultimatum_timer;Antiking Faction Ultimatum given;;;;;;;;;;;;;x
+faction_loosen_clan_control_ultimatum_timer;Loosen Clan Control Ultimatum given;;;;;;;;;;;;;x
+expelled_jews_timer;Expelled Jews;;;;;;;;;;;;;x
+held_passover_timer;Held Passover;;;;;;;;;;;;;x
+held_jarilo_timer;Held Jarilo;;;;;;;;;;;;;x
+held_uzgavenes_timer;Held Uzgavenes;;;;;;;;;;;;;x
+held_ukon_juhla_timer;Held Ukon Juhla;;;;;;;;;;;;;x
+held_blot_timer;Held Blot;;;;;;;;;;;;;x
+held_nerge_timer;Held Nerge;;;;;;;;;;;;;x
+hunt_timer;Hunting;;;;;;;;;;;;;x
+concubine_marriage_timer;Marrying a Concubine;;;;;;;;;;;;;x
+held_divination_timer;Held Divination;;;;;;;;;;;;;x
+bard_performance;Bard Performance;;;;;;;;;;;;;x
+bard_performance_timer;Bard Performance;;;;;;;;;;;;;x
+opinion_loyalty_tookaction;Took Action to Improve Loyalty;;;;;;;;;;;;;x
+bribeaction_cooldown;Cooldown for Bribery;;;;;;;;;;;;;x
+inspiring_love;Inspiring Love;;;;;;;;;;;;;x
+brutal_commander;Brutal Commander;;;;;;;;;;;;;x
+tax_privileges_2_vassal;Tax Privileges for Vassal (2);;;;;;;;;;;;;x
+tax_privileges_0_vassal;Tax Privileges for Vassal (0);;;;;;;;;;;;;x
+faction_republican_bonus_5;Republican Faction Bonus (5);;;;;;;;;;;;;x
+faction_republican_bonus_4;Republican Faction Bonus (4);;;;;;;;;;;;;x
+faction_republican_bonus_3;Republican Faction Bonus (3);;;;;;;;;;;;;x
+faction_republican_bonus_2;Republican Faction Bonus (2);;;;;;;;;;;;;x
+faction_republican_bonus_1;Republican Faction Bonus (1);;;;;;;;;;;;;x
+faction_feudal_bonus_5;Feudal Faction Bonus (5);;;;;;;;;;;;;x
+faction_feudal_bonus_4;Feudal Faction Bonus (4);;;;;;;;;;;;;x
+faction_feudal_bonus_3;Feudal Faction Bonus (3);;;;;;;;;;;;;x
+faction_feudal_bonus_2;Feudal Faction Bonus (2);;;;;;;;;;;;;x
+faction_feudal_bonus_1;Feudal Faction Bonus (1);;;;;;;;;;;;;x
+tax_privileges;Tax Privileges;;;;;;;;;;;;;x
+tax_reduction;Tax Reduction;;;;;;;;;;;;;x
+brm_revolt;BRM Revolt;;;;;;;;;;;;;x
+goodlove_timer;Good Love;;;;;;;;;;;;;x
+crusade_timer;Crusade in Progress;;;;;;;;;;;;;x
+holy_truce_timer;Holy Truce in Effect;;;;;;;;;;;;;x
+peace_tax_levied_timer;Peace Tax Levied;;;;;;;;;;;;;x
+war_tax_levied_timer;War Tax Levied;;;;;;;;;;;;;x
+summoned_rel_authority_council;Summoned Religious Authority Council;;;;;;;;;;;;;x
+messianic_ruler;Messianic Ruler;;;;;;;;;;;;;x
+economic_cooperation;Economic Cooperation;;;;;;;;;;;;;x
+military_cooperation;Military Cooperation;;;;;;;;;;;;;x
+nm_monster_slayer;Monster Slayer;;;;;;;;;;;;;x
+slave_ai_cooldown;Slave cooldown (AI);;;;;;;;;;;;;x
+small_tourny_3rd_5;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_3rd_4;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_3rd_3;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_3rd_2;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_3rd_1;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_2nd_5;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_2nd_4;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_2nd_3;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_2nd_2;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_2nd_1;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_1st_5;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_1st_4;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_1st_3;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_1st_2;3rd place in small tournament;;;;;;;;;;;;;x
+small_tourny_1st_1;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_3rd_5;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_3rd_4;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_3rd_3;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_3rd_2;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_3rd_1;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_2nd_5;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_2nd_4;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_2nd_3;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_2nd_2;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_2nd_1;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_1st_5;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_1st_4;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_1st_3;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_1st_2;3rd place in small tournament;;;;;;;;;;;;;x
+grand_tourny_1st_1;3rd place in small tournament;;;;;;;;;;;;;x
+publicly_shamed;Shamed in Public;;;;;;;;;;;;;x
+getting_justice;Getting Justice;;;;;;;;;;;;;x
+giving_justice;Giving Justice;;;;;;;;;;;;;x
+strong_case;Strong Case;;;;;;;;;;;;;x
+average_case;Average Case;;;;;;;;;;;;;x
+poor_case;Poor Case;;;;;;;;;;;;;x
+strong_defence;Strong Defense;;;;;;;;;;;;;x
+average_defence;Average Defense;;;;;;;;;;;;;x
+poor_defence;Poor Defense;;;;;;;;;;;;;x
+passover_timer;Observed Passover;;;;;;;;;;;;;x
+visit_buddhist_temple_timer;Visited Buddhist Temple;;;;;;;;;;;;;x
+recently_chose_buddhist_sect;Recently Chose Buddhist Sect;;;;;;;;;;;;;x
+ask_ancestors_for_advice_timer;Asked Ancestors for Advice;;;;;;;;;;;;;x
+griot_performance_timer;Performed Griot;;;;;;;;;;;;;x
+meteor_impact_distant;Distant Meteor Impact;;;;;;;;;;;;;x
+meteor_impact_center;Meteor Impact Epicenter;;;;;;;;;;;;;x
+VIET_new_expensive_cosmetics;New Expensive Cosmetics;;;;;;;;;;;;;x
+VIET_spinach_popeye;Popeye's Spinach;;;;;;;;;;;;;x
+secret_turkish;Secretly Turkish;;;;;;;;;;;;;x
+justice_is_blind;Justice Is Blind;;;;;;;;;;;;;x
+defenderbonus_jungle;Jungle Defense Bonus;;;;;;;;;;;;;x
+lost_decadence_invasion;Lost Decadence Invasion;;;;;;;;;;;;;x
+won_decadence_invasion;Won Decadence Invasion;;;;;;;;;;;;;x
+opinion_succ_law_change;Changed Succession Law;;;;;;;;;;;;;x
+opinion_bad_succ_law_change;Changed Succession Law to my detriment;;;;;;;;;;;;;x
+opinion_good_succ_law_change;Changed Succession Law in my favor;;;;;;;;;;;;;x
+opinion_maimed_family;Maimed a family member;;;;;;;;;;;;;x
+opinion_weakened_family;Weakened a family member;;;;;;;;;;;;;x
+opinion_weakened_me;Weakened me;;;;;;;;;;;;;x
+opinion_beat_family_into_hunchback;A family member became hunchbacked from beatings;;;;;;;;;;;;;x
+opinion_beat_into_hunchback;I became hunchbacked from beatings;;;;;;;;;;;;;x
+opinion_defaced_family;Defaced a family member;;;;;;;;;;;;;x
+opinion_defaced_me;Defaced me;;;;;;;;;;;;;x
+opinion_divorced;Divorced;;;;;;;;;;;;;x
+opinion_divorced_relative;Divorced relative;;;;;;;;;;;;;x
+opinion_half_brother_muslim;Half brother;;;;;;;;;;;;;x
+opinion_brother_muslim;Brother;;;;;;;;;;;;;x
+opinion_father_of_child;Father of child;;;;;;;;;;;;;x
+opinion_mother_child;Mother of child;;;;;;;;;;;;;x
+opinion_aggressive_republic;Aggressive Republic;;;;;;;;;;;;;x
+nm_attempting_gode;Attempting Gode;;;;;;;;;;;;;x
+nm_monster_survivor;Monster Survivor;;;;;;;;;;;;;x
+opinion_maimed_me;Maimed me;;;;;;;;;;;;;x
+loyal_vassal;Loyal Vassal;;;;;;;;;;;;;x
+revolting_against;Revolting;;;;;;;;;;;;;x
+narcissistic;Narcissistic;;;;;;;;;;;;;x
+opposed_me_at_faction_meeting;Opposed me at faction meeting;;;;;;;;;;;;;x
+supported_me_at_faction_meeting;Supported me at faction meeting;;;;;;;;;;;;;x
+force_vassalized;Forced me to become a vassal;;;;;;;;;;;;;x
+bad_relations;Bad Diplomatic Relations;;;;;;;;;;;;;x
+good_relations;Good Diplomatic Relations;;;;;;;;;;;;;
+devious_plotter;Devious Plotter;;;;;;;;;;;;;x
+opinion_recent_civil_war;Recent Civil War;;;;;;;;;;;;;x
+opinion_civil_war_loser;Lost a Civil War;;;;;;;;;;;;;x
+opinion_settled_jews;Settled Jews;;;;;;;;;;;;;x
+opinion_ignored_succession_law;Ignored Succession Law;;;;;;;;;;;;;x
+opinion_approved_succession_law;Approved Succession Law;;;;;;;;;;;;;x
+opinion_independent;Independent;;;;;;;;;;;;;x
+opinion_attended_ceremony;Attended Ceremony;;;;;;;;;;;;;x
+opinion_jester_con;Jester;;;;;;;;;;;;;x
+opinion_jester_pro;Jester;;;;;;;;;;;;;x
+opinion_war_jubilant;Jubilant over war;;;;;;;;;;;;;x
+opinion_war_disappointed;Disappointed over war;;;;;;;;;;;;;x
+opinion_war_veryhopeful;Very hopeful over war;;;;;;;;;;;;;x
+opinion_war_neutral;Neutral over war;;;;;;;;;;;;;x
+opinion_war_hopeful;Hopeful over war;;;;;;;;;;;;;x
+peace_tax_levied;Peace Tax levied;;;;;;;;;;;;;x
+war_tax_levied;War Tax levied;;;;;;;;;;;;;x
+opinion_raid_target_evaluation;Potential raid target;;;;;;;;;;;;;x
+opinion_indentured_servitude_good;Indentured servitude;;;;;;;;;;;;;x
+opinion_indentured_servitude_bad;Indentured_servitutde;;;;;;;;;;;;;x
+opinion_slave_attempted_escape;Attempted escape from slavery;;;;;;;;;;;;;x
+opinion_slave_escaped;Escaped slave;;;;;;;;;;;;;x
+opinion_beat_slaves_resentment;Beat slaves;;;;;;;;;;;;;x
+opinion_illegal_slave_trader;Illegal slave trader;;;;;;;;;;;;;x
+opinion_slaver;Slaver;;;;;;;;;;;;;x
+inconsiderate_arse;Inconsiderate SOB;;;;;;;;;;;;;x
+EVTDESC_SoA_5090;hidden;;;;;;;;;;;;;x
+JACKALS;Jackals! Vultures!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1084;The populist rebels have overthrown you in favor of a republic!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1083;Peasants in [From.GetName] have risen up in support of the ongoing Populist revolt!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1082;Peasants in [Root.GetName] have risen up in support of the ongoing Populist revolt!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1081;Peasants in [From.GetName] have risen up, led by a rabble rouser. They have the gall to demand a republican form of government!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1080;Peasants in [Root.GetName] have risen up, led by a rabble rouser. They have the gall to demand a republican form of government!;;;;;;;;;;;;;x
+EVTDESClirevolt.4;Peasants in [From.GetName] have risen up in support of the ongoing Martial revolt!;;;;;;;;;;;;;x
+EVTDESClirevolt.3;Peasants in [Root.GetName] have risen up in support of the ongoing Martial revolt!;;;;;;;;;;;;;x
+EVTDESClirevolt.2;Peasants in [From.GetName] have risen up, led by a retired soldier. They have the gall to demand they be ruled by a true warrior!;;;;;;;;;;;;;x
+EVTDESClirevolt.1;Peasants in [Root.GetName] have risen up, led by a retired soldier. They have the gall to demand they be ruled by a true warrior!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1064;The Messianic rebels have overthrown you in favor of a theocracy!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1063;Peasants in [From.GetName] have risen up in support of the ongoing Messianic revolt!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1062;Peasants in [Root.GetName] have risen up in support of the ongoing Messianic revolt!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1061;Peasants in [From.GetName] have risen up, led by a charismatic cleric. They have the gall to demand they be ruled by a man of faith!;;;;;;;;;;;;;x
+EVTDESCluxrevolt.1060;Peasants in [Root.GetName] have risen up, led by a charismatic cleric. They have the gall to demand they be ruled by a man of faith!;;;;;;;;;;;;;x
+MENKHEPERRE;Menkheperre;;;;;;;;;;;;;x
+NEFERKARE;Neferkare;;;;;;;;;;;;;x
+SETEPENRE;Setepenre;;;;;;;;;;;;;x
+HIGHKING;Ard Ri;;;;;;;;;;;;;x
+PRINCEPS;Princeps;;;;;;;;;;;;;x
+IMPERATOR;Imperator Augustus;;;;;;;;;;;;;x
+IMPERATRIX;Imperatrix Augusta;;;;;;;;;;;;;x
+ARKHAGETAI;Arkhagetai;;;;;;;;;;;;;x
+AUGUSTUS;Augustus;;;;;;;;;;;;;x
+EXARCHATE_OF;Exarchate of;;;;;;;;;;;;;x
+HUEI_TLAMACAZQUI;Huei Tlamacazqui;;;;;;;;;;;;;x
+SANCTE_PATER;Sancte Pater;;;;;;;;;;;;;x
+ZURVANTEMA;Zurvantema;;;;;;;;;;;;;x
+populist_out_of_conrol;Rally out of control;;;;;;;;;;;;;x
+populist_work_harder;The people are working harder;;;;;;;;;;;;;x
+EVTNAME312512;Doctrinal Council;;;;;;;;;;;;;x
+EVTDESC312512;A great council of theologians and philosophers has assembled in [Root.Location.GetName] to discuss matters of the faith under your guidance. The gathering will strenghten the authority of the [Root.Religion.GetName] religion and reduce the influence of heresies and other faiths.;;;;;;;;;;;;;x
+lijobs1opt;Excellent!;;;;;;;;;;;;;x
+lijobstooltip;your liege is informed about the council.;;;;;;;;;;;;;x
+EVTDESC312513;A great council of theologists and philosophers has assembled in [Root.job_spiritual.Location.GetName] to discuss matters of the faith under the guidance of [Root.job_spiritual.GetTitledName]. The gathering has significantly increased the authority of the [Root.Religion.GetName] religion and reduced the influence of other faiths.;;;;;;;;;;;;;x
+EVTOPTA312513;This is excellent news!;;;;;;;;;;;;;x
+EVTDESC312514;The doctrinal council at [Root.job_spiritual.Location.GetName] has approves of your ruler as a true devout and follower of the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+EVTOPTA312514;This is excellent news!;;;;;;;;;;;;;x
+EVTDESC312515;The doctrinal council at [Root.job_spiritual.Location.GetName] has approves of you as a true devout and follower of the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+EVTOPTA312515;This is excellent news!;;;;;;;;;;;;;x
+EVTDESC312510;The doctrinal council at [Root.job_spiritual.Location.GetName] has accused your ruler of being corrupt and not following the teachings of the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+EVTOPTA312510;They what?!;;;;;;;;;;;;;x
+EVTDESC312511;The doctrinal council at [Root.job_spiritual.Location.GetName] has accused you of being corrupt and not following the teachings of the [Root.Religion.GetName] faith.;;;;;;;;;;;;;x
+EVTOPTA312511;Bah!;;;;;;;;;;;;;x
+ANGRATEMO;Angratemo;;;;;;;;;;;;;x
+ZARATHUSHTROTEMA;Zarathushtrotema;;;;;;;;;;;;;x
+PONTIFEX_POPULI;Pontifex Populi;;;;;;;;;;;;;x
+ARD_SAGART;Ard Sagart;;;;;;;;;;;;;x
+CEILTEACH_PAPA;Ceilteach Pápa;;;;;;;;;;;;;x
+SUMMUS_PERFECTUS;Summus Perfectus;;;;;;;;;;;;;x
+AMGHAR;Amghar;;;;;;;;;;;;;x
+KRIWE;Kriwe;;;;;;;;;;;;;x
+AHREMANOTEMA;Ahremanotema;;;;;;;;;;;;;x
+SAINT_EVEQUE;Saint Eveque;;;;;;;;;;;;;x
+HOLY_PATRIARCH;Holy Patriarch;;;;;;;;;;;;;x
+d_sabellianist_adj;Sabellianist;;;;;;;;;;;;;x
+ARCHOS_PYRAITHOI;Archos Pyraithoi;;;;;;;;;;;;;x
+SACRED_PATRIARCH;Sacred Patriarch;;;;;;;;;;;;;x
+held_rel_authority_council;Held religious authority council;;;;;;;;;;;;;x
+HOLY_FATHER;Holy Father;;;;;;;;;;;;;x
+HEGEMON;Hegemon;;;;;;;;;;;;;x
+DUX_AUGUSTALIS;Dux Augustalis;;;;;;;;;;;;;x
+GREAT_JARL;Great Jarl;;;;;;;;;;;;;x
+SUPREME_PRINCE;Supreme Prince;;;;;;;;;;;;;x
+SHOPHET;Shophet;;;;;;;;;;;;;x
+EVTNAME312312;Council of Faith;;;;;;;;;;;;;x
+lijobs1desc;As a result of a successful Council of Faith, the [Root.Religion.GetName] faith has increased its influence.;;;;;;;;;;;;;x
+lijobs2desc;Good news, [Root.PrimaryTitle.GetFOA]. The Council of Faith was a great success, and the influence of [Root.Religion.GetName] has increased!;;;;;;;;;;;;;x
+HIGHQUEEN;Ard Rigan;;;;;;;;;;;;;x
+EVTNAME312616;Millenarian Rally;;;;;;;;;;;;;x
+EVTDESC312616;My haranguing of the faithful has encouraged multitudes of them to join our cause.;;;;;;;;;;;;;x
+EVTDESC312617;Good new, [Root.PrimaryTitle.GetFOA]. A zealot has gathered multitudes of the faithful to join our cause!;;;;;;;;;;;;;x
+EVTNAME312614;Populist Rally;;;;;;;;;;;;;x
+EVTDESC312614;Thanks to my haranguing of the masses, the people are working harder.;;;;;;;;;;;;;x
+EVTOPTA312614;Forward!;;;;;;;;;;;;;x
+EVTDESC312615;Good news, [Root.PrimaryTitle.GetFOA]. The people are working harder!;;;;;;;;;;;;;x
+EVTDESC312613;Bad news, [Root.PrimaryTitle.GetFOA]. The rally has gotten out of control!;;;;;;;;;;;;;x
+EVTDESC312612;Other voices have arisen and drowned me out. I have lost control of the rally!;;;;;;;;;;;;;x
+EVTOPTA312612;Oh my...;;;;;;;;;;;;;x
+EVTDESC312610;My haranguing of the masses has encouraged multitudes of the masses to join our cause.;;;;;;;;;;;;;x
+EVTDESC312611;Good news, [Root.PrimaryTitle.GetFOA]. Multitudes of the masses have decided to join our cause!;;;;;;;;;;;;;x
+EVTNAME312410;Academic Conference;;;;;;;;;;;;;x
+EVTDESC312410;Thanks to my leadership at the Academic Conference, our research has advanced by leaps and bounds.;;;;;;;;;;;;;x
+EVTOPTA312410;The Wheel of Progress turns!;;;;;;;;;;;;;x
+EVTDESC312411;Good news, [Root.PrimaryTitle.GetFOA]. The Academic Conference is producing get strides in research!;;;;;;;;;;;;;x
+EVTDESC312414;I have discovered a most learned scholar and inventor at the conference, and persuaded him to accept [Root.Liege.GetBestName]'s patronage.;;;;;;;;;;;;;x
+EVTOPTA312414;Excellent!;;;;;;;;;;;;;x
+EVTDESC312415;Good news, [Root.PrimaryTitle.GetFOA]. I have persuaded a most learned attendee at the conference to join your court!;;;;;;;;;;;;;x
+EVTOPTA312415;Welcome him!;;;;;;;;;;;;;x
+EVTOPTB312415;We have no need for his talents.;;;;;;;;;;;;;x
+EVTDESC312413;Grievous news, [Root.PrimaryTitle.GetFOA]. The conference has dissolved in disarray, and we have nothing to show for it.;;;;;;;;;;;;;x
+EVTOPTA312413;Really?;;;;;;;;;;;;;x
+EVTNAME312418;State Rituals;;;;;;;;;;;;;x
+EVTDESC312418;Everything went exactly as planned, with all ceremonies carried out precisely as prescribed.;;;;;;;;;;;;;x
+EVTDESC312419;Good news, [Root.PrimaryTitle.GetFOA]. The ceremony was a great success!;;;;;;;;;;;;;x
+successful_state_rituals_tooltip;Successful state rituals;;;;;;;;;;;;;x
+unsuccessful_state_rituals_tooltip;Unsuccessful state rituals;;;;;;;;;;;;;x
+EVTDESC312416;What a disaster! The rituals were ruined by peasants protesting our sacrificing their best kine!;;;;;;;;;;;;;x
+EVTDESC312417;Grievous news, [Root.PrimaryTitle.GetFOA]. The rituals were disrupted by peasants protesting our sacrificing their best kine!;;;;;;;;;;;;;x
+EVTOPTA312416;Damnation!;;;;;;;;;;;;;x
+EVTOPTA312512;I must inform my liege.;;;;;;;;;;;;;x
+crippled_death;a cripple;;;;;;;;;;;;;x
+EVTNAMEOCC.1;One Night Wandering;;;;;;;;;;;;;x
+EVTOPTAOCC.1;That sounds like an excellent idea.;;;;;;;;;;;;;x
+EVTOPTBOCC.1;Too much trouble, I'll just stay here.;;;;;;;;;;;;;x
+EVTOPTCOCC.1;The woods? At night? But they're dark and scary...;;;;;;;;;;;;;x
+EVTOPTDOCC.1;*Hic* Wha? Bring me more wine.;;;;;;;;;;;;;x
+EVTOPTEOCC.1;Maybe a walk in the woods will cheer me up...;;;;;;;;;;;;;x
+EVTOPTFOCC.1;Naw, I don't really feel like it.;;;;;;;;;;;;;x
+EVTOPTAOCC.2;Anything's better than staying here; I think I'll go for a walk.;;;;;;;;;;;;;x
+EVTOPTBOCC.2;But if I left, I'd have to walk...;;;;;;;;;;;;;x
+EVTOPTCOCC.2;No way, it's too dangerous! There might be lions, or tigers, or bears, oh my!;;;;;;;;;;;;;x
+EVTOPTDOCC.2;Maybe a walk in the wild will cheer me up...;;;;;;;;;;;;;x
+EVTOPTEOCC.2;Naw, I don't really feel like it.;;;;;;;;;;;;;x
+EVTNAMEOCC.3;A Pleasant Midnight Stroll;;;;;;;;;;;;;x
+EVTOPTAOCC.3;I feel so alive!;;;;;;;;;;;;;x
+EVTOPTBOCC.3;I feel so much better now!;;;;;;;;;;;;;x
+EVTNAMEOCC.4;A Mysterious Encounter;;;;;;;;;;;;;x
+EVTOPTAOCC.4;A single shaft of moonlight caught his skeletal hand; it was white as bone!;;;;;;;;;;;;;x
+EVTNAMEOCC.8;An Unholy Place;;;;;;;;;;;;;x
+EVTOPTAOCC.8;Words escape me...;;;;;;;;;;;;;x
+EVTNAMEOCC.5;The Dance of Death;;;;;;;;;;;;;x
+EVTOPTAOCC.5;Lifeless figures! They are undead, all of them!;;;;;;;;;;;;;x
+EVTNAMEOCC.6;Dancing the Circle of Death;;;;;;;;;;;;;x
+EVTOPTAOCC.6;My spirit is lifted from me!;;;;;;;;;;;;;x
+EVTOPTCOCC.6;My spirit is lifted from me, and replaced with another!;;;;;;;;;;;;;x
+EVTNAMEOCC.7;Memento Mori;;;;;;;;;;;;;;x
+EVTOPTAOCC.7;Let me tell you a story to chill your bones...;;;;;;;;;;;;;x
+NotShown;;;;;;;;;;;;;;x
+EVTOPTA_TOG_1051;Curses!;;;;;;;;;;;;;x
+EVTOPTB_TOG_1051;Damned uppity peasants!;;;;;;;;;;;;;x
+EVTDESCslavery.2500;Hey AI, you want to go get some slaves from this person?;;;;;;;;;;;;;x
+EVTOPTAslavery.2500;Let's do it!;;;;;;;;;;;;;x
+EVTOPTBslavery.2500;Let's not do it.;;;;;;;;;;;;;x
+AI ONLY EVENT;;;;;;;;;;;;;;x
+DONT BUY;Don't buy;;;;;;;;;;;;;x
+BUY;Buy;;;;;;;;;;;;;x
+opinion_castrate_spouse;Castrated my spouse;;;;;;;;;;;;;x
+EVTTOOLTIPVIETmisc.2511;AAAARRRRGGGGHHHHHH;;;;;;;;;;;;;x
+opinion_dont_care;Doesn't care;;;;;;;;;;;;;x
+opinion_fun_banter;Bantered with me;;;;;;;;;;;;;x
+Failed Activity;Failed Activity;;;;;;;;;;;;;x
+Let's try again!;Let's try again!;;;;;;;;;;;;;x
+Too bad!;Too bad!;;;;;;;;;;;;;x
+Perfect Activity;Perfect Activity;;;;;;;;;;;;;x
+Friends forever!;Friends forever!;;;;;;;;;;;;;x
+Great!;Great!;;;;;;;;;;;;;x
+New Friend;New Friend;;;;;;;;;;;;;xdepose_liege_desc;§Y$CLAIMANT$§! can attempt to depose §Y$TARGET$§!.;§Y$CLAIMANT$§! peut tenter de renverser §Y$TARGET$§!.;§Y$CLAIMANT$§! kann versuchen, §Y$TARGET$§! abzusetzen.;;§Y$CLAIMANT$§! puede intentar destituir a §Y$TARGET$§!.;;;;;;;;;x
+faction_depose_liege_short;Depose Liege;Déposer le suzerain;;;;;;;;;;;;x
+faction_depose_liege_title;Depose [This.Liege.GetTitledFirstName];Déposer [This.Liege.GetTitledFirstName];;;;;;;;;;;;x
+faction_depose_liege_desc;Members seek to force [This.Liege.GetTitledName] to abdicate in favour of [This.Liege.GetHerHis] heir [This.Liege.Heir.GetTitledName]. When sufficiently powerful, §Y[From.GetBestName]§! may present an ultimatum to §Y[From.Liege.GetBestName]§!.;Les membres cherche à forcer [This.Liege.GetTitledName] à abdiquer en de son héritier(e) [This.Liege.Heir.GetTitledName]. Lorsque le complot sera suffisamment puissant, §Y[From.GetBestName]§! pourra présenter un ultimatum à §Y[From.Liege.GetBestName]§!.;;;;;;;;;;;;x
+faction_depose_liege_ultimatum;Demand [This.Liege.GetTitledFirstName]'s Abdication;Exiger l'abdication de [This.Liege.GetTitledFirstName].;;;;;;;;;;;;x
+faction_depose_liege_ultimatum_desc;Present an ultimatum to §Y[Root.Liege.GetBestName]§!, demanding that [Root.Liege.GetSheHe] abdicate in favour of [Root.Liege.GetHerHis] heir [Root.Liege.Heir.GetTitledFirstName]. If [Root.Liege.GetSubjectPronoun] refuses to comply, the Faction will rise in revolt.;Présenter un ultimatum à §Y[Root.Liege.GetBestName]§!, exigeant qu'[Root.Liege.GetSheHe] abdique en faveur de son hériter(e) [Root.Liege.Heir.GetTitledFirstName]. Si [Root.Liege.GetSubjectPronoun] refuse de se soumettre, la faction se révoltera.;;;;;;;;;;;;x
+EVTDESCplot_event.42;[Root.GetFirstName] [Root.GetOnlyDynastyName], your reign of misrule must come to an end immediately, me and my allies insist that you abdicate in favour of your heir [Root.Heir.GetTitledFirstName]. Be reasonable and let us not resort to bloodshed.\n\nSigned,\n[From.GetTitledName];[Root.GetFirstName] [Root.GetOnlyDynastyName], votre règne abject doit s'achever immédiatement, moi et mes alliés insistont pour que vous adbiquiez en faveur de votre héritier(e) [Root.Heir.GetTitledFirstName]. Soyez raisonnable et évitez un bain de sang.\n\nSigné,\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCplot_event.47;Great [Root.GetTitledFirstName]! I and a powerful group of loyalists have presented an ultimatum to [From.Liege.GetTitledName] demanding [From.Liege.GetSheHe] ends [From.Liege.GetHerHis] reign of misrule and abdicate in favour of yourself. Wish us luck!\n\nSigned,\n[From.GetTitledName];Grand [Root.GetTitledFirstName]! Moi et un puissant groupe de loyalistes avons présenté un ultimatum à [From.Liege.GetTitledName] exigeant qu'[From.Liege.GetSheHe] mette fin à son règne abject et abdique en votre faveur. Souhaitez nous bonne chance !\n\nSigné,\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCplot_event.43;Your lack of faith in my duties as your liege saddens me, but I do recognize the fact [From.PrimaryTitle.GetName] may be better off if I step aside. With regret, I hereby abdicate in favour of my heir [From.Heir.GetTitledName]\n\nSigned,\n[From.GetTitledName];Votre manque de foi en mes capacités à remplir mes devoirs me chagrine, mais je reconnais que [From.PrimaryTitle.GetName] pourrait être plus efficace et digne que moi. Avec regret, j'abdique en faveur de mon héritier(e) [From.Heir.GetTitledName]\n\nSigné,\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCplot_event.44;In order to avoid a fruitless civil war, [From.GetTitledFirstName] has wisely agreed to abdicate in favour of [From.Heir.GetTitledFirstName]. Your valuable support in this matter will not be forgotten.\n\nSincerely,\n[FromFrom.GetTitledName];Pour éviter une guerre civile inutile, [From.GetTitledFirstName] a sagement accepté d'abdiquer en faveur de [From.Heir.GetTitledFirstName]. Votre soutien dans cette affaire ne sera pas oublié.\n\nSincèrement,\n[FromFrom.GetTitledName];;;;;;;;;;;;x
+EVTDESCplot_event.45;To all my subjects,  after listening to the advice of [FromFrom.GetTitledFirstName], I have come to realise I am no longer able to reign as your liege [From.GetTitle]. Therefore I hereby abdicate all my lands and titles in favour of my heir [From.Heir.GetTitledName].\n\nSigned,\n[From.GetTitledName];A tous mes sujets, après avoir entendu les conseils de [FromFrom.GetTitledFirstName], j'en suis venu à réaliser que je n'étais pas plus capable de régner comme votre [From.GetTitle]. Aussi, par la présente, je renonce à toutes mes terres et titres en faveur de mon hériter(e) [From.Heir.GetTitledName].\n\nSigné,\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC94019;You decided the current war was a perfect opportunity to improve your knowledge of military matters, so you eagerly participated in the council of war with your bannermen and officers. Much of what they said on the finer points of strategy and battle tactics went over your head, but you feel your understanding of war has improved anyway.;Vous avez décidé que la guerre actuelle était une opportunité parfaite pour améliorer vos connaissances militaires, aussi participez-vous avec joie au conseil de guerre avec vos bannerets et officiers. Les discussions les plus pointues en matière de stratégie et de tactiques militaires vous passent au dessus de la tête, mais vous sentez quand même que votre compréhension des choses de la guerre a progressé.;;;;;;;;;;;;x
+EVTOPTA94019;One day they will look to me for a plan;Un jour ils s'en remettront à moi pour élaborer un plan de bataille. ;;;;;;;;;;;;x
+dictator;Didn't hold election;;;;;;;;;;;;;x
+dictator_desc;This character has ignored the democratic laws of his realm and now faces public disapproval;;;;;;;;;;;;;x
+term_limits;Term Length;Mandat;;;;;;;;;;;;x
+term_limits_desc;The length of time each leader holds power between elections.;La durée pendant la quelle le dirigeant détient le pouvoir entre deux éléctions.;;;;;;;;;;;;x
+term_length_0;One Year Terms;Mandat de quatre ans;;;;;;;;;;;;x
+term_length_0_option;Annual;Court;;;;;;;;;;;;x
+term_length_0_desc;Elections are held every year.;Les dirigeants détiennent le pouvoir pendant quatre ans avant qu'un autre ne puisse être élu.;;;;;;;;;;;;x
+term_length_1;Four Year Terms;Mandat de quatre ans;;;;;;;;;;;;x
+term_length_1_option;Short;Court;;;;;;;;;;;;x
+term_length_1_desc;Leaders hold power for four years before a new leader must be elected.;Les dirigeants détiennent le pouvoir pendant quatre ans avant qu'un autre ne puisse être élu.;;;;;;;;;;;;x
+term_length_2;Six Year Terms;Mandat de six ans;;;;;;;;;;;;x
+term_length_2_option;Medium;Moyen;;;;;;;;;;;;x
+term_length_2_desc;Leaders hold power for six years before a new leader must be elected.;Les dirigeants détiennent le pouvoir pendant six ans avant qu'un autre ne puisse être élu.;;;;;;;;;;;;x
+term_length_3;Ten Year Terms;Mandat de dix ans;;;;;;;;;;;;x
+term_length_3_option;Long;Long;;;;;;;;;;;;x
+term_length_3_desc;Leaders hold power for ten years before a new leader must be elected.;Les dirigeants détiennent le pouvoir pendant dix ans avant qu'un autre ne puisse être élu.;;;;;;;;;;;;x
+term_length_4;No Term Limits;Pas de durée de mandat;;;;;;;;;;;;x
+term_length_4_option;Life;A vie;;;;;;;;;;;;x
+term_length_4_desc;Leaders hold power for life or until they are removed from power.;Les dirigeants gardent le pouvoir à vie ou jusqu'à ce qu'ils soient démis de leurs fonctions...;;;;;;;;;;;;x
+EVTDESCLAWS122;Your current term as [Root.GetTitle] of the [Root.PrimaryTitle.GetFullName] has expired. The elections are to be held immediately.;;;;;;;;;;;;;x
+EVTOPTALAWS122;Hold Election;;;;;;;;;;;;;x
+EVTOPTBLAWS122;Refuse to Hold Election;;;;;;;;;;;;;x
+deposed;Deposed;;;;;;;;;;;;;x
+deposed_desc;This character was deposed from rule;;;;;;;;;;;;;x
+EVTDESCLAWS123;Your liege, [From.PrimaryTitle.GetFullName] has refused to hold elections in your realm.;;;;;;;;;;;;;x
+EVTOPTOUT;That unscrupulous bastard!;;;;;;;;;;;;;x
+faction_depose_liege_member;Member of a faction seeking to depose their liege;;;;;;;;;;;;;x
+faction_depose_liege_leader;Leads a faction seeking to depose their liege;;;;;;;;;;;;;x
+opinion_castrated_spouse;Castrated my spouse;;;;;;;;;;;;;x
+unholy_king_deposed;Impious ruler deposed.;;;;;;;;;;;;;x
+unholy_king_deposed_desc;This ruler has been deposed four faulting to the morals of their faith.;;;;;;;;;;;;;x
+EVTDESCluxtraits.38312;Your young ward [From.GetBestName] has become ruthless in his games, doing everything possible to win, no matter how dishonorable.;;;;;;;;;;;;;x
+EVTOPTAluxtraits.38312;There is nothing more I can do.;;;;;;;;;;;;;x
+EVTOPTBluxtraits.38312;There's a chip off the old block.;;;;;;;;;;;;;x
+EVTDESCluxtraits.38313;Your young ward [From.GetBestName] always follows the rules, even if this puts [From.GetHerHim] at a disadvantage.;;;;;;;;;;;;;x
+EVTOPTAluxtraits.38313;I'm proud to be teaching such an honorable child.;;;;;;;;;;;;;x
+EVTDESC45340;A slave has inherited.;;;;;;;;;;;;;x
+EVTTOOLTIP72035;is informed of the results of the duel.;;;;;;;;;;;;;x
+EVTTOOLTIPLoR.407;You win.;;;;;;;;;;;;;x
+EVTTOOLTIPLoR.408;You lose.;;;;;;;;;;;;;x
+EVTTOOLTIPLoR.409;Riots break out.;;;;;;;;;;;;;x
+EVTDESC38309;I don't see why I should care for the feelings of others anymore. I am no longer Kind.;"Je ne vois pas pourquoi je devrais me préoccuper des sentiments d’autrui, j’ai perdu le trait ""Gentil"". ";;;;;;;;;;;;x
+EVTDESC38321;I have come to realize that my benevolence upon others is wasted. I am no longer Charitable.;"Je me suis rendu compte que ma générosité et ma bienveillance envers autrui n'était que du gaspillage, je ne suis plus ""Charitable"". ";;;;;;;;;;;;x
+obj_become_distinguished_title;Become Distinguished;;;;;;;;;;;;;x
+obj_become_distinguished_desc;This character wants [This.GetHerHis] name to be known throughout the known world.;;;;;;;;;;;;;x
+religious_tolerance;Religious Tolerance;;;;;;;;;;;;;x
+tolerance_0; Tolerant Policy;;;;;;;;;;;;;x
+tolerance_0_desc;The realm is tolerant of other religions. This means higher religious flexibility but lower chance to convert provinces.;;;;;;;;;;;;;x
+tolerance_0_option;Tolerant;;;;;;;;;;;;;x
+tolerance_1;Indifferent;;;;;;;;;;;;;x
+tolerance_1_desc;The realm is indifferent of other religions. This is the neutral stance and provides no benefits or inconveniences.;;;;;;;;;;;;;x
+tolerance_1_option;Indifferent;;;;;;;;;;;;;x
+tolerance_2;Intolerant Policy;;;;;;;;;;;;;x
+tolerance_2_desc;The realm is intolerant to other religions. This means lower religious flexibility but higher chance to convert provinces and the possibility to wage war against blasphemous rulers and religious enemies. Effective enforcement of this policy requires a sufficient degree of centralization.;;;;;;;;;;;;;x
+tolerance_2_option;Intolerant;;;;;;;;;;;;;x
+religious_tolerance_desc;The Religious Tolerance of your realm determines the policy towards foreign religions in your realm. Tolerant realms will have lower chance to convert provinces while Intolerant ones will have higher chances in addition to having more opportunities to wage religious wars.;;;;;;;;;;;;;x
+HIGH_PRIEST;High Priest;;;;;;;;;;;;;x
+HIGH_PRIESTESS;High Priestess;;;;;;;;;;;;;x
+varangian_trait;Mercenary Veteran;Varègue;Waräger;;varangian_traito;;;;;;;;;x
+varangian_trait_desc;This character is a veteran of a mercenary company.;Ce personnage est un vétéran de la Garde varègue.;Dieser Charakter ist Veteran der Warägergarde.;;Este personaje es un veterano de la Guardia varangian_traita.;;;;;;;;;x
+EVTDESC_TOG_3110;Your son, [From.GetTitledFirstName], has decided to enlist with a mercenary company in foreign lands and seek his fortune there! Although he will no doubt gain both riches and valuable battle experience fighting in great battles, there will be many perils that could well cost him his life.;Votre fils, [From.GetTitledFirstName], a décidé de s'enrôler dans une compagnie d'épées-louées des Cités Libres d'y chercher fortune ! Même si toutes ces campagnes et batailles vont sans doute l'enrichir d'une importante expérience de combat, de nombreux dangers pourront lui coûter la vie.;Euer Sohn, [From.GetTitledFirstName], hat beschlossen, sich der Warägergarde in Miklagard anzuschließen und dort sein Glück zu suchen. Obschon er zweifellos sowohl Reichtum als auch wertvolle Kampferfahrung im Dienst des Griechenkönigs finden wird, gibt es viele Gefahren, die ihn sein Leben kosten könnten.;;¡Tu hijo, [From.GetTitledFirstName], ha decidido alistarse con la Guardia varangian_trait en Miklagård y buscar fortuna allí! Aunque, sin duda, obtendrá riquezas y valiosa experiencia en batalla al servicio del rey Griego, habrá muchos peligros que bien podrían costarle la vida.;;;;;;;;;x
+EVTOPTB_TOG_3110;Go forth and make me proud, son.;Fils, va et fais-moi honneur.;Gehe nach Miklagard und mache mich stolz, mein Sohn.;;Vete a Miklagård y hazme sentirme orgulloso, hijo.;;;;;;;;;x
+EVTDESC_TOG_3112;A grizzled old warrior from foreign lands has arrived bearing word from [From.GetTitledFirstName] today. Though he has left the mercenary company, your son has apparently found himself a foreign wife and decided to remain abroad to build a new life there. It is doubtful whether you will ever see him again...;Un vieux guerrier grisonnant est revenu aujourd'hui des Cités Libres, portant un message pour [From.GetTitledFirstName]. Bien qu'il ait quitté la compagnie d'épées-louées, votre fils s'est apparemment trouvé une épouse étrangère et a décidé de rester là où il est pour y refaire sa vie. Vous ne le reverrez probablement plus jamais...;Ein grauhaariger alter Krieger ist gerade aus Griechenland mit Nachricht von [From.GetTitledFirstName] heimgekehrt. Auch wenn er die Warägergarde verlassen hat, hat Euer Sohn wohl eine griechische Braut gefunden und beschlossen, in Miklagard zu bleiben und ein neues Leben zu beginnen. Es ist zweifelhaft, ob Ihr ihn jemals wiedersehen werdet...;;Un guerrero canoso recién llegado de Grecia llega hoy con un mensaje de [From.GetTitledFirstName]. Aunque ha dejado la Guardia varangian_traita, tu hijo parece haber encontrado una esposa Griega y decidido permanecer en Miklagård y crear una nueva vida allí. Es dudoso que alguna vez lo vuelvas a ver...;;;;;;;;;x
+EVTDESC_TOG_3115;A heavily scarred warrior clad in strange armor approaches your throne, and before he can be disarmed, the stranger relieves your guard of his spear in a swift, fluid motion and tosses it aside. Other guards hurry forward, but you raise your hand to stop them. The stranger is [From.GetTitledFirstName], at last returned from his adventure in foreign lands!;Un guerrier profondément balafré, revêtu d'une étrange armure, s'approche de votre trône et, avant qu'on n'ait pu le désarmer, l'étranger, d'un mouvement prompt et adroit, désarme votre garde et jette sa lance par terre. Les autres gardes s'approchent en vitesse, mais vous levez votre bras pour les arrêter. L'étranger est [From.GetTitledFirstName], enfin revenu de ses aventures dans les Cités Libres !;Ein vernarbter Krieger in seltsamer Rüstung erscheint vor Eurem Thron und bevor er entwaffnet werden kann, entreißt der Fremde Eurer Wache den Speer und wirft ihn beiseite. Andere Wachen eilen heran, doch Ihr hebt die Hand um sie aufzuhalten. Der Fremde ist [From.GetTitledFirstName] und endlich aus Griechenland heimgekehrt!;;Un guerrero con grandes cicatrices y vestido con una extraña armadura se acerca a tu trono, y antes de que pueda ser desarmado, el desconocido se quita de encima a la guardia con un movimiento rápido y fluido de su lanza, y la arroja a un lado. Otros guardias se apresuran hacia él, pero levantas la mano para detenerlos. ¡El desconocido es [From.GetTitledFirstName], por fin ha regresado de Grecia!;;;;;;;;;x
+EVTDESC_TOG_3117;Your son, [From.GetTitledFirstName], has finally returned home from foreign lands and his service with the mercenary company! Although you can't quite put your finger on it, he seems different somehow... ;Votre fils, [From.GetTitledFirstName], est finalement revenu des Cités Libres et de son service dans une compagnie d'épées-louées ! Bien que vous ne pouvez encore dire pourquoi, il semble quelque peu différent... ;Euer Sohn, [From.GetTitledFirstName], ist endlich aus Griechenland und dem Dienst in der Warägergarde zurückgekehrt. Obschon Ihr es nicht genau benennen könnt, wirkt er irgendwie verändert... Und was genau hat es mit dieser 'griechischen Liebe' auf sich, von der er spricht?;;¡Tu hijo, [From.GetTitledFirstName], por fin ha vuelto a casa de Grecia y de su servicio con la Guardia varangian_traita! Aunque no sabes por qué, parece diferente de alguna manera... y ¿qué es este amor griego del que habla?;;;;;;;;;x
+EVTDESC_TOG_3119;A frail, robed man is led into your throne room, and your guards explain that he just arrived on a ship coming from foreign lands. The man would only speak your name over and over again, and so he was brought to you. To your horror, you recognize him at last as [From.GetTitledFirstName]!;Un homme frêle et vêtu d'une robe est mené dans votre salle du trône et vos gardes expliquent qu'il vient tout juste de débarquer d'un navire en provenance des Cités Libres. L'homme répétait inlassablement le même mot : votre nom. Vous frémissez d'horreur en le reconnaissant, c'est [From.GetTitledFirstName] !;Ein gebrechlicher, berobter Man wird in Euren Thronsaal geführt und Eure Wachen erklären, dass er gerade mit dem Schiff von Miklagard eingetroffen ist. Der Mann sprach nur wieder und wieder Euren Namen, daher wurde er zu Euch gebracht. Voller Erschrecken erkennt Ihr ihn schließlich als [From.GetTitledFirstName]!;;Un hombre frágil vestido con túnica es conducido a tu sala del trono, y tus guardias explican que acaba de llegar en un barco procedente de Miklagård. El hombre sólo dice tu nombre una y otra vez, y por eso lo han llevado a ti. Para tu horror, ¡lo reconoces por fin como [From.GetTitledFirstName]!;;;;;;;;;x
+EVTDESC_TOG_3121;[From.GetTitledFirstName] has finally returned home after a long and successful career as a mercenary! He fought in several battles, and learned much from the clever strategies and tactics favoured by many foreign lands.;[From.GetTitledFirstName] est finalement de retour au bercail après une fructueuse et longue carrière comme épée-louée ! Il a pris part à plusieurs batailles et a beaucoup appris sur les adroites stratégies et les tactiques utilisées par les habitants des Cités Libres.;[From.GetTitledFirstName] ist nach langer und erfolgreicher Karriere in der Warägergarde endlich heimgekehrt! Er hat in vielen Schlachten gefochten und vieles von den schlauen Strategien und Taktiken der Griechen und ihrer Feinde in Serkland erfahren.;;¡[From.GetTitledFirstName] por fin ha vuelto a casa después de una larga y exitosa carrera en la Guardia varangian_traita! Luchó en varias batallas, y aprendió mucho de las inteligentes estrategias y las tácticas preferidas tanto por los griegos como por sus enemigos en Serkland.;;;;;;;;;x
+EVTDESC_TOG_3123;[From.GetTitledFirstName] has returned from foreign lands after his service with the mercenary company, but he refuses to speak of his experiences there. You know he took part in several battles and killed many foes, but instead of revelling in the glory of his accomplishments, [From.GetFirstName] is plagued by nightmares and jumps at sudden sounds.;[From.GetTitledFirstName] est de retour des Cités Libres et de sa Compagnie d'épées-louées, mais refuse de parler de son expérience là-bas. Vous savez qu'il a pris part à plusieurs batailles et qu'il a eu raison de nombreux ennemis, mais au lieu de raconter ses glorieux exploits, [From.GetFirstName] fait des cauchemars toutes les nuits et sursaute au moindre bruit.;[From.GetTitledFirstName] ist aus Griechenland und der Warägergarde zurückgekehrt, aber er weigert sich, von seinen Erlebnissen zu sprechen. Ihr wisst, dass er an etlichen Schlachten teilgenommen und viele Feinde erschlagen hat, doch statt seine glorreichen Erfolge zu feiern, wird [From.GetFirstName] von Alpträumen geplagt und erschreckt bei plötzlichen Geräuschen.;;[From.GetTitledFirstName] ha regresado de Grecia y de la Guardia varangian_traita, pero se niega a hablar de sus experiencias allí. Tú sabes que participó en varias batallas y mató a muchos enemigos, pero en vez de deleitarse en la gloria de sus logros, [From.GetFirstName] está plagado de pesadillas y salta con los ruidos repentinos.;;;;;;;;;x
+EVTDESC_TOG_3125;[From.GetTitledFirstName] has come home from foreign lands after his service with the mercenary company, but he is not alone. He has found an exotic wife and brought her with him. She is not familiar with our customs or language, and the climate does not seem to agree with her, but she seems willing to make the best of her new home.;[From.GetTitledFirstName] est de retour des Cités Libres et de son service dans une compagnie d'épée-louée, mais il ne revient pas seul. Il s'est marié à une femme exotique qu'il a ramené avec lui. Elle n'est pas habituée à nos coutumes et à notre langue, et ne semble pas apprécier notre climat, mais elle semble vouloir faire d'ici son chez soi.;[From.GetTitledFirstName] ist aus Miklagard und seinem Dienst in der Warägergarde heimgekehrt. Er hat eine griechische Braut gefunden und mitgebracht. Sie kennt unsere Gebräuche und Sprache nicht und das Wetter hier scheint ihr nicht gut zu tun, doch sie ist willig, das Beste aus ihrem neuen Heim zu machen.;;[From.GetTitledFirstName] ha llegado a casa de Miklagård y de su servicio con la Guardia varangian_traita, pero no está solo. Ha encontrado una esposa griega y la trajo con él. Ella no conoce nuestras costumbres ni el idioma, y el clima no le gusta demasiado, pero parece estar dispuesta a hacer lo mejor de su nuevo hogar.;;;;;;;;;x
+EVTDESC_TOG_3127;After many years in foreign lands, [From.GetTitledFirstName] has finally been released from his service to the mercenary company and returned home. Your son is a changed man, however. [From.Religion.GetName] no longer hold any interest for him, and he instead speaks incessantly of a Lord of Light and the horrors that await those who refuse to convert...;Après plusieurs années dans les Cités Libres, [From.GetTitledFirstName] a enfin été dégagé de ses fonctions dans sa compagnie d'épées-louées et est rentré au bercail. Votre fils est cependant un homme changé. [From.Religion.GetName] ne l'intéressent plus et il parle sans cesse du Maître de la Lumière et des horreurs qui s'abattront sur ceux qui refusent de se convertir...;Nach vielen Jahren in Griechenland, wurde [From.GetTitledFirstName] endlich aus seinem Dienst in der Warägergarde entlassen und ist heimgekehrt. Doch Euer Sohn ist ein gewandelter Mann. Die alten Götter interessieren ihn nicht länger, stattdessen spricht er ununterbrochen vom Christentum und den Schrecken, die jene erwarten, die nicht konvertieren...;;Tras muchos años en Grecia, [From.GetTitledFirstName] ha sido finalmente liberado de su servicio a la Guardia varangian_traita y ha regresado a casa. Sin embargo, tu hijo ha cambiado. Los viejos dioses ya no le interesan, y en cambio habla sin cesar de la Cristiandad y los horrores que le esperan a aquellos que se niegan a convertirse...;;;;;;;;;x
+EVTDESC_TOG_3129;[From.GetTitledFirstName] has returned from foreign lands and his service to the mercenary company as a changed man. He is wiser, more confident in his own abilities and more knowledgeable in matters of war. It seems the time spent abroad did him good.;[From.GetTitledFirstName]est de retour des Cités Libres et de sa compagnie d'épées-louées et c'est un homme changé. Il est plus sage, plus sûr de lui et connaît très bien l'art de la guerre. Le temps qu'il a passé là-bas semble lui avoir fait du bien.;[From.GetTitledFirstName] ist als gewandelter Mann aus Miklagard und dem Dienst in der Warägergarde zurückgekehrt. Er ist weiser, zuversichtlicher und besitzt neue Kenntnisse in Kriegsangelegenheiten. Es scheint, als habe ihm die Zeit bei den Griechen gut getan. ;;[From.GetTitledFirstName] ha vuelto de Miklagård y de la Guardia varangian_traita como un hombre cambiado. Es más sabio, más seguro de sus propias habilidades y más eficiente en asuntos de guerra. Parece que el tiempo pasado en Grecia le ha hecho bien.;;;;;;;;;x
+EVTDESC_TOG_3131;Several former mercenaries have recently returned home after serving in foreign lands, and they bring news most grave. Your son, [From.GetTitledFirstName], fell in battle while campaigning. They assure you that he faced his enemy with bravery and slew many before their numbers overwhelmed him.;Plusieurs anciennes épées-louées sont de retour de leur service dans els Cités Libres depuis peu et ils apportent de mauvaises nouvelles. Votre fils, [From.GetTitledFirstName], est tombé au combat lors d'une campagne dans les Terres Disputées. Ils vous assurent qu'il a affronté l'ennemi avec bravoure et qu'il en a tué plusieurs avant qu'ils aient eu raison de lui.;Einige frühere Waräger Gardisten sind von ihrem Dienst beim Griechenkönig heimgekehrt und bringen schlechteste Neuigkeiten mit. Euer Sohn [From.GetTitledFirstName] ist in einer Schlacht in Serkland gefallen. Sie versichern Euch, dass er seinem Feind mit Tapferkeit begegnet ist und viele erschlug, bevor ihre schiere Zahl ihn überwältigte. ;;Varios ex guardias varangian_traitos han regresado recientemente a casa después de servir al rey Griego, y traen noticias graves. Tu hijo, [From.GetTitledFirstName], cayó en la batalla mientras estaba de campaña en Serkland. Te aseguran que se enfrentó a su enemigo con valentía y que mató a muchos antes de que sus números lo abrumaron.;;;;;;;;;x
+EVTDESC_TOG_3133;[From.GetTitledFirstName] has at last returned from foreign lands on a ship filled with the spoils of war! Apparently the rulers from foreign lands are generous to those who serve them well, and there is gold here from all places from Hispania to India. Your son insists on sharing these riches with you, his loving father, for the benefit of House [Root.GetOnlyDynastyName].;[From.GetTitledFirstName] est enfin de retour deCités Libres, à bord d'un navire contenant un impressionnant butin de guerre ! Les Grands Magistrats des Cités Libres sont apparemment très généreux avec ceux qui les servent bien, et il y a de l'or partout, de Braavos à Volantis. Votre fils insiste pour partager ses richesses avec vous, son père bien-aimé, pour le bien de la maison [Root.GetOnlyDynastyName].;[From.GetTitledFirstName] ist endlich aus Griechenland heimgekehrt, auf einem großen Beiboot, gefüllt mit Kriegsbeute. Offenbar ist der Griechenkönig großzügig gegenüber jenen, die ihm gut dienen. Hier findet sich Gold aus allen Ecken Griechenlands, Serklands und darüber hinaus. Euer Sohn besteht darauf, den Reichtum mit Euch, seinem Vater, zu teilen. ;;[From.GetTitledFirstName] por fin ha regresado de Grecia en un drakkar lleno de botines de guerra! Al parecer, el gran rey de los Griegos es generoso con los que le sirven bien, y hay oro aquí de todas partes del reino griego, Serkland y más allá. Tu hijo insiste en compartir estas riquezas contigo, su querido padre.;;;;;;;;;x
+EVTDESC_TOG_3134;Upon learning of the death of your father, you left the mercenary company and foreign lands for home on a ship filled with loot from your campaigns. It was a long and perilous journey back, but your feet are now firmly planted on the soil of the land that is your birthright. The throne is yours.;Après avoir appris la mort de votre père, vous avez abandonné la compagnie d'épées-louées et quittez les Cités Libres sur un navire pour rentrer au bercail, rapportant un important butin amassé lors de vos campagnes. Le voyage du retour fut long et périlleux, mais vos pieds foulent maintenant la terre ferme, cette terre dont vous êtes l'héritier. Le trône est à vous.;Als Ihr vom Tod Eures Vaters erfahrt, verlasst Ihr die Warägergarde und Miklagard in einem großen Beiboot, gefüllt mit der Beute Eurer Schlachten in Serkland. Es war eine lange und gefahrvolle Reise, doch jetzt setzt Ihr Eure Füße auf heimatliche Erde, dir Euer Geburtsrecht ist. Der Thron gehört Euch. ;;Al enterarte de la muerte de tu padre, dejas la Guardia varangian_traita y dejas Miklagard para volver a casa en un drakkar lleno de botines de tus campañas en Serkland. Fue un largo y peligroso viaje de regreso, pero tus pies están ahora firmemente plantados en la tierra que es tu patrimonio. El trono es tuyo.;;;;;;;;;x
+EXARCHATE OF;Exarchate of;;;;;;;;;;;;;x
+DUX AUGUSTALIS;Dux Augustalis;;;;;;;;;;;;;x
+SUPREME PRINCE;Supreme Prince;;;;;;;;;;;;;x
+GREAT JARL;Great Jarl;;;;;;;;;;;;;x
+d_yazdanism_reformed_adj;Yârsâni Priestly;;;;;;;;;;;;;x
+d_zurvanism_reformed_adj;Zurvani Priestly;;;;;;;;;;;;;x
+d_zor_angra_reformed_adj;Angra Mainyu Priestly;;;;;;;;;;;;;x
+d_mazdakism_reformed_adj;Mazdaki Priestly;;;;;;;;;;;;;x
+d_amun_reformed_adj;Amun Ra Priestly;;;;;;;;;;;;;x
+EVTOPTBancrel.0153;Yes, there's a suitable candidate at court.;;;;;;;;;;;;;x
+ct_rep_arsenal_3_desc;This heavily fortified collection of shipyards and armories is nothing less than an industrial complex centered around the docks of the Republic's capital.;Ce regroupement très fortifié de chantiers navals et d’armureries n’est rien d’autre qu’un complexe industriel centralisé autour des quais de la capitale de la République.;Diese schwer befestigte Ansammlung von Werften und Waffenkammern ist nicht weniger als ein industrieller Komplex rund um den Hafen der republikanischen Hauptstadt.;;Este conjunto fortificado de astilleros y armerías es todo un complejo industrial situado en torno a los muelles de la capital de la República.;;;;;;;;;x
+EVTDESC64104;[From.Spouse.GetBestName] has discovered your affair with [From.Spouse.GetHerHis] spouse, [From.GetBestName] and is very angry with you.;;;;;;;;;;;;;x
+EVTOPTA64104;[From.Spouse.GetSheHeCap] doesn't deserve [From.GetHerHim].;;;;;;;;;;;;;x
+EVTTOOLTIP64104;[This.GetBestName] and [Root.Spouse.GetBestName] become rivals.;;;;;;;;;;;;;x
+TOOLTIPINCREASETYRANY1;Selling a prisoner into slavery will cause you to be viewed as a tyrant.;;;;;;;;;;;;;x
+expelled_east_african_pagan_holy_order;Expelled East African pagan holy order;;;;;;;;;;;;;x
+loot_sacrifice;Sacrificed loot;;;;;;;;;;;;;x
+#SACRED_KING;Sacred King;;;;;;;;;;;;;x
+#SACRED_QUEEN;Sacred Queen;;;;;;;;;;;;;x
+LUX_INVICTA;Lux Invicta;;;;;;;;;;;;;x
+LUX_INVICTA_DESC;Our revered ancestors fought to forge a world shaped in their image and shed their blood on the altar of their sacred cause. Their ancient exploits are nothing but legend now, and a great darkness has descended upon the realms of Man. Where are the titans of old now? Where is Alexandros, where is Seleukos, where is Kurus, where is Caesar? Can you remember their deeds and make their spectres bow their heads before you, in approval of your mighty leadership? Can you unite the bickering, warring realms of Man and forge an Empire as the world has never seen? Can you be the Restorer of the Realm of Light and banish the Darkness? Lux Invicta!;;;;;;;;;;;;;;x
+ARCH_DRUIDESS;Arch Druidess;;;;;;;;;;;;;x
+EVTOPTB_TOG_654;That was my best dress!;;;;;;;;;;;;;x
+action_lower_TO_ultimatum_timer;;;;;;;;;;;;;;x
+went_out_of_hiding_timer;;;;;;;;;;;;;;x
+tech_points_elect;;;;;;;;;;;;;;x
+silk_road_tradepost;Silk Road tradepost;;;;;;;;;;;;;x
+held_christblot_timer;;;;;;;;;;;;;;x
+is_rebuilding_persepolis;Rebuilding Persepolis;;;;;;;;;;;;;x
+opinion_lowered_tribal_organization;Lowered Tribal Organization;;;;;;;;;;;;;x
+opinion_granted_other_baron_vice_royalty;Granted other baron vice-royalty;;;;;;;;;;;;;x
+opinion_granted_other_count_vice_royalty;Granted other count vice-royalty;;;;;;;;;;;;;x
+opinion_granted_other_duke_vice_royalty;Granted other duke vice-royalty;;;;;;;;;;;;;x
+opinion_granted_other_king_vice_royalty;Granted other king vice-royalty;;;;;;;;;;;;;x
+opinion_granted_other_emperor_vice_royalty;Granted other emperor vice-royalty;;;;;;;;;;;;;x
+opinion_vassal_king;Vassal King;;;;;;;;;;;;;x
+d_oracle_delphi;the Oracle of Delphi;;;;;;;;;;;;;;;;;x
+d_oracle_delphi_adj;Oracular;;;;;;;;;;;;;;;;;x
+b_delphi;Delphi;;;;;;;;;;;;;;;;;x
+joust_target_desc;;;;;;;;;;;;;;x
+duel_target_desc;;;;;;;;;;;;;;x
+died_attempting_escape_desc;This character died while attempting to escape from a siege.;;;;;;;;;;;;;x
+NO;No way!;;;;;;;;;;;;;;x
+EVTTOOLTIP_CM_4332;joins the Haruriyyah.;;;;;;;;;;;;;;x
+EVTOPTB100416;I am above such things.;;;;;;;;;;;;;;x
+EVTDESC100417;[From.GetTitledFirstName] has refused to accept your duel challenge.;;;;;;;;;;;;;;x
+EVTOPTA100417;What a coward.;;;;;;;;;;;;;;x
+xsuspected_murder_plot;Suspected murder plot;;;;;;;;;;;;;x
+PICK_STARTING_ERA_TEXT;Lux Invicta covers only one start date, but there are plenty of interesting realms in it, here we present a select few ones...;;;;;;;;;;;;;x;;a;;;;;;;;;;;;x
+DARK_AGES;Eastern Splendours;;;;;;;;;;;;;x
+DARK_AGES_INFO;Since Aristotle’s scholarly essays and Megas Alexandros' world empire, the legendary splendours of the East have shaped the Western princes' exotic dreams of mysticism and conquest. In spite of centuries of Hellenistic rule from the Egypt to Kathay, the East still stands untamed. Beyond the Northern steppes, beyond the high passes of the Hindu Kush and the burning deserts of Arabia, history itself takes another meaning, as civilizations strive to revive a Golden Age, older than Rome itself. Their spirituality defies souls and minds, as metaphysical constructions intertwine sensuality with boundless violence as well as audacious intellectual speculations. The ruthless nomads of the Eastern Steppes, eternal enemies of architects and farmers, loom as a Damocles sword over old states that are long past their natural lifespan. The eastern splendours remain a fantasy as always, but they may well become living nightmares for corrupt kings of decadent empires.;;;;;;;;;;;;;;x
+BM_CHARLEMAGNE;Eastern Splendours;;;;;;;;;;;;;x
+BM_BM_CHARLEMAGNE_DESC;Since Aristotle’s scholarly explorations and Megas Alexandros' world empire, the legendary splendours of the East have shaped the Western princes' dreams of exoticism, mysticism and conquests. In spite of centuries of Hellenistic rule from the Mediterranean to the Seas of Kathay, the East still stands untamed. Beyond the Northern steppes, beyond the high passes of at Roof of the World and the burning deserts of Arabia, history itself takes another meaning, as civilizations strive to revive a Golden Age, older than the foundation of Rome itself. Their spirituality defies souls and minds, as metaphysical constructions intertwine refined sensuality with boundless violence as well as audacious intellectual speculations. The ruthless nomads of the Eastern Steppes, eternal enemies of the architect and the farmer, loom as a Damocles swords over old states that have long overpassed their natural lifespan. The eastern splendours remain the fantasy they have always been, but they may well become a living nightmare for corrupt kings of decadent empires.;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_163005;Proud Emperor of Serindia, decided to restore it's ancient glory at all costs.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_927;A powerful Komi warlord, rallying the tribes with intent to assault the civilized world.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_73;The dreaded Khan of the Huns. A cruel and zealous man who fully believes to be Ahriman incarnated, prepared to scourge the servants of the Great Opponent.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_163016;The merchant lord of Kashgar. A competent statesman and shrewd trader. Not the best adherent of the Confucian principles.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1713087;The Caliph of Baghdad, a great Islamic scholar, but otherwise a weak leader. Under him, the Abbasid remnant is in constant turmoil.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_816;The Mukarrib of Saba, an isolationist, disliked by merchants due to high commerce taxes, and by his younger brother.;;;;;;;;;;;;;x
+VIKING_ERA;Persia's Glittering Fires;;;;;;;;;;;;;x
+VIKING_ERA_INFO;Persia showed the way to all. We remember. Persia built the most solid, glorious and enduring empire. Persia worshipped Ahura Mazda's holy fire altars long before the Western Rumi barbarians understood the immanent truth of Divine Light. Our holy fires may now be shattered by fake creeds, our temples in rumble, our empire split between ambitious liers. But Truth will prevail against the realm of Lies. Once more, Persia shall lead men to glory and salvation!;;;;;;;;;;;;;;x
+BM_THE_OLD_GODS;Persia's Glittering Fires;;;;;;;;;;;;;x
+BM_THE_OLD_GODS_DESC;Persia showed the way to all. We remember. Persia built the most solid, glorious and enduring empire. Persia worshipped Ahura Mazda's holy fire altars long before the Western Rumi barbarians understood the immanent truth of Divine Light. Our holy fires may now be shattered by competing creeds, our temples in rumble, our empire split between ambitious liers. But Truth will prevail against the realm of Lies. Once more, Persia shall lead men to glory and salvation!;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_901;The Persian King of Kings. A resolute young man, who is succeeding in carrying his empire out of it's dark age as the true blood of Sassan, heir to most glorious Persian dynasty.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_929;Long before the Sassanid usurpers took the throne, the Arsacids ruled over Persia. Enlightened by the revelations of Mazdak, moved by the desire to cleanse the world from injustice, the heirs of Artaxshasa shall rule again and usher in a new age where all men shall be brothers.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_913;Since Sassan took over the Persian throne from Ardavan VI, our forebearer, using lies and treachery, the Parthians have been biding their time. The Artabanids may have lost worldly power and taken refuge in the Northern desolations, they know who is the true Lord and side with Him. The bitterness of humiliation is sour but sweet are the promises for revenge brought to us by Angra Mainyu, Lord of Darkness.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_162026;India and Iran have always had close links, dating from the ancient time when Iranians came from the Indus valley to conquer the Persian plateau. More recently, trade, a force as powerful as swords and gods, has given this link a new vector, generating a fusion culture on the shores of the Indian Ocean. Will the ruler of Zorastrian-Hindu Patala succeed in reinvigorating Persia thanks to the syncretical learnings of the sister millenia-old civilization, India?;;;;;;;;;;;;;x
+ERA_CHAR_INFO_904;Central Asia is home to the oldest forms of Iranian spirituality. It is where the Prophet Zoroastre lived and preached. But it is also in Central Asia, the crossroad of Eurasia, that Persian spirituality met other religious systems and gave birth to innovative syncretisms. The Ephaestionos dynasty of Kârmânia Satrapes have merged the old spiritual enemies of Zoroastrianism and the Hellenistic religion into a harmonious yet potent new system, Pyromantism. May this provincial medium power succeed in redefining Persia based on this new faith, born from the Central Asia spiritual melting-pot?;;;;;;;;;;;;;x
+ERA_CHAR_INFO_914;Persia's spirituality is not exclusively about Zoroastre's teachings and its offsprings. Persia is also the centre of the far-reaching "Church of the East", resulting from the relocation of the School of Edessa to Nisibis. Under Sassanid patronage, Nestorianism has won the souls of Kathay emperors and steppe Kaghans. With the current chaotic situation, is it not the right time for Bukharan Nestorians to claim Persia itself as the new Rome?;;;;;;;;;;;;;x
+EARLY_MED;Alexander's Legacy;;;;;;;;;;;;;x
+EARLY_MED_INFO;§Y'To reach the ends of the world and the Great Outer Ocean, at the head of my army.’§! The dream of Megas Alexandros still echoes through the ages, in the halls and temples of the Hellenistic lands, in the words of would-be conquerors and in the blood of his descendants. Even if weakened, the realms founded by the Diadokhoi, Alexandros’ Successors, generals and loyal companions, still stand proud from Makedonia to India. Though they all share a language and similar culture, over time the claims and counter-claims of legitimacy have deepened the rivalry between the Successors, all claim to be true Greeks, and each also claim to be the one true inheritors of the legacy of the legends of old: of Megas Alexandros, Ptolemy Soter and Seleukus Nikator. This legacy though, belongs to only the strongest...;;;;;;;;;;;;;;x
+BM_FATE_OF_ENGLAND;Alexander's Legacy;;;;;;;;;;;;;x
+BM_FATE_OF_ENGLAND_DESC;§Y'To reach the ends of the world and the Great Outer Ocean, at the head of my army.’§! The dream of Megas Alexandros still echoes through the ages, in the halls and temples of the Hellenistic lands, in the words of would-be conquerors and in the blood of his descendants. Even if weakened, the realms founded by the Diadokhoi, Alexandros’ Successors, generals and loyal companions, still stand proud from Makedonia to India. Though they all share a language and similar culture, over time the claims and counter-claims of legitimacy have deepened the rivalry between the Successors, all claim to be true Greeks, and each also claim to be the one true inheritors of the legacy of the legends of old: of Megas Alexandros, Ptolemy Soter and Seleukus Nikator. This legacy though, belongs to only the strongest...;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_19;Philippos is the head of the Argeads, main descendants of Alexander the Great through Alexandros IV. Ruler of the Island Kingdom of Cyprus, Philippos is a boisterous, loud and burly person. A strong man, built for combat, yet he lacks any real talent for war. He is married to the charming (insertdiadochiprincess), who has given him a sole male heir, Craterus. Philippos has no other ambitions than his banquets and military competitions, yet the blood of the Conqueror is restless in the veins of his son, who tires of his father's self-indulging ways...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_49;A man whom his troops call "Megas Alexandros reborn", Dorotheos is a famous Rhomaion general who has recently risen against the Empire, throwing the weakened realm into a great crisis. His line, the Argeadai, are descendants of Alexander the Great's illegitimate son Cassander. A proud, charismatic and passionate man, though some would see him as preposterous and overbearing, Dorotheos is prone to give great speeches about the glory of conquest, the bonds of men, and above all, the importance of leaders as active examples to their people, not distant rulers, secluded in their own high ideals. The dream of Dorotheos is the dream of his famed ancestor, to conquer all the worlds at the head of his army, and reach the shores of the Outer Ocean...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_810;Mighty Apollonios, beloved of Apollo Phoibos and true Pharaoh of Aigyptos, rules from his capital at the last Hellenistic stronghold of Kyrene, a realm which combines the grandeur of the ancient world with the sophistication of the new age. Apollonios follows the ancient royal tradition of marrying only within his own family, and has taken his sister Cleopatra for wife, for only such a union can be blessed by the light of Helios! However, the power once bestowed upon the scions of Ptolemy over the Nile has waned and their lands are occupied by all kinds of rivals: imposters claiming Ptolemaic descent, the deluded Argeadai occupying Alexandria and the quarrelsome remnants of the Caliphates. But Aigyptos, under its legitimate rulers, the trueborn Ptolemaic Pharaohs, could even rise beyond the heights of its former supremacy!;;;;;;;;;;;;;x
+ERA_CHAR_INFO_25;Once, the sons of Seleukos sat at Babylonia, the epicentre of civilization, and commanded the greatest empire since Alexander's. He is too deep into Antiocheia's corruption and decadent lifestyle.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_20;Governor of Krete, and descendant of Antigonus the One-eyed. A frustrated man with great ambitions, and no means to carry them out.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_163027;The Hellenistic Basileus of India, a foolish man. Supposedly a living buddha, he's anything but that. Not the brightest bulb in the lot, but he absolutely thinks he's.;;;;;;;;;;;;;x
+HIGH_MED;Eagle of Rome;;;;;;;;;;;;;x
+HIGH_MED_INFO;Ah, the Eternal City! At its greatest extent, the Empire of the Romans stretched from Mesopotamia to the coasts of the Atlantic, encompassing many lands and its peoples, all beholden to the greater idea of Rome. However, its glory is now divided and scattered, East and West mere shadows of their former - united – glory, splintered by religious differences: by the holy Christ, the mighty Sol Invictus and Mithras the Lightbearer. Barbarian usurpers, claimants of all kinds, ancient enemies and would-be invaders on all sides threaten to finally extinguish its light. But Roman ambition should never be underestimated. The very same ambition that shaped the Eternal City’s birth and rise to domination is now the only thing standing between it and oblivion. The Aquila Romana, the Eagle of Rome, stands proudly at the head of the armies of all the Romans as they set forth to conquer, just as they have done a thousand times before.;;;;;;;;;;;;;;x
+BM_RISE_OF_THE_HANSA;Eagle of Rome;;;;;;;;;;;;;x
+BM_RISE_OF_THE_HANSA_DESC;Ah, the Eternal City! At its greatest extent, the Empire of the Romans stretched from Mesopotamia to the coasts of the Atlantic, encompassing many lands and its peoples, all beholden to the greater idea of Rome. However, its glory is now divided and scattered, East and West mere shadows of their former - united – glory, divided by religious differences: by the holy Christ, the mighty Sol Invictus and Mithras the Lightbearer. Barbarian usurpers, claimants of all kinds, ancient enemies and would-be invaders on all sides threaten to finally extinguish its light. But Roman ambition should never be underestimated. The very same ambition that shaped the Eternal City’s birth and rise to domination is now the only thing standing between it and oblivion. The Aquila Romana, the Eagle of Rome, stands proudly at the head of the armies of all the Romans as they set forth to conquer, just as they have done a thousand times before.;;;;;;;;;;;;;;x
+BM_THE_MONGOLS;Eagle of Rome;;;;;;;;;;;;;x
+BM_THE_MONGOLS_DESC;Ah, the Eternal City! At its greatest extent, the Empire of the Romans stretched from Mesopotamia to the coasts of the Atlantic, encompassing many lands and its peoples, all beholden to the greater idea of Rome. However, its glory is now divided and scattered, East and West mere shadows of their former - united – glory, divided by religious differences: by the holy Christ, the mighty Sol Invictus and Mithras the Lightbearer. Barbarian usurpers, claimants of all kinds, ancient enemies and would-be invaders on all sides threaten to finally extinguish its light. But Roman ambition should never be underestimated. The very same ambition that shaped the Eternal City’s birth and rise to domination is now the only thing standing between it and oblivion. The Aquila Romana, the Eagle of Rome, stands proudly at the head of the armies of all the Romans as they set forth to conquer, just as they have done a thousand times before.;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_501;The 17th descendant of Valentinian to be elected Princeps by the Senate, first among the citizens of Rome, Traianus is a shrewd and ruthless man, ready to do anything to further his ambitions. Though nowadays the authority of Rome extends no further than the city's own walls, Traianus has plans to change this. The greatest obstacles in his path are the rebels in Venetia and Neapolis, which cling to abominable heresies of Christianity and obsolete pagan traditions, and the various petty realms of the Lombard barbarians. Thanks to the recent Norman invasion, the perfect opportunity is presented to Traianus to make his move and restore Rome to it's rightful position...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1;Emperor of the Romans and Sol Invictus made flesh, Flavius descends from the famed Sun Emperor Julian, Saviour of the Light, much to his chagrin. Raised to be another Julian, in reality he is man beleaguered by his position, completely unsuited for the Imperial Throne. Coupled with the Empire's instability in recent years, this has led to a great crisis, as the vassal kings break away and a charismatic general from Thessalonica, claiming descent from Alexander the Great, threatens to usurp the throne and end Julian's line...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_29;Some men trace their descent to a single famous figure, but Alexander Augustus, "August Leader" of Neapolis, descends from some of the greatest men to walk this world, with the blood of Julius Jupiter, Divus Augustus and Megas Alexandros in his veins, he is truly the son of the Divine, a fact he constantly reminds to everyone, for Alexander's ambition is only surpassed by his pomposity. In recent times, he has unilaterally declared the Senate in Rome null and void, claiming that only a man descending from the Divine Emperors and Conquerors of old can restore Rome to it's proper glory, and not a slave to the Jewish god.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_10;Former Governor of Chaldia, and now the self-styled Despot of Trebizond, Kaisaros Konstantinian comes from the main line of Emperor Contantine's the Great descendants. Known for his irascible temperament, it his said that Kaisaros has declared independence out of anger for the state of the Empire and the general incompetence of it's officials, up to Emperor Flavius, nothing more than a pampered coward in his eyes. While he originally intended to seize the Imperial Throne, now, with the charismatic Dorotheos Argeadai in scene, Kaisaros instead plans to expand his realm north, and perhaps finally bring order to the coasts of the Black Sea...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_280;At first sight, Lucius Aurelius is a genius the likes the world has not seen in centuries. Learned in the Classics and an accomplished statesman, he's everything a proper "philosopher king" should be. Except that deep down, Lucius is a man broken by the weight of expectation that his bloodline brings, that of the great Marcus Aurelius. A cynical man, to whom the church of Christus Sol is but another tool of the state, he is as well envious of those who have tranquiler lives. From the island-fortress of Venetia, Lucius prepares to lay claim to the whole of Rome, hoping that perhaps, succeeding in this endeavour will finally calm his inner demons...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_714;Tiberius Severus is a man of duty before anything else. Duty to his realm, to his blood, and to Mithras, and nothing more. There's little personality beyond these facts, behind the grim and stonelike face of Tiberius. An accomplished warrior, uncharismatic, and completely disinterested for the frivolities of life, in order to maintain loyalty among his vassals, he relies on his best general, and only friend, Flavius Rodericus Vivaricus, an exile from the Gothic realms of Hispania, forever in debt to his liege for the shelter he provided from the deadly politics of the Visigoth courts. Tiberius will perhaps do anything to fulfil the duty of his bloodline, to restore Hispania for the Severans...;;;;;;;;;;;;;x
+LATE_MED;Europa Barbarorum;;;;;;;;;;;;;x
+LATE_MED_INFO;All the might of the Christ and Sol Invictus together could not bring down the ancient worlds of the Celts, the Germans, the Norse the Balts, the Slavs, and of many other peoples for which civilized languages have no name. In the endless plains and forests of North-Western Europe, Europa Barbarorum, the Barbaric Europe, is still very much alive, a place where the old gods still dwell. Beware, as the proud tribes who once defeated Karolus Magnus, determined to preserve their ancient customs at any cost, have adapted to use the tricks, tools and advancements of the civilized world. As the Macedonians of old had once been considered as barbaric by their southern Hellenic neighbours, the Megas Alexandros of the new era may well turn to be a leader from the Europa Barbarorum!;;;;;;;;;;;;;;x
+BM_100_YEARS_WAR;Europa Barbarorum;;;;;;;;;;;;;x
+BM_100_YEARS_WAR_DESC;All the might of the Christ and Sol Invictus together could not bring down the ancient worlds of the Celts, the Germans, the Norse, the Balts, the Slavs, and of many other peoples for which civilized languages have no name. In the endless plains and forests of North-Western Europe, Europa Barbarorum, the Barbaric Europe, is still very much alive, a place where the old gods still dwell. Beware, as the proud tribes who once defeated Karolus Magnus, determined to preserve their ancient customs at any cost, have adapted to use the tricks, tools and advancements of the civilized world. As the Macedonians of old had once been considered as barbaric by their southern Hellenic neighbours, the Megas Alexandros of the new era may well turn to be a leader from the Europa Barbarorum!;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_451;High King of the Britons by the grace of Zalmoxis and His champion Christ, Artorus of the Pendragon line, trueborn descendant of Lucius Artorius Castus, saviour of Britain. Though his title and blood carry little weigh nowadays, young Artorus is resolute to make the title of High King befitting of its name again. A strong believer in the honorable forms of combat and leadership, this attitude earns equal measures of recognition and derision from his subjects, who often snicker behind his back or look down on his childish ideals. Nevertheless, King Pendragon often leads his knights bravely, from the front, hoping to live up to the name of his great ancestor, and one day perhaps be worthy of his own Sword of Victory... ;;;;;;;;;;;;;x
+ERA_CHAR_INFO_216;Karl Albrecht, most serene Kaiser, crowned by God, august and great ruler of the Sacred Roman Empire, blood of Karolus Magnus himself. This is the grandeur title by which the court officials of the Imperial Capital of Jülich will present the Sacral Emperor. In reality, the Imperial Crown is all majesty, with no power to back it up. Karl Albrecht is an old man, happy with his pitiable position and the meager occupations it brings, to receive foreign dignitaries, accept the bows, smiles and gifts and take the sons of minor nobles into his imperial guard. Jülich though, is a nest of vipers, and many of the elderly emperor’s relatives are ready to seize the Imperial Crown and further their own ambitions...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_210;Crowned king of Francia as a young boy, the charismatic and handsome Clotaire has found it easy to charm his way through life with relative ease. Very popular with the common people thanks to his amiable personality, he has often used this as a leverage against his contentious vassals. The Merovingian dynasty was restored from obscurity in 902AD, and in a move to take revenge against the Pope and his support for the Karling as Sacral Emperors, they established their own Christian church, with the King as its absolute head, and a council of bishops running the day-to-day matters of the church. Let the usurpers tremble, for it is time for the true, holy Sang Real to rule yet again over all the Franks!;;;;;;;;;;;;;x
+ERA_CHAR_INFO_703;King of Gothia description;;;;;;;;;;;;;x
+ERA_CHAR_INFO_455;King of Anglia description;;;;;;;;;;;;;x
+ERA_CHAR_INFO_224;Widukind description;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_301;Second son of Gelimer III, youngest of age, Huneric started showing symptoms of the leper. Since the line was already safe with his elder brother, young Huneric spend his childhood sheltered in his quarters, with the tales of his mighty ancestor, King Gelimer, and other poetry epics as his only company. At age 11 he started studying military tactics under his uncle Sigeric and alongside his cousin Gelimer. When his father died of old age, Huneric plotted in order to seize Carthage from his unassuming elder brother Gaiseric. He ordered the assassination of Gaieric, and eventually executed his younger sister for her refusal to marry a political ally. Now, the Leper King is determined to fulfil the ambition of his ancestor, an Empire of all the Vandals, while his vengeful uncle, bitter over Huneric's betrayal of his family, has raised his son Gelimer in hopes to overthrow the Leper King before he leads Carthage to it's doom and to have him become the king that Huneric should have been.;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+EVTDESC_SOA_1003;Most righteous [Root.GetTitledFirstName], I have a humble request for you in light of your debt to us. There is no rest in our defense against the infidels and we have desperate need of warriors to lead our men. Thus, I would like to extend this opportunity to your able and noble son [FromFrom.GetFirstName] to serve in our ranks. Naturally, this would disinherit him. Sincerely Yours in the name of [From.Religion.GetHighGodName],\n\nGrand Master [From.GetFirstName];Très Juste [Root.GetTitledFirstName], j'ai une humble requête à vous soumettre, qui a trait à votre dette envers nous. Notre lutte contre les infidèles ne connaît pas de répit et nous avons un grand besoin de chevaliers pour mener nos hommes. Nous aimerions donc présenter l'opportunité à votre noble et talentueux fils [FromFrom.GetFirstName] de servir dans nos rangs. Naturellement, cette décision le déshériterait. Fidèlement vôtre dans le Christ,\n\nGrand Maître [From.GetFirstName];Erhabener[Root.GetTitledFirstName], angesichts der Tatsache, dass Ihr uns Geld schuldet, habe ich einen bescheidenen Wunsch an Euch. Die Abwehr gegen die Ungläubigen beschäftigt uns ständig und wir brauchen dringend Ritter als Anführer unserer Männer. Daher bitte ich um Eurem tapferen und edlen Sohn. Gelobt sei Jesus Christus! \n\nGroßmeister [From.GetFirstName];;Mi justo [Root.GetTitledFirstName], tengo una humilde petición que hacerle a la luz de la deuda que mantiene con nosotros. Nuestra defensa contra los infieles no cesa y necesitamos urgentemente caballeros para dirigir a nuestros hombres. Por lo tanto, me gustaría ofrecer esta oportunidad a su noble y fuerte hijo [FromFrom.GetFirstName] para que se aliste en nuestras filas. Como bien sabe, esta acción le desheredará. Sinceramente suyo en Cristo,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+EVTOPTA_SOA_1003;Very well, it's a good life;Fort bien, c'est une belle vie qui s'offre à lui;Sehr gut, es ist ein gutes Leben ;;Está bien, es una buena vida;;;;;;;;;x
+EVTOPTB_SOA_1003;Pay them back instead;Remboursons plutôt notre dette envers eux;Zahlt statt dessen Eure Schulden zurück;;Devolverles el préstamo;;;;;;;;;x
+EVTOPTC_SOA_1003;Never!;Jamais !;Niemals!;;¡Jamás!;;;;;;;;;x
+EVTDESC_SOA_1011;Most virtuous [Root.GetTitledFirstName], of course we, the [From.PrimaryTitle.GetName], can lend you 300 gold. All that we ask in return is your future assistance in certain matters as they might arise. Praise [From.Religion.GetHighGodName],\n\nGrand Master [From.GetFirstName];Très vertueux [Root.GetTitledFirstName], les Pauvres Chevaliers du Christ et du Temple de Salomon peuvent bien évidemment vous prêter 300 or. La chose que nous demandons en contrepartie est votre aide future lorsque certains besoins se feront sentir. Pax Christi,\n\nGrand Maître [From.GetFirstName];Hochwohlgeborener [Root.GetTitledFirstName], selbstverständlich können wir, die Armen Mitstreiter Christi und des Tempels Salomos, Euch 300 Gold leihen. Das einzige, was wir als Gegenleistung erwarten, ist Eure künftige Unterstützung im Falle, dass es derer bedarf. Der Friede des Herrn sei mit Euch, \n\nGroßmeister [From.GetFirstName];;Mi virtuoso [Root.GetTitledFirstName], por supuesto que nosotros, los Pobres Caballeros de Cristo y del Templo de Salomón, podemos prestarle 300 oros. Todo lo que pedimos a cambio es su futura asistencia en determinados asuntos que puedan surgir. Pax Christi,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+EVTDESC_SOA_1016;My liege, the [From.PrimaryTitle.GetName] stand ready to serve you in defense of [From.Religion.GetName]! Praise [From.Religion.GetHighGodName],\n\nGrand Master [From.GetFirstName];Mon seigneur, les Pauvres Chevaliers du Christ et du Temple de Salomon sont prêts à servir à vos côtés pour défendre la chrétienté et la Terre sainte ! Pax Christi,\n\nGrand Maître [From.GetFirstName];Mein Lehensherr, die Armen Mitstreiter Christi und des Tempels Salomos stehen bereit, Euch bei der Verteidigung des Christentums und des Heiligen Landes zu dienen! Der Friede des Herrn sei mit Euch!\n\nGroßmeister [From.GetFirstName];;Mi señor, ¡los Pobres Caballeros de Cristo y del Templo de Salomón están dispuestos a servirle en defensa de la Cristiandad y la Tierra Santa! Pax Christi,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+EVTDESC_SOA_1023;My dear [Root.GetTitledFirstName], our order needs more castles in order to train troops and generate a supporting income. I am willing to cancel your debt to us if you will simply allow us to build a castle in [FromFrom.GetName]. Praise [From.Religion.GetHighGodName],\n\nGrand Master [From.GetFirstName];Très cher [Root.GetTitledFirstName], l'Ordre a besoin de davantage de châteaux afin d'entraîner des troupes et de générer le revenu nécessaire à son fonctionnement. Je suis prêt à annuler votre dette si vous me permettez d'édifier un château en [FromFrom.GetName]. Pax Christi,\n\nGrand Maître [From.GetFirstName];Mein lieber [Root.GetTitledFirstName], der Orden benötigt weitere Burgen zur Ausbildung von Truppen und zur Erzeugung von Einnahmen. Ich bin bereit, Euch Eure Schulden zu erlassen, wenn Ihr uns gestattet, in [FromFrom.GetName] eine Burg zu errichten. Der Friede des Herrn sei mit Euch!\n\nGroßmeister [From.GetFirstName];;Mi querido [Root.GetTitledFirstName], la Orden necesita más castillos para entrenar tropas y obtener ingresos para sostenerse. Estoy dispuesto a cancelar su deuda con nosotros si nos permite construir un castillo en [FromFrom.GetName]. Pax Christi,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+EVTOPTA_SOA_1023;A reasonable request;Une requête raisonnable;Ein vernünftiges Ersuchen;;Es una petición razonable;;;;;;;;;x
+EVTDESC_SOA_1024;The [FromFrom.PrimaryTitle.GetName] have constructed a castle in [Root.GetName]!;Les Templiers ont édifié un château en [Root.GetName] !;Die Tempelritter haben in [Root.GetName]eine Burg errichtet!;;¡Los Caballeros Templarios han construido un castillo en [Root.GetName]!;;;;;;;;;x
+EVTOPTA_SOA_1024;Impressive!;Impressionnant !;Beeindruckend!;;¡Impresionante!;;;;;;;;;x
+EVTDESC_SOA_1031;My [GetFromRelation], [From.GetTitledFirstName], has requested to join a holy order of the [From.Religion.GetName] faith in their struggle against the infidels, even though this will forever disinherit him.;Mon [GetFromRelation], [From.GetTitledFirstName] a demandé à rejoindre les Templiers dans leur lutte contre les infidèles, même si cela le déshéritera à jamais.;Mein [GetFromRelation], [From.GetTitledFirstName] will sich dem Orden der Tempelritter in ihrem Kampf gegen die Ungläubigen anschließen, auch wenn er dadurch auf alle Zeiten enterbt wird.;;Mi [GetFromRelation] [From.GetTitledFirstName] ha solicitado unirse a los Caballeros Templarios en la lucha contra los infieles, a pesar de que esta acción le desheredará para siempre.;;;;;;;;;x
+EVTOPTA_SOA_1031;Go with my blessing.;Va, tu as ma bénédiction;So gehe hin, mit meinem Segen;;Otorgo mi bendición;;;;;;;;;x
+EVTOPTB_SOA_1031;Absolutely not!;Il n'en est pas question !;Auf keinen Fall!;;¡Me niego por completo!;;;;;;;;;x
+EVTTOOLTIP_SOA_1032;[This.GetTitledFirstName] becomes a sacred warrior.;[This.GetTitledFirstName] devient Templier.;[This.GetTitledFirstName] wird Tempelritter.;;[This.GetTitledFirstName] se convierte en Caballero Templario.;;;;;;;;;x
+EVTTOOLTIP_SOA_1033;[This.GetTitledFirstName] is disappointed.;La déception de [This.GetTitledFirstName] est grande.;[This.GetTitledFirstName] ist enttäuscht.;;[This.GetTitledFirstName] está decepcionado.;;;;;;;;;x
+EVTDESC_SOA_1053;Most righteous [Root.GetTitledFirstName], our order needs more castles in order to train troops and generate a supporting income. It has come to my attention that there is a suitable location in your demesne - in [FromFrom.GetName] to be specific. I am willing to pay you 100 gold in exchange for the right to construct a fortress there.\nPraise [From.Religion.GetHighGodName],\n\nGrand Master [From.GetFirstName];Très juste [Root.GetTitledFirstName], l'Ordre a besoin de nouveaux châteaux afin de lever des troupes et de générer le revenu nécessaire à son fonctionnement. Il m'est apparu que vous possédiez un emplacement approprié sur votre domaine, en [FromFrom.GetName] pour être précis. Je suis disposé à vous payer 100 or en échange du droit d'y construire une forteresse.\nPax Christi,\n\nGrand Maître [From.GetFirstName];Hochwohlgeborener [Root.GetTitledFirstName], der Orden braucht weitere Burgen zur Ausbildung von Truppen und zur Erzeugung von Einnahmen. Ich habe erfahren, dass es in Eurem Reich einen geeigneten Standort gibt - nämlich in [FromFrom.GetName]. Ich will Euch 100 Gold zahlen für das Recht, dort eine Festung zu errichten.\nDer Friede des Herrn sei mit Euch!\n\nGroßmeister [From.GetFirstName];;Mi justo [Root.GetTitledFirstName], la Orden necesita más castillos para entrenar tropas y obtener ingresos para sostenerse. Ha llegado a mi conocimiento que hay un lugar adecuado en su heredad, en [FromFrom.GetName] para ser más precisos. Estoy dispuesto a pagarle 100 oros a cambio del derecho a construir allí una fortaleza.\nPax Christi,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+EVTDESC_SOA_1054;The [FromFrom.PrimaryTitle.GetName] have constructed a castle in [Root.GetName]!;Les Templiers ont édifié un château en [Root.GetName] !;Die Tempelritter haben in [Root.GetName] eine Burg errichtet!;;¡Los Caballeros Templarios han construido un castillo en [Root.GetName]!;;;;;;;;;x
+EVTDESC_SOA_1061;Your majesty, this antagonism is completely unwarranted! Our order serves [From.Religion.GetHighGodName], but, one has to wonder, do you?\n\nWith anger and sadness,\n\nGrand Master [From.GetFirstName];Votre Majesté, cet antagonisme est complètement injustifié ! L'Ordre sert le Christ, mais certains se posent la question : vous, le servez-vous ?\n\nVeuillez agréer l'expression de ma colère et de ma tristesse,\n\nGrand Maître [From.GetFirstName];Eure Majestät, diese Ablehung ist völlig ungerechtfertigt! Unser Orden dient dem Herrn, doch man muss sich fragen, tut Ihr das auch?\n\nIn Zorn und Trauer,\n\nGroßmeister [From.GetFirstName];;Su majestad, ¡este antagonismo es totalmente injustificado! La Orden sirve a Cristo, pero cabe preguntarse, ¿y usted?\n\nCon ira y tristeza,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+EVTOPTB_SOA_1061;Good Riddance!;Bon débarras !;Ein Glück, dass ich ihn los bin!;;¡Qué alivio!;;;;;;;;;x
+EVTDESC_SOA_1141;Your Highness, this extremely generous donation will not be forgotten. You have my friendship. Rest assured that you will be rewarded in by [From.Religion.GetRandomGodName]!\nPraise [From.Religion.GetHighGodName],\n\nGrand Master [From.GetFirstName];Votre Altesse, ce don des plus généreux ne sera pas oublié. Recevez mon amitié ainsi que celle de l'Église. Vivez avec l'assurance que vous obtiendrez récompense au paradis, si ce n'est en ce bas monde ! Pax Christi,\n\nGrand Maître [From.GetFirstName];Eure Hoheit, diese äußerst großzügige Spende wird unvergessen bleiben! Ihr habt meine Freundschaft, wie auch die der Kirche! Seid versichert, dass Ihr im Himmel belohnt werdet, wenn nicht schon auf Erden! \nDer Friede des Herrn sei mit Euch!\n\nGroßmeister [From.GetFirstName];;Su Alteza, esta donación tan generosa no caerá en el olvido. Tiene mi amistad, así como la de la Iglesia. Tenga por seguro que será recompensado en el cielo, ¡si no en la Tierra!\nPax Christi,\n\nGran Maestre [From.GetFirstName];;;;;;;;;x
+CHRONICLE_RUNESTONE_POSSESSED;[Root.GetTitledName] raised a runestone celebrating his possession by [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
+VIET_got_volcanic_eruption;A volcano erupts;;;;;;;;;;;;;x
+NEVERMIND;Nevermind;;;;;;;;;;;;;x
+YES;Yes;;;;;;;;;;;;;x
+hidden_seduced_maid;;;;;;;;;;;;;;x
+hidden_seduced_bodyguard;;;;;;;;;;;;;;x
+suspected_murder_plot;;;;;;;;;;;;;;x
+faction_lower_TO_ultimatum_timer;;;;;;;;;;;;;;x
+refresh_trade_route_timer;;;;;;;;;;;;;;x
+declined_prestige_duel_timer;;;;;;;;;;;;;;x
+recent_duel_timer;;;;;;;;;;;;;;x
+run_training_timer;;;;;;;;;;;;;;x
+spear_throwing_timer;;;;;;;;;;;;;;x
+pyramid;Pyramid;;;;;;;;;;;;;x
+VIET_silk_road_cuisine_dessert;;;;;;;;;;;;;;x
+VIET_silk_road_cuisine_sides;;;;;;;;;;;;;;x
+VIET_silk_road_cuisine_meat;;;;;;;;;;;;;;x
+VIET_silk_road_cuisine_carb;;;;;;;;;;;;;;x
+VIET_retreat_timer;;;;;;;;;;;;;;x
+VIET_toymaking_boom;;;;;;;;;;;;;;x
+VIET_toymaking_connections;;;;;;;;;;;;;;x
+VIET_toys_present_to_ruler;;;;;;;;;;;;;;x
+VIET_toymaker_province;;;;;;;;;;;;;;x
+opinion_betrayed_arameans;;;;;;;;;;;;;;x
+traits_placeholder_1_desc;;;;;;;;;;;;;;x
+traits_placeholder_2_desc;;;;;;;;;;;;;;x
+traits_placeholder_3_desc;;;;;;;;;;;;;;x
+traits_placeholder_4_desc;;;;;;;;;;;;;;x
+traits_placeholder_5_desc;;;;;;;;;;;;;;x
+hidden_seduced_gaoler;;;;;;;;;;;;;;x
+hidden_seduced_tree;;;;;;;;;;;;;;x
+EVTDESC_HL_8005_sister;Without any heirs of her own, it falls on you to take your sister to the mountains, so that she may be consumed by the birds and in turn be taken to the sky father.;Puisqu'il n'a pas d'héritier, il vous revient d'emmener le corps de votre frère dans les montagnes afin qu'il soit dévoré par les oiseaux et rejoigne le Père céleste.;Da Euer Bruder keine Erben hat, fällt es Euch zu, seinen Leichnam in die Berge zu bringen. Dort werden die Vögel seine leibliche Hülle verzehren und ihn so zum Himmelsvater tragen.;;Sin herederos propios, te corresponde a ti llevar a tu hermano a las montañas. De modo que pueda ser consumido por las aves y así conducido al padre celestial;;;;;;;;;x
+hidden_seduced_prisoner;;;;;;;;;;;;;;x
+recruit_troops_nomad;;;;;;;;;;;;;;x
+recruit_troops_nomad_desc;;;;;;;;;;;;;;x
+recruit_troops_norse;;;;;;;;;;;;;;x
+recruit_troops_norse_desc;;;;;;;;;;;;;;x
+carousing_with_the_men;;;;;;;;;;;;;;x
+carousing_with_the_men_desc;;;;;;;;;;;;;;x
+increase_mercenary_size;;;;;;;;;;;;;;x
+increase_mercenary_size_desc;;;;;;;;;;;;;;x
+raiding_adventurer_buy_title;;;;;;;;;;;;;;x
+raiding_adventurer_buy_title_desc;;;;;;;;;;;;;;x
+EVTDESC105075A;The sonnet's poetic expression of both the pain of separation and the beauty of love in spite of that pain is the perfect poetic form for my next song!;Le genre littéraire appelé ghazal, expression de la douleur et de la séparation, ainsi que de la beauté de l'amour, est un style poétique parfait pour ma prochaine chanson !;Der poetische Audruck des Ghazal, sowohl des Trennungsschmerzes als auch der Schönheit der Liebe ungeachtet des Schmerzes, ist die perfekte poetische Form für mein nächstes Lied! ;;El ghazal, por su expresión poética, es la forma perfecta para mi próxima canción. Refleja tanto el dolor de la separación como la belleza del amor a pesar del sufrimiento.;;;;;;;;;x;
+EVTDESC105075B;The poem's poetic expression of both the pain of separation and the beauty of love in spite of that pain is the perfect poetic form for my next song!;Le genre littéraire appelé ghazal, expression de la douleur et de la séparation, ainsi que de la beauté de l'amour, est un style poétique parfait pour ma prochaine chanson !;Der poetische Audruck des Ghazal, sowohl des Trennungsschmerzes als auch der Schönheit der Liebe ungeachtet des Schmerzes, ist die perfekte poetische Form für mein nächstes Lied! ;;El ghazal, por su expresión poética, es la forma perfecta para mi próxima canción. Refleja tanto el dolor de la separación como la belleza del amor a pesar del sufrimiento.;;;;;;;;;x;
+EVTOPTA36080whitestag;I will find the White Stag;Je trouverai le cerf blanc.;Ich werde den Weißen Hirsch finden;;Hallaré al Ciervo Blanco;;;;;;;;;x
+EVTOPTA36080whitebear;I will find the White Bear;Je trouverai le cerf blanc.;Ich werde den Weißen Hirsch finden;;Hallaré al Ciervo Blanco;;;;;;;;;x
+EVTOPTA36080whitelion;I will find the White Lion;Je trouverai le cerf blanc.;Ich werde den Weißen Hirsch finden;;Hallaré al Ciervo Blanco;;;;;;;;;x
+EVTOPTA36080whitetiger;I will find the White Tiger;Je trouverai le cerf blanc.;Ich werde den Weißen Hirsch finden;;Hallaré al Ciervo Blanco;;;;;;;;;x
