@@ -908,7 +908,7 @@
 157225 = {
 	name="Ezekiel Bruno"
 	dynasty=866 #Lugmaïr
-	religion="judaism"
+	religion="jewish"
 	culture="swedish"
 	
 	trait = "kind"
@@ -1056,7 +1056,7 @@
 	name="Pernilla"
 	dynasty=871 #Sparrhult
 	female = yes
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	
 	trait = "grey_eminence"
@@ -1306,7 +1306,7 @@
 194341 = {
 	name="Ilya"
 	dynasty=881 # Woewodskij
-	religion="judaism"
+	religion="jewish"
 	culture="polish"
 	
 	diplomacy = 7

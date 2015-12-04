@@ -27,7 +27,7 @@
 194320 = {
 	name="Lushan" # fictional Sogdian ruler
 	dynasty=1045076 # Charkliq
-	religion="mani"
+	religion="manichean"
 	culture="sogdian"
 	trait=sympathy_pagans
 	740.1.1 = {
@@ -40,7 +40,7 @@
 194321 = {
 	name="Tarkhun" # fictional Sogdian ruler
 	dynasty=1045077 # Aksu
-	religion="mani"
+	religion="manichean"
 	culture="sogdian"
 	trait=sympathy_pagans
 	843.1.1 = {
@@ -53,7 +53,7 @@
 194322 = {
 	name="Mechun" # fictional Sogdian ruler
 	dynasty=1045078 # Cherchen
-	religion="mani"
+	religion="manichean"
 	culture="sogdian"
 	trait=sympathy_pagans
 	743.1.1 = {
@@ -66,7 +66,7 @@
 194323 = {
 	name="Yechi" # fictional Sogdian ruler
 	dynasty=1045079 # Qiuzi
-	religion="mani"
+	religion="manichean"
 	culture="sogdian"
 	trait=sympathy_pagans
 	740.1.1 = {
@@ -79,7 +79,7 @@
 194324 = {
 	name="Avyaman" # fictional Sogdian ruler
 	dynasty=1045075 # Kang
-	religion="mani"
+	religion="manichean"
 	culture="sogdian"
 	trait=sympathy_pagans
 	740.1.1 = {
@@ -92,7 +92,7 @@
 217193 = {
 	name = Wakhushakk # fictional
 	dynasty = 1051113 # Varzakk
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	805.10.14 = {
 		birth = yes
@@ -119,7 +119,7 @@
 217195 = {
 	name = Wupoyan # fictional
 	dynasty = 1051113 # Varzakk
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	father = 217193
 	mother = 217194
@@ -133,7 +133,7 @@
 217196 = {
 	name = Asa # fictional
 	dynasty = 1051113 # Varzakk
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	female = yes
 	father = 217193
@@ -148,7 +148,7 @@
 217197 = {
 	name = Nanai-thvar # fictional
 	dynasty = 1051114 # Karzh
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	804.4.18 = {
 		birth = yes
@@ -175,7 +175,7 @@
 217199 = {
 	name = Shafnoshak # fictional
 	dynasty = 1051114 # Karzh
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	father = 217197
 	mother = 217198
@@ -189,7 +189,7 @@
 217200 = {
 	name = Furuzan # fictional
 	dynasty = 1051114 # Karzh
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	female = yes
 	father = 217197
@@ -204,7 +204,7 @@
 217201 = {
 	name = Axushfarn
 	dynasty = 1051115 # Khwatawch
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	817.3.27 = {
 		birth = yes
@@ -218,7 +218,7 @@
 }
 217202 = {
 	name = Golshan
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	female = yes
 	812.8.14 = {
@@ -231,7 +231,7 @@
 217203 = {
 	name = Divashtich
 	dynasty = 1051115 # Kwatawch
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	father = 217201
 	mother = 217202
@@ -245,7 +245,7 @@
 217204 = {
 	name = Donya
 	dynasty = 1051115 # Kwatawch
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	father = 217201
 	mother = 217202
@@ -343,7 +343,7 @@
 217323 = {
 	name = Khaydhar
 	dynasty = 1051145
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	trait = skilled_tactician
 	father = 217324
@@ -361,7 +361,7 @@
 217324 = {
 	name = Kawus
 	dynasty = 1051145
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	father = 217325
 	782.6.15 = { # unknown
@@ -379,7 +379,7 @@
 217325 = {
 	name = Kharakhuruh
 	dynasty = 1051145
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	751.12.27 = { # unknown
 		birth = yes
@@ -391,7 +391,7 @@
 217326 = {
 	name = Fazl
 	dynasty = 1051145
-	religion = mani
+	religion = manichean
 	culture = sogdian
 	father = 217324
 	804.2.15 = { # unknown
@@ -898,7 +898,7 @@
 166663 = {
 	name="Simha" #Vijaya Simha II (Yuchi Gui)
 	dynasty=1040024
-	religion="mani"
+	religion="manichean"
 	culture="sogdian"
 	father=166662
 	717.1.1={

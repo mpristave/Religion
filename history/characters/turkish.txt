@@ -9125,7 +9125,7 @@
 188684 = {
 	name="Arda" # fictitious
 	dynasty=1042151
-	religion="mani"
+	religion="manichean"
 	culture="turkish"
 	736.1.1={
 		birth=yes

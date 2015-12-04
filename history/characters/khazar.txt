@@ -268,7 +268,7 @@
 	father = 74016
 
 	culture="khazar"
-	religion="judaism" 
+	religion="jewish" 
 
 	840.1.1={
 		birth="840.1.1"
@@ -285,7 +285,7 @@
 	father = 74016
 
 	culture="khazar"
-	religion="judaism" 
+	religion="jewish" 
 
 	846.1.1={
 		birth=yes
@@ -304,7 +304,7 @@
 		birth="734.1.1"
 	}
 	794.1.1={
-		religion="judaism"
+		religion="jewish"
 		dynasty=12270
 	}
 	802.1.1={
@@ -322,7 +322,7 @@
 		birth="768.1.1"
 	}
 	794.1.1={
-		religion="judaism"
+		religion="jewish"
 		dynasty=12270
 	}
 	823.1.1={
@@ -340,7 +340,7 @@
 		birth="785.1.1"
 	}
 	794.1.1={
-		religion="judaism"
+		religion="jewish"
 		dynasty=12270
 	}
 	829.1.1={
@@ -353,7 +353,7 @@
 	dynasty=12270
 	father = 74020
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 
 	810.1.1={
 		birth="810.1.1"
@@ -373,7 +373,7 @@
 		birth="787.1.1"
 	}
 	794.1.1={
-		religion="judaism"
+		religion="jewish"
 		dynasty=12270
 	}
 	847.1.1={
@@ -386,7 +386,7 @@
 	dynasty=12270
 	father = 74022
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 
 	804.1.1={
 		birth="804.1.1"
@@ -401,7 +401,7 @@
 	dynasty=12270
 	father = 74023
 	culture=khazar
-	religion="judaism"
+	religion="jewish"
 
 	821.1.1={
 		birth=yes
@@ -416,7 +416,7 @@
 	dynasty=12270
 	father = 74024
 	culture=khazar
-	religion="judaism"
+	religion="jewish"
 
 	838.1.1={
 		birth=yes
@@ -470,7 +470,7 @@
 	father = 74025
 	mother = 173000
 	culture="khazar"
-	religion="judaism" 
+	religion="jewish" 
 
 	855.1.1={
 		birth=yes
@@ -484,7 +484,7 @@
 	name=Yavdi	# fictional
 	# Count of Sarkel
 	dynasty=1042041
-	religion=judaism
+	religion=jewish
 	culture=khazar
 	833.8.25={
 		birth=yes
@@ -496,7 +496,7 @@
 194370 = {
 	name=Itakh	# fictional
 	dynasty=1042041
-	religion=judaism
+	religion=jewish
 	culture=khazar
 	father=180226
 	853.8.25={
@@ -510,7 +510,7 @@
 	name=Ayten	# fictional
 	female=yes
 	dynasty=1042041
-	religion=judaism
+	religion=jewish
 	culture=khazar
 	father=180226
 	855.8.25={
@@ -542,7 +542,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=4
-	religion=judaism
+	religion=jewish
 	culture=khazar
 	trait=content
 	trait=cynical
@@ -557,7 +557,7 @@
 194391 = {
 	name=Ezra
 	dynasty=100620
-	religion=judaism
+	religion=jewish
 	culture=khazar
 	father=20663
 	1045.1.1={
@@ -571,7 +571,7 @@
 	name=Sirin
 	female=yes
 	dynasty=100620
-	religion=judaism
+	religion=jewish
 	culture=khazar
 	father=20663
 	1047.1.1={
@@ -585,7 +585,7 @@
 173000 = {
 	name="Belet"
 	female = yes
-	religion=judaism
+	religion=jewish
 	culture=khazar
 
 	838.1.1={
@@ -676,7 +676,7 @@
 		birth=yes
 	}
 	794.1.1={
-		religion="judaism"
+		religion="jewish"
 		dynasty=12270
 	}
 	795.1.1={
@@ -688,7 +688,7 @@
 	name="Aaron"
 	dynasty=12270
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 74026
 	872.1.1={
 		birth=yes
@@ -702,7 +702,7 @@
 	name="Menahem"
 	dynasty=12270
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 146187
 	889.1.1={
 		birth=yes
@@ -716,7 +716,7 @@
 	name="Benjamin"
 	dynasty=12270
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 146187
 	891.1.1={
 		birth=yes
@@ -730,7 +730,7 @@
 	name="Aaron"
 	dynasty=12270
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 146189
 	908.1.1={
 		birth=yes
@@ -744,7 +744,7 @@
 	name="Ioseph"
 	dynasty=12270
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 146190
 	925.1.1={
 		birth=yes
@@ -758,7 +758,7 @@
 	name="Abraham"
 	dynasty=12270
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 146191
 	942.1.1={
 		birth=yes
@@ -772,7 +772,7 @@
 	name="David"
 	dynasty=1022378
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 
 	937.1.1={
 		birth=yes
@@ -786,7 +786,7 @@
 	name="Georgios"
 	dynasty=1022378
 	culture="khazar"
-	religion="judaism"
+	religion="jewish"
 	father = 146193
 	962.1.1={
 		birth=yes

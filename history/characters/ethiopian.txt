@@ -1590,7 +1590,7 @@
 145642 = { 
 	name="Phineas" 
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	723.1.1={
 		birth="723.1.1"
@@ -1603,7 +1603,7 @@
 145643 = { 
 	name="Gideon"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145642
 	755.1.1={
@@ -1617,7 +1617,7 @@
 145644 = { 
 	name="Yacob" 
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145643
 	778.1.1={
@@ -1631,7 +1631,7 @@
 145645 = { 
 	name="Gideon"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145644
 	813.1.1={
@@ -1645,7 +1645,7 @@
 145646 = { 
 	name="Dawit" 
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145645
 	834.1.1={
@@ -1659,7 +1659,7 @@
 145647 = { 
 	name="Gideon"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145646
 	855.1.1={
@@ -1673,7 +1673,7 @@
 145648 = { 
 	name="Kaleb"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145647
 	892.1.1={
@@ -1687,7 +1687,7 @@
 145649 = { 
 	name="Gideon"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145648
 	911.1.1={
@@ -1702,7 +1702,7 @@
 	name="Gudit"
 	female=yes
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145649
 	929.1.1={
@@ -1716,7 +1716,7 @@
 145651 = { 
 	name="Goshen"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	mother=145650
 	952.1.1={
@@ -1730,7 +1730,7 @@
 145652 = { 
 	name="Joram"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	mother=145650
 	956.1.1={
@@ -1744,7 +1744,7 @@
 145653 = { 
 	name="Eremias"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145652
 	987.1.1={
@@ -1758,7 +1758,7 @@
 145654 = { 
 	name="Dawit"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145653
 	1010.1.1={
@@ -1772,7 +1772,7 @@
 145655 = { 
 	name="Dawit"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145654
 	1049.1.1={
@@ -1786,7 +1786,7 @@
 145656 = { 
 	name="Radi"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145655
 	1070.1.1={
@@ -1800,7 +1800,7 @@
 145657 = { 
 	name="Zadok"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145656
 	1104.1.1={
@@ -1814,7 +1814,7 @@
 145658 = { 
 	name="Azariah"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145657
 	1143.1.1={
@@ -1828,7 +1828,7 @@
 145659 = { 
 	name="Solomon"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145658
 	1180.1.1={
@@ -1842,7 +1842,7 @@
 145660 = { 
 	name="Ezana"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145659
 	1205.1.1={
@@ -1856,7 +1856,7 @@
 145661 = { 
 	name="Loua"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145660
 	1237.1.1={
@@ -1870,7 +1870,7 @@
 145662 = { 
 	name="Eliya"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145661
 	1255.1.1={
@@ -1884,7 +1884,7 @@
 145663 = { 
 	name="Dawit"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145662
 	1296.1.1={
@@ -1898,7 +1898,7 @@
 145664 = { 
 	name="Yacob"
 	dynasty=1022242
-	religion="judaism"
+	religion="jewish"
 	culture="ethiopian"
 	father=145663
 	1317.1.1={

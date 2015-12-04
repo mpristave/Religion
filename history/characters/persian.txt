@@ -3416,7 +3416,7 @@
 180603 = {
 	name="Raidashir"
 	dynasty=1029100
-	religion="mani"
+	religion="manichean"
 	culture="persian"
 	father=159600
 	182.1.1={

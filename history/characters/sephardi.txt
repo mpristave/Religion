@@ -5,7 +5,7 @@
 	diplomacy=7
 	intrigue=2
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="wroth"
 	trait="honest"
@@ -25,7 +25,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="thrifty_clerk"
 	1050.1.1={
@@ -46,7 +46,7 @@
 	diplomacy=9
 	intrigue=4
 	stewardship=4
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="diligent"
 	trait="patient"
@@ -69,7 +69,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="thrifty_clerk"
 	1020.1.1={
@@ -90,7 +90,7 @@
 	diplomacy=10
 	intrigue=7
 	stewardship=4
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="patient"
 	trait="kind"
@@ -114,7 +114,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="thrifty_clerk"
 	1021.1.1 = {
@@ -132,7 +132,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="thrifty_clerk"
 	1021.1.1 = {
@@ -150,7 +150,7 @@
 	diplomacy=10
 	intrigue=7
 	stewardship=4
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="patient"
 	trait="kind"
@@ -171,7 +171,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=4
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="fortune_builder"
 	trait="kind"
@@ -193,7 +193,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="proud"
 	trait="kind"
@@ -217,7 +217,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="thrifty_clerk"
 	1051.1.1={
@@ -235,7 +235,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="thrifty_clerk"
 	1051.1.1={
@@ -253,7 +253,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=4
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="cynical"
 	trait="grey_eminence"
@@ -272,7 +272,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="underhanded_rogue"
 	1040.1.2={
@@ -290,7 +290,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=4
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="flamboyant_schemer"
 	1040.1.2={
@@ -308,7 +308,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	religion="judaism"
+	religion="jewish"
 	culture="sephardi"
 	trait="fortune_builder"
 	1040.1.2={
