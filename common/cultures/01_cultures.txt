@@ -1,0 +1,262 @@
+#these are the melting pot cultures i have been creating
+
+latin_altaic = {
+	graphical_cultures = { westerngfx }
+	
+	altaique = { frankishgfx } #Altaïque - latin-altaic + gallic romance based on bolghar
+
+	color = { 0.8 0.8 0.2 } # need to add a color for this. french color for now
+
+	male_names = {
+            Adrien_Adrian Alexandre_Alexander Almish Alzec_Alzek Andre_Andrew Antoine_Antoninus Anzi Arslan_Arslan Asparouc_Asparukh Baleran_Valeran Balamber_Balambar Bars Batbayan Benedict Bayan Bezmer Boyan Buzan Denzic_Dengizikh
+            Ellac_Ellak Ernac_Ernakh Estienne_Stephen Gostun Irnek Isboul_Isbul Isperic_Isperikh Jacqov_Jacob Johan_John Julien_Julian
+            Cardon_Kardam Charaton_Kharaton Chinialon_Khinialon Cormes_Kormesiy Crum_Krum Coubrat_Kubrat Malamir Marcis_Marcus Matthias_Matthew Micel_Michael Muageris_Mugel Nicolas_Nicholas
+            Ocsun_Okhsun Okous_Okors Omourtag_Omurtag Piter_Peter Philip Rugila Sandilc_Sandilkh Sartäç Sabin_Savin Sergey_Sergius Sevar Simon_Simon
+            Teleric_Telerig Tervel Thomas_Thomas Timour_Timur Toktu Victor Vinec_Vinekh
+            Samur_Zabergan
+
+        }
+        female_names = {
+            Çiçek Çiçel_Cecilia Çilen Çilitania_Çiltanesi Osgul_Özgul Oslem_Özlem Acgul_Akgul Adele_Adela Anne_Anna Asli Catherine Dilec_Dilek Esin Gulsisec_Gulçiçek Gulay Gundis_Gundes Gunes Ipekel Irge
+            Carasic_Karacik Caraciccia_Kätyarikka Elisabeth_Elisabeth Eve_Eva Judith_Judith Larca_Lärkka Marie_Maria Mala Maturca_Maturkka Naça Pekesna_Peksen Samur Sarica
+            Satia_Sati Savaçca_Savaçka Savkëlti Savtilek Savilay_Sevilay Savintik_Sevindik Sophie_Sophia Çurca_Shurkka Sibel Sirin Sirma Songul Tecçe_Tekçe Tura Yasar Yeldem Yildis_Yildiz 
+	}
+
+	from_dynasty_prefix = "de "
+		grammar_transform = french
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}	
+	alzzecio = { #italo-altaic
+		graphical_cultures = { southerngfx mediterraneangfx }
+		
+		color = { 0.7 0.7 0.3 }
+		
+		male_names = {
+			Agostino_Augustine Alberto_Albert Alessandro_Alexander Almisho_Almish Alzekoo_Alzek Antonio_Antoninus Anzio_Anzi Araslano_Arslan Asparukho_Asparukh Baldovino_Baldwin Barso_Bars Bataolo_Bataul Baybayano_Baybayan Batoio_Batoya Batulio_Batulia Bayano_Bayan Belkermako_Belkermak Bezmero_Bezmer Boricio_Boris Boiano_Boyan Bulgero_Bulger Buzano_Buzan Carlo_Charles Cesare_Caesar Chepio_Chepa Claudio_Claudius Cornelio_Cornelius Costantino_Constantine Cristoforo_Christopher Davide_David Demetrio_Demetrius Dizengo_Dizeng Dometo_Dometa
+			Dristaro_Dristar Drongo_Drongo Dukumo_Dukum Elemago_Elemag Enrico_Henry Ernako_Ernakh Eskhacho_Eskhakh Gabriele_Gabriel Giovanni_John Goledo_Goleda Gostuno_Gostun Grigorio_Gregory Guaro_Guar Hodbado_Hudbad Ianio_Iani Isbolo_Isbul Isperiko_Isperikh Isporo_Ispor Kano_Kano 
+			Karano_Karan Kardamo_Kardam Khinialono_Khinialon Khudbardo_Khudbard Kordilo_Kordil Kormesio_Kormesiy Kormisosho_Kormisosh Kotrago_Kortrag Krovato_Krovat Krumo_Krum Kubero_Kuber Kubrato_Kubrat Kurto_Kurt Kuvrato_Kuvrat Leonardo_Leonard Leopoldo_Leopold Lodovico_Louis Marco_Marcus Magotino_Magotin Malamiro_Malamir Michele_Michael Nicola_Nicholas
+			Mugelo_Mugel Odolgano_Oldolgan Okhsio_Okhsi Okorso_Okors Omurtago_Omurtag Onegavno_Onegavon Organo_Organ Oshio_Oshi Ostro_Ostro Ottavio_Octavius Paolo_Paul Pagano_Pagan Pakhtiaro_Bakhtiar Pietro_Peter Riccardo_Richard Roberto_Robert Sabino_Sabin Sandilo_Sandil Sandilcho_Sandilkh
+			Savino_Savin Sevaro_Sevar Sergio_Sergius Shilkio_Shilki Stefano_Stephen Taridino_Taridin Teleco_Telec Telerigo_Telerig Teodoro_Theodore Tervelo_Terevel Timero_Timur Tiradino_Tiradin Tommaso_Thomas Tsogo_Tsog Tsulo_Tsul 
+			Tuko_Tuk Umoro_Umor Uturgo_Uturgur Valentino_Valentin Vakrimo_Vakrim Vendo_Venda Vetamo_Vetam Vinekho_Vinekh Yanio_Yani Zabergano_Zabergan Zaccaria_Zachariah Zentio_Zenti
+
+		}
+		female_names = {
+			Siseka_Çiçek Silena_Çilen Siltanesia_Çiltanesi Özgula_Özgul Özlema_Özlem Akgula_Akgul Adelia_Adela Alisia_Alice Aslia_Asli Anastasia_Anastasia Anna_Anna Ayasuna_Aysun Aytena_Aten Beatrice_Beatrice Bianca_Blanche Bozsina_Bozçin Caterina_Catherine Clara_Clara Claudia Dileca_Dilek Elena_Helen Eleonora_Eleanor Elisabetta_Elisabeth Esina_Esin Gulseseka_Gulçiçek Gulaya_Gulay Gunduza_Gunduz Gundesia_Gundes Gunesia_Gunes Ikalaya_Ikalay Ipeka_Ipek Ipekela_Ipekel Irgia_Irge
+			Karacika_Karacik Mala_Mala Maddalena_Magdalena Marcella Matilda_Matilda
+			Margherita_Margaret Maria_Maria Peksena_Peksen Samura_Samur Sarica_Sarica Satia_Sati Sevilya_Sevilay Sevindika_Sevindik Sibela_Sibel Sirina_Sirin Sirma_Sirma Songula_Songul Sofia_Sophia Teksea_Tekçe Tura_Tura Umaya_Umay Yasara_Yasar Yeldemia_Yeldem Yildisa_Yildiz Violante_Yolanda
+		}
+
+		from_dynasty_prefix = "di "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	altaica = { #southern latin altaic
+		graphical_cultures = { southerngfx mediterraneangfx }
+		
+		color = { 0.7 0.7 0.3 }
+		
+		male_names = {
+			Abdmelcar_Abdmelqart Adrinu_Adrian Alexsandru_Alexander Almishu_Almish Alseku_Alzek Anziu_Anzi Antoninu_Antoninus Araslanu_Arslan Armannu_Herman Asparukhu_Asparukh Athanaricu_Athanaric Augustinu_Augustine Aureliu_Aurelius Barsu_Bars Barcetu_Baraket Basili_Basil Bataolu_Bataul Baybayanu_Baybayan Batulio_Batulia Bayanu_Bayan Belkermaku_Belkermak Bezmeru_Bezmer Bincentze_Vincent Binmelcar_Binmelqart Boriciu_Boris Boiano_Boyan Bulgeru_Bulger Buzanu_Buzan Ceciliu_Caecilius Celestìnu_Celestine Chepiu_Chepa Claudiu_Claudius Cipriane_Kyprianos Costantinu_Constantine Dizengu_Dizeng Diodoru_Diodorus Dometu_Dometa Donatu_Donatus
+			Dristaru_Dristar Drongu_Drongo Dukumu_Dukum Elemagu_Elemag Emiliu_Aemilius Ernaku_Ernakh Eskhachu_Eskhakh Facundu_Facundus Garmelu_Garmul Gavrielu_Gabriel Gensericu_Genseric Goledu_Goleda Gostunu_Gostun Gregoriu_Gregory Guaru_Guar Guntricu_Guntharic Hildericu_Hilderic Hodbadu_Hudbad Hunericu_Huneric Ianiu_Iani Ignatziu_Ignatius Isbolu_Isbul Isperiku_Isperikh Isporu_Ispor Jacobu_Jacob Jaroah_Yaroah Juba_Yuba Juliu_Julius Justinu_Justin Kano_Kano 
+			Karanu_Karan Kardamu_Kardam Khinialonu_Khinialon Khudbardu_Khudbard Kordilu_Kordil Kormesiu_Kormesiy Kormisoshu_Kormisosh Kotragu_Kortrag Krovatu_Krovat Krumu_Krum Kuberu_Kuber Kubratu_Kubrat Kurtu_Kurt Kuvratu_Kuvrat Marcellu_Marcellus Marcu_Mark Mari_Marius Magotinu_Magotin Malamiru_Malamir Mazigu_Mazigh Mercuriu_Mercurius Metaxsu_Metaxas Micheli_Michael
+			Mugelu_Mugel Nicola_Nicholas Odolganu_Oldolgan Okhsiu_Okhsi Okorsu_Okors Omurtagu_Omurtag Onegavnu_Onegavon Organu_Organ Oshiu_Oshi Ostru_Ostro Paganu_Pagan Pakhtiaru_Bakhtiar Paulu_Paul Petru_Peter Sabinu_Sabin Salvettor_Salvator Sandilu_Sandil Sandilkhu_Sandilkh
+			Savinu_Savin Sergiu_Sergius Sevaru_Sevar Shilkiu_Shilki Stefanu_Stephen Taridinu_Taridin Telecu_Telec Telerigu_Telerig Teodericu_Theodoric Teodore_Theodore Tervelu_Terevel Timeru_Timur Tiradinu_Tiradin Tolemeu_Ptolemaios Tomas_Thomas Tsogu_Tsog Tsulu_Tsul 
+			Umoru_Umor Uturgu_Uturgur Vakrimu_Vakrim Vendu_Venda Vetamu_Vetam Vinekhu_Vinekh Yaniu_Yani Zaberganu_Zabergan Zentiu_Zenti
+
+		}
+		female_names = {
+			Siseka_Çiçek Silena_Çilen Siltanesia_Çiltanesi Özgula_Özgul Özlema_Özlem Abdanita_Abdtanit Akgula_Akgul Adelia_Adela Alisia_Alice Aslia_Asli Anastasia_Anastasia Anna_Anna Ayasuna_Aysun Aytena_Aten Beatrixs_Beatrice Bianca_Blanche Bozsina_Bozçin Caterina_Catherine Clara_Clara Claudia Damia_DihyaDileca_Dilek Elena_Helen Eleonora_Eleanor Elisabetta_Elisabeth Esina_Esin Gulseseka_Gulçiçek Gulaya_Gulay Gunduza_Gunduz Gundesia_Gundes Gunesia_Gunes Ikalaya_Ikalay Ipeka_Ipek Ipekela_Ipekel Irgia_Irge
+			Karacika_Karacik Mala_Mala Maddalena_Magdalena Marcella Matilda_Matilda
+			Margherita_Margaret Maria_Maria Natalia_Natalie Peksena_Peksen Samura_Samur Sarica_Sarica Satia_Sati Sevilya_Sevilay Sevindika_Sevindik Sibela_Sibel Sirina_Sirin Sirma_Sirma Songula_Songul Sofia_Sophia Tabita_Tabitha Tedora_Theodora Teksea_Tekçe Tura_Tura Umaya_Umay Yasara_Yasar Yeldemia_Yeldem Yildisa_Yildiz Violante_Yolanda
+		}
+
+		from_dynasty_prefix = "di "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+}
+
+slavic_altaic = { #altaic people in slavic regions who convert to christian religion
+
+	avarian = { #peoples in Pannonia
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.7 0.5 0.5 }
+
+		male_names = {
+			Blagun Bogdan Bogomil Bojidar Boris Borislav Boyko Branimir Desislav Dragan Dragomir Grozdan Krasimir Lyuben Lyubomir Mihail_Michael Milan Milen Miroslav_Miroslav 
+			Mladen Momchil Nayden Nikola_Nicholas Nedelcho Ognian Ognyan Petar_Peter Plamen Radko Radomir Radoslav Rayko Stefan Spas Stanimir Stanislav Stanko Stoyan Tihomir 
+			Tsvetan Valko Ventseslav Veselin Vladimir Vladislav_Vladislav Yasen Yavor Zdravko Zhelyazko Zhivko Zlatan Zlatk
+		}
+		female_names = {
+			Aneliya Bilyana Bisera Blagorodna Blaguna Bonislava Bogdana Borislava Boyana Boyka Bozhidara Branimira Darina Denitsa Desislava 
+			Diana Gergana Grozda Grozdana Kalina Krasimira Lyudmila Lyubov Margarita Mila Milena Mira Nadeja Nadezhda Nedelya Nevena Ognyana 
+			Rada Radina Radka Radoslava Rayna Rossitza Snezhana Stanislava Stanka Stoyanka Svetlana Tsveta Tsvetanka Vladimira Vyara Yana Zhivka Zora
+		}
+		
+		from_dynasty_prefix = "ot "
+		
+		male_patronym = "ov"
+		female_patronym = "ova"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	volgan = { #peoples in volga area, from Russian for now
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.7 0.5 0.5 }
+
+		male_names = {
+			Afanasiy_Athanasius Alexandr_Alexander Alexei_Alexis Andrei_Andrew Boris Briachislav_Bretislaus Daniil_Daniel Davyd_David Demid Dmitriy_Demetrius Dobrynia Fedot_Theodat Feodor_Theodore Gavriil_Gabriel Gleb
+			Grigoriy_Gregory Iakov_Jacob Igor Iliya Ingvar_Ingvar Ivan_John Iziaslav Kirill_Cyril Konstantin_Constantine Koz'ma_Cosma Lev_Leo Matfei_Matthew Mikhail_Michael Mitrofan Mstislav_Mstislav
+			Nikita Oleg_Helge Pavel_Paul Putiata Radoslav Rodislav Rogvolod Roman_Roman Rostislav Rurik_Rurik Ruslan Simeon_Simon Stanislav_Stanislav Stepan_Stephen Sudislav
+			Svetozar Sviatopolk_Svatopluk Sviatoslav_Sviatoslav Terentiy Trifon Vasiliy_Basil Vasilko Viacheslav Vladimir_Vladimir Vladislav_Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav_Jaroslav Yefimiy Yelisey Yemelyan_Emil Yeremey Yevstafiy Yuriy_George
+		}
+		female_names = {
+			Agafya_Agatha Agrafena Alexandra Anastasia_Anastasia Anna_Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia_Euphemia Yefrosinia_Euphrosyne Yekaterina_Catherine
+			Yelizaveta_Elisabeth Yevdokia_Eudocia Yevpraxia Feodora_Theodora Feodosia_Theodosia Fevronia Gorislava Gradislava Gremislava Irina_Irene Xenia Liubava
+			Liudmila Malfrida Malusha Maria_Maria Marina Olena_Helen Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+			Pribislava Rogneda Rostislava Sbyslava Sofia_Sophia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	crimean = { #peoples in crimea area, from Russian for now
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.7 0.5 0.5 }
+
+		male_names = {
+			Afanasiy_Athanasius Alexandr_Alexander Alexei_Alexis Andrei_Andrew Boris Briachislav_Bretislaus Daniil_Daniel Davyd_David Demid Dmitriy_Demetrius Dobrynia Fedot_Theodat Feodor_Theodore Gavriil_Gabriel Gleb
+			Grigoriy_Gregory Iakov_Jacob Igor Iliya Ingvar_Ingvar Ivan_John Iziaslav Kirill_Cyril Konstantin_Constantine Koz'ma_Cosma Lev_Leo Matfei_Matthew Mikhail_Michael Mitrofan Mstislav_Mstislav
+			Nikita Oleg_Helge Pavel_Paul Putiata Radoslav Rodislav Rogvolod Roman_Roman Rostislav Rurik_Rurik Ruslan Simeon_Simon Stanislav_Stanislav Stepan_Stephen Sudislav
+			Svetozar Sviatopolk_Svatopluk Sviatoslav_Sviatoslav Terentiy Trifon Vasiliy_Basil Vasilko Viacheslav Vladimir_Vladimir Vladislav_Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav_Jaroslav Yefimiy Yelisey Yemelyan_Emil Yeremey Yevstafiy Yuriy_George
+		}
+		female_names = {
+			Agafya_Agatha Agrafena Alexandra Anastasia_Anastasia Anna_Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia_Euphemia Yefrosinia_Euphrosyne Yekaterina_Catherine
+			Yelizaveta_Elisabeth Yevdokia_Eudocia Yevpraxia Feodora_Theodora Feodosia_Theodosia Fevronia Gorislava Gradislava Gremislava Irina_Irene Xenia Liubava
+			Liudmila Malfrida Malusha Maria_Maria Marina Olena_Helen Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+			Pribislava Rogneda Rostislava Sbyslava Sofia_Sophia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "ovich"
+		female_patronym = "ovna"
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}	
+
+
+}
+
+north_germanic = {
+	graphical_cultures = { westerngfx }
+	
+	neovandalic = { #Norse who colonize former african romance, vandalic, north africa
+		graphical_cultures = { norsegfx }
+		color = { 0.3 0.55 0.8 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Abdmelcar_Abdmelqart Ageric Anders_Andrew Athanaric Balder_Balder Beorn_Beorn Binmelcar_Binmelqart Christian_Christian Donatus Eric_Erik Frederick_Frederick Gaiseric Gararic Gelimer Geilar Genseric Gento Godigisel Gibamund Gunthamund Gunderic Hakon_Hakon Harold_Harold Hilderic Hugo_Hugh Huneric Ivar John_John Lievgild Magneric Magnus_Magnus Masuna Mazigh Michael Munderic Nikolaus_Nicholas Nils_Nils Paul_Paul Peter_Peter Ragnar Reswinth Rhaderic Sigeric Suinthila Sunnegisil Sven_Sven Thomas Torbeorn_Torbjörn Torfinn_Torfinn Thrasamund Theuderic_Theodoric Wisimar Witteric Wittiza_Witiza 
+		}
+		female_names = {
+			Abdtanit Amatashtart Anna_Anna Ashtart_Athtart Astrid_Astrid Audofleda Beretrude Brigida_Brigid Brunhilda Eldrid Freja_Freja Gertrude Gudrid Gudrun_Gudrun Gunhild Gyda_Gytha Gyrid Haldora Homlaug Ingjerd_Ingegerd Ingrid_Ingrid Jorunn
+            		Catherine Christina Margrete_Margaret Maria_Maria Martha_Martha Ragna Ragnhild_Ragnhild Rannveig Sigrid_Sigrid Sunniva Svanhild_Svanhild Thora_Thora Thorborg Thordis_Thordis
+
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+
+}
