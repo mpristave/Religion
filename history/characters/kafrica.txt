@@ -1,0 +1,121 @@
+8392200001= {
+	name="Gregorios" # Gregory the patrician first rulter k_africa
+	dynasty=1022137 #Related to Heraclius
+	religion="orthodox"
+	culture="greek"
+	599.1.1={
+		birth=yes
+	}
+	654.1.1={
+		death=yes
+	}
+}
+8392200002= {
+	name="Gregoriu" # 2nd ruler k_africa, adopted donatism and adopted latin culture
+	dynasty=1022137 #Related to Heraclius
+	religion="donatist"
+	culture="african_romance"
+	father=8392200001
+	620.1.1={
+		birth=yes
+	}
+	685.1.1={
+		death=yes
+	}
+}
+8392200003= {
+	name="Donatu" # 3rd ruler k_africa
+	dynasty=1022137 #Related to Heraclius
+	religion="donatist"
+	culture="african_romance"
+	father=8392200002
+	645.1.1={
+		birth=yes
+	}
+	710.1.1={
+		death=yes
+	}
+}
+8392200004 {
+	name="Micheli" # 4th ruler k_africa
+	dynasty=1022137 #Related to Heraclius
+	religion="donatist"
+	culture="african_romance"
+	father=8392200003
+	675.1.1={
+		birth=yes
+	}
+	732.1.1={
+		death=yes
+	}
+}
+8392200005 {
+	name="Donatu" # 5th ruler k_africa
+	dynasty=1022137 #Related to Heraclius
+	religion="donatist"
+	culture="african_romance"
+	father=8392200004
+	700.1.1={
+		birth=yes
+	}
+	746.1.1={
+		death=yes
+	}
+}
+8392200006 {
+	name="Micheli" # 6st ruler k_africa
+	dynasty=1022137 #Related to Heraclius
+	martial=6
+	diplomacy=8
+	intrigue=8
+	stewardship=12
+	trait="scholar"
+	trait="proud"
+	religion="donatist"
+	culture="african_romance"
+	father=8392200005
+	726.1.1={
+		birth=yes
+	}
+	775.1.1={
+		death=yes
+	}
+}
+8392200007 {
+	name="Gregoriu" # Heir
+	dynasty=1022137 #Related to Heraclius
+	religion="donatist"
+	culture="african_romance"
+	trait="arbitrary"
+	trait="gluttonous"
+	trait="content"
+	trait="thrifty_clerk"
+	father=8392200006
+	747.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+8392200008 {
+	name="Micheli" # Heir
+	dynasty=1022137 #Related to Heraclius
+	martial=10
+	diplomacy=14
+	intrigue=6
+	stewardship=4
+	trait="tough_soldier"
+	trait="strong"
+	trait="brave"
+	religion="donatist"
+	trait="genius"
+	culture="african_romance"
+	father=8392200006
+	750.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

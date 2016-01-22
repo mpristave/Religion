@@ -17,12 +17,12 @@ b_damascus = temple
 #b_duma = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = monophysite
 
 # History
 
-867.1.1 = { 
+1.1.1 = { 
 	b_qsarbardawil = ca_keep_1
 	b_qsarbardawil = ca_training_grounds_1
 	b_qsarbardawil = ca_stable_1
@@ -42,5 +42,4 @@ religion = sunni
 	b_shahba = ca_wall_2
 	b_shahba = ca_militia_barracks_1
 }
-
-1187.1.1 = { b_alsanamayn = castle }
+630.1.1 = { religion = monothelite } # Widespread Support

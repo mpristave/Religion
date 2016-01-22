@@ -5,8 +5,8 @@ title = c_medina
 
 # Settlements
 max_settlements = 5
-b_khaybar = castle
 b_yanbu = city
+b_khaybar = castle
 b_medina = temple
 
 b_rabig = city
@@ -16,7 +16,7 @@ b_rabig = city
 #b_milha = castle
 
 # Misc
-culture = bedouin_arabic
-religion = sunni
+culture = adnanite 
+religion = jewish
 
 # History

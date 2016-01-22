@@ -2142,10 +2142,10 @@ latin = {
 		color = { 0.03 0.06 0.26 }
 		
 		male_names = {
-			Adelfonso_Alphonse Agila Airmanagildo Alaricho Aloito Assur Athanagildo Berengario_Berengar Diaco_Diaco Fafila
-			Friedenando_Ferdinand Friednand_Ferdinand Froila_Froila Garçi_Garcia Gonçalo_Gonzalo Gundemar Guttier_Walter Johan_John Liuva Liuvericho
-			Lupo_Lupo Mauregato Monnio_Munio Nunno_Nuno Oliba Ordonno_Ordono Pelagio_Pelagius Petro_Peter Ranimiro_Ramiro Rekkaredo
-			Rodericho_Roderick Sans_Sancho Silo Suneario_Sunyer Suniefredo Theodoricho_Theodoric Veremondo_Vermudo Wifredo_Wilfred Wimarano Witiza
+			Ascarico Adelfonso_Alphonse Adolfo_Adolph Agila Airmanagildo Alaricho Aloito Amalarico Assur Athanagildo Berengario_Berengar Diaco_Diaco Ervigio Eurico Fafila
+			Friedenando_Ferdinand Froila_Froila Garçi_Garcia Gonçalo_Gonzalo Gundemaro Guttier_Walter Johan_John Liuva Liuvigildo Liuvericho
+			Lupo_Lupo Mauregato Monnio_Munio Nunno_Nuno Oliba Ordonno_Ordono Pelagio_Pelagius Petro_Peter Ranimiro_Ramiro Recaredo Recesvinto
+			Rodericho_Roderick Sans_Sancho Sinderedo Silo Sisebuto Sisenando Suneario_Sunyer Suniefredo Theodoricho_Theodoric Theudiselo Veremondo_Vermudo Wifredo_Wilfred Wimarano Witiza Witterico
 		}
 		female_names = {
 			Adelgundis Adosinda Agnes_Agnes Aragonte Argilo Ava_Eva Brunechildis Egilona Eldonza_Aldonza Elduara_Alduara
@@ -2514,7 +2514,7 @@ latin = {
 		}
 		female_names = {
 			Ælia Æliana Æmilia Agrippina Alba Antonia Aquilina Augusta Augustina Aurelia
-			Caecilia Caelia Canthara Camilla Cassia Claudia Cloelia Cornelia Decima Diana Domitia Domitilla
+			Caecilia Caelia Canthara Camilla Cassia Claudia Cloelia Cornelia Decima Diana_Diana Domitia Domitilla
 			Fabiana Faustina Flavia Fulvia Galeria Galla Germana Glaucia Gratiana Iulia Julia Livia Leta
 			Lucia Lucilla Lucretia Marcella Martina Nerva Nævia Octavia Paula Petronia Pomponia Rubelia
 			Porcia Priscilla Sabina Sura Saturnina Severina Tacita Tullia Valeria Viola Virginia

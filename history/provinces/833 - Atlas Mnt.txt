@@ -18,8 +18,8 @@ b_bordj = temple
 #b_ainzmila = castle
 
 # Misc
-culture = maghreb_arabic
-religion = kharijite
+culture = berber
+religion = berber_pagan
 
 # History
 

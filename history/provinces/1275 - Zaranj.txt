@@ -9,8 +9,8 @@ b_zaranj = castle
 b_zahak = city
 b_zabol = temple
 
-culture = afghan
+culture = hepthalite  
 religion = zun_pagan
 
 # History
-860.1.1 = { religion = sunni }
+900.1.1 = { religion = sunni }

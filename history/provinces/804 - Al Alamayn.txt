@@ -16,8 +16,8 @@ b_sidibarrani = temple
 #b_shammas = castle
 
 # Misc
-culture = egyptian_arabic
-religion = sunni
+culture = coptic
+religion = miaphysite
 
 # History
 

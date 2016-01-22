@@ -17,8 +17,8 @@ b_kasserine = city
 #b_elkrib = castle
 
 # Misc
-culture = maghreb_arabic
-religion = sunni
+culture = african_romance
+religion = catholic 
 
 # History
 

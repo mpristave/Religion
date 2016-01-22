@@ -1,0 +1,7 @@
+﻿# Charlemagne bookmark ( Central Asia, Middle East, Steppes, etc... )
+bookmark ={
+	name = "BM_CHARLEMAGNE" #Eastern Splendour
+	desc = "BM_BM_CHARLEMAGNE_DESC"
+	date = 769.1.1
+	
+}

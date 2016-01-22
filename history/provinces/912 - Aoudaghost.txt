@@ -13,7 +13,7 @@ b_aoudaghost = tribal
 
 # Misc
 culture = manden
-religion = west_african_pagan
+religion = mande_pagan
 
 # History
 

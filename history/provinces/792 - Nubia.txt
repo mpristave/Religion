@@ -5,7 +5,7 @@ title = c_nubia
 
 # Settlements
 max_settlements = 3
-b_salala = castle
+b_salala = tribal
 
 #b_anag = city
 #b_eirayab = castle
@@ -15,7 +15,7 @@ b_salala = castle
 #b_fanoidig = castle
 
 # Misc
-culture = nubian
+culture = beja
 religion = miaphysite
 
 # History

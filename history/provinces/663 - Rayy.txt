@@ -1,12 +1,11 @@
-# 663 - Rayy
-
+# 663 - Rayy # HISTORICAL THEOCRACY
 # County Title
 title = c_rayy
 
 # Settlements
 max_settlements = 7
 
-b_rayy = castle
+b_rayy = temple
 b_hashtgerd = castle
 b_tehran = city
 
@@ -19,10 +18,10 @@ b_roudehen = temple # holy_site = nestorian
 
 # Misc
 culture = persian
-religion = sunni
+religion = zoroastrian
 
 # History
-864.1.1 = { religion = shiite }
+
 1066.1.1 = { 
 	b_shahriar = city
 	b_eslamshahr = temple

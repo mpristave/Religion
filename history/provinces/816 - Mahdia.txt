@@ -17,11 +17,15 @@ b_msaken = castle
 #b_lacroix = castle
 
 # Misc
-culture = maghreb_arabic
+culture = african_romance
 religion = catholic
 
 # History
-800.1.1 = { religion = sunni }
-1112.1.1 = { trade_post = b_caetani }
-1285.1.1  = { trade_post = b_fieschi }
+1.1.1 = {
+	b_monastir = ct_port_1
+	b_mahdia = ca_shipyard_1
+	b_msaken = ca_shipyard_1
+	b_sfax = tp_shipyard_1
+}
+538.1.1 = { religion = donatist }
 

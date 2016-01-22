@@ -18,15 +18,10 @@ b_archelais = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = hellenic_pagan
 
 # History
-715.1.1 = { religion = iconoclast }
-#860.1.1 = { religion = orthodox }
-
-# The Seljuks take over Anatolia
-
-1097.8.26 = { culture = turkish }
+630.1.1 = { religion = monothelite } # Widespread Support
 1097.8.26 = { religion = sunni }
 
 

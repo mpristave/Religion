@@ -5,9 +5,9 @@ title = c_gurgan
 
 # Settlements
 max_settlements = 5
-b_gurgan = castle
-b_gonbadeqabus = city
-b_komishdepa = temple
+b_gurgan = tribal
+#b_gonbadeqabus = city
+#b_komishdepa = temple
 
 #b_ramian = city
 #b_kordkuy = castle
@@ -20,7 +20,7 @@ culture = persian
 religion = zoroastrian
 
 # History
-651.1.1 = {
+1.1.1 = {
 	b_gurgan = ca_town_1
 	b_gurgan = ca_town_2
 	b_gurgan = ca_wall_q_1

@@ -1,5 +1,7 @@
 # 817 - Tunis
 
+# Riotpipe, I give you Carthage, and the Vandals 
+
 # County Title
 title = c_tunis
 
@@ -12,18 +14,22 @@ b_ariana = temple
 b_cartaghe = castle
 b_zaghouan = city
 
-#b_benarous = castle
+b_benarous = temple
 #b_kelibia = castle
 #b_hammamet = castle
 
 # Misc
-culture = maghreb_arabic
-religion = catholic
+culture = african_romance
+religion = donatist
 
 # History
 
-867.1.1 = {
-	religion = sunni
+1.1.1 = {
+	b_zaghouan = ct_port_1
+	b_sousse = ct_port_1
+	b_tunis = ca_shipyard_1
+	b_cartaghe = ca_shipyard_1
+	b_ariana = tp_shipyard_1
 	b_tunis = ca_keep_1
 	b_tunis = ca_training_grounds_1
 	b_tunis = ca_keep_2

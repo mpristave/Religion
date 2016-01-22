@@ -18,12 +18,10 @@ b_comanagene = temple
 # Misc
 terrain = mountain
 culture = greek
-religion = orthodox
+religion = catholic
 
 # History
-700.1.1 = { religion = orthodox } # iconoclast
-#930.1.1 = { religion = orthodox }
-
+630.1.1 = { religion = monothelite } # Widespread Support
 1000.1.1 = {
 	culture = armenian
 	religion = miaphysite

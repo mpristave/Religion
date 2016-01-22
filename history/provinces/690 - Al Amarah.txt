@@ -16,7 +16,7 @@ b_badra = castle
 b_zurbatiyah = castle
 
 #Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = manichean
 
 # History

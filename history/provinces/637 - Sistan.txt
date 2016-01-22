@@ -7,7 +7,7 @@ title = c_sistan
 max_settlements = 6
 b_haozdar = castle
 b_kuh_taftan = city
-b_nok_kundi = temple
+b_nok_kundi = temple # Zoroastrian Holy Sites
 
 #b_dozz_aap = castle
 #b_zabol = castle
@@ -16,7 +16,7 @@ b_nok_kundi = temple
 #b_dehak = castle
 
 # Misc
-culture = baloch
+culture = indo_parthian
 religion = zoroastrian
 
 # History

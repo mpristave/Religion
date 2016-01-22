@@ -16,8 +16,7 @@ b_hodeida = castle
 #b_harib = city
 
 # Misc
-culture = bedouin_arabic
-religion = ibadi
+culture = himyarite
+religion = almaqah
 
 # History
-850.1.1 = { religion = shiite }

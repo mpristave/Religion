@@ -16,8 +16,8 @@ b_mnttabor = temple
 #b_lafeve = castle
 
 # Misc
-culture = levantine_arabic
-religion = orthodox
+culture = hebrew
+religion = samaritan
 
 # History
 

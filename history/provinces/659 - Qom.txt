@@ -17,11 +17,11 @@ b_kahak = castle
 
 # Misc
 culture = persian
-religion = sunni
+religion = zoroastrian
 
 # History
 
-867.1.1 = { 
+1.1.1 = { 
 	b_khourabad = ca_keep_1
 	b_khourabad = ca_training_grounds_1
 	b_khourabad = ca_keep_2

@@ -16,8 +16,8 @@ b_karbala = temple
 #b_ukhaidir = castle
 
 #Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = monophysite
 
 # History
 1086.1.1 = { remove_settlement = b_karbala }

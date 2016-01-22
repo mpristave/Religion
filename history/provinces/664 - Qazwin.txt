@@ -16,7 +16,7 @@ b_ahmadabad = temple
 #b_buinzahra = castle
 
 #Misc
-culture = persian
-religion = sunni
+culture = aramean
+religion = manichean
 
 # History

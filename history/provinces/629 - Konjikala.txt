@@ -17,7 +17,7 @@ b_abiward = temple
 
 # Misc
 culture = persian
-religion = zoroastrian
+religion = manichean
 
 # History
 1100.1.1 = {

@@ -15,7 +15,7 @@ b_bambuk = tribal
 
 # Misc
 culture = manden
-religion = west_african_pagan
+religion = mande_pagan
 
 # History
 

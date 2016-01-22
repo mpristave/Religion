@@ -19,7 +19,7 @@ b_aqtaw = tribal
 
 # Misc
 culture = turkish
-religion = zoroastrian
+religion = manichean
 terrain = desert
 
 # History

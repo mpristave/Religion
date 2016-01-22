@@ -14,8 +14,8 @@ b_tadmekka = tribal
 #b_kidal = castle
 
 # Misc
-culture = manden
-religion = west_african_pagan
+culture = berber
+religion = berber_pagan
 
 # History
 

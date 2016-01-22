@@ -16,7 +16,7 @@ b_dumat_al_jundal = temple
 #b_judaidah = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = adnanite 
+religion = shams
 
 # History

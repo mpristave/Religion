@@ -16,8 +16,8 @@ b_duqm = castle
 #b_hubara = castle
 
 # Misc
-culture = bedouin_arabic
-religion = ibadi
+culture = khalan
+religion = shams
 
 # History
 

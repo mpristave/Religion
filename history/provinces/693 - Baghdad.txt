@@ -19,12 +19,12 @@ b_taji = city
 #b_babel = city
 
 #Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = manichean
 
 # History
 
-867.1.1 = { 
+1.1.1 = { 
 	b_baqubah = ca_keep_1
 	b_baqubah = ca_training_grounds_1
 	b_baqubah = ca_keep_2

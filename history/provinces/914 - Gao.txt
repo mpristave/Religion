@@ -17,7 +17,7 @@ b_gaosaney = temple #Gao-Saney
 
 # Misc
 culture = manden
-religion = west_african_pagan
+religion = yoruba
 
 # History
 

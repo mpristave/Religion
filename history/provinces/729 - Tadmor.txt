@@ -16,8 +16,8 @@ b_alqaim = temple
 #b_alqunjah = city
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = assyrian
+religion = nestorian
 
 # History
 

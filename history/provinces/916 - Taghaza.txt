@@ -16,8 +16,8 @@ b_taghaza = tribal
 #b_alouarta = castle #El Ouarta
 
 # Misc
-culture = maghreb_arabic
-religion = west_african_pagan
+culture = berber
+religion = berber_pagan
 
 # History
 

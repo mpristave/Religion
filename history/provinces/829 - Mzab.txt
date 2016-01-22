@@ -18,8 +18,8 @@ b_mzab = castle
 #b_elbour = castle
 
 # Misc
-culture = maghreb_arabic
-religion = kharijite
+culture = berber
+religion = berber_pagan
 
 # History
 

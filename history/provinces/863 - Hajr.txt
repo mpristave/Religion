@@ -6,7 +6,6 @@ title = c_hajr
 # Settlements
 max_settlements = 2
 b_assalif = tribal
-
 #b_alhudaydah = city
 #b_almaqah = temple
 
@@ -17,8 +16,8 @@ b_assalif = tribal
 #b_jizan = city
 
 # Misc
-culture = bedouin_arabic
-religion = sunni
+culture = adnanite 
+religion = shams
 
 # History
 

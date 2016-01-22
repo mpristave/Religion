@@ -1,5 +1,5 @@
 765.1.1={
-	liege=e_arabia
+
 	holder=188643 # Khalid Barmakid
 }
 782.1.1={

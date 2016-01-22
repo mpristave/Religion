@@ -18,12 +18,12 @@ b_essaouira = tribal
 #b_agouidir = castle
 
 # Misc
-culture = maghreb_arabic
-religion = shiite
+culture = berber
+religion = gurzil
 
 # History
 
-767.1.1 = { religion = ibadi }
+
 947.1.1 = { religion = sunni }
 1062.1.1 = {
 	b_essaouira = castle

@@ -15,7 +15,7 @@ b_khakhuli = temple
 #b_ughtik = castle
 
 # Misc
-culture = georgian
+culture = armenian
 religion = orthodox
 
 # History

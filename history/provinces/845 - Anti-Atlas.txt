@@ -18,8 +18,8 @@ b_agadir = tribal
 #b_alogoum = castle
 
 # Misc
-culture = maghreb_arabic
-religion = shiite
+culture = berber
+religion = gurzil
 
 # History
 

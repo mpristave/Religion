@@ -16,15 +16,10 @@ b_sarmin = castle
 #b_qusayr = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = audianistic
 
 # History
-
-1110.1.1 = { b_lerminet = castle } 
-
-1272.1.1 = { remove_settlement = b_lerminet }
-
-1272.1.1 = { b_sarmin = castle } 
-
+511.1.1 = { religion = monophysite } # Anti-Chalcedonainism Grows 
+630.1.1 = { religion = monothelite } # Widespread Support
 

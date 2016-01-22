@@ -16,8 +16,8 @@ b_mahalkufa = city
 #b_ravansar = castle
 
 #Misc
-culture = kurdish
-religion = sunni
+culture = aramean
+religion = manichean
 
 # History
 1066.1.1 = {

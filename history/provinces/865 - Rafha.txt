@@ -5,8 +5,7 @@ title = c_rafha
 
 # Settlements
 max_settlements = 2
-b_rafha = tribal
-
+b_rafha = castle
 #b_aljumaymah = city
 #b_timiat = temple
 
@@ -17,8 +16,8 @@ b_rafha = tribal
 #b_duwayd = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = adnanite 
+religion = shams
 
 # History
 

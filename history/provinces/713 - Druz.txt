@@ -16,8 +16,8 @@ b_awas = temple
 #b_samj = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = monophysite
 
 # History
 

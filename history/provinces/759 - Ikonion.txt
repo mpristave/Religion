@@ -18,13 +18,7 @@ b_lisdra = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = catholic   
 
 # History
-720.1.1 = { religion = iconoclast }
-#855.1.1 = { religion = orthodox }
-
-1091.8.26 = { culture = turkish }
-1091.8.26 = { religion = sunni }
-
-1091.8.26 = { b_terpe = castle }
+630.1.1 = { religion = monothelite } # Widespread Support

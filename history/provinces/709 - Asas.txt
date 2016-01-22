@@ -17,11 +17,8 @@ b_kallinikos = temple
 #b_zaazouaa = castle
 
 # Misc
-culture = levantine_arabic
-religion = orthodox
+culture = assyrian
+religion = assyrian_pagan
 
 # History
-
-1187.1.1 = { b_talabyad = castle } 
-
-1270.1.1 = { religion = sunni }
+630.1.1 = { religion = monothelite } # Widespread Support

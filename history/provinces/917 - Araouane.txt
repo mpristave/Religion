@@ -16,8 +16,8 @@ b_araouane = tribal
 #b_tazrouk = castle
 
 # Misc
-culture = maghreb_arabic
-religion = west_african_pagan
+culture = berber
+religion = berber_pagan
 
 # History
 

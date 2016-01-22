@@ -7,7 +7,7 @@ title = c_nishapur
 max_settlements = 6
 b_nishapur = castle
 b_daregaz = city
-b_jajarm = temple
+b_jajarm = temple # Zoroastrian Holy Site
 b_sabzevar = city
 
 #b_akhlamad = castle
@@ -16,7 +16,7 @@ b_sabzevar = city
 #b_sarakhs = castle
 
 # Misc
-culture = persian
+culture = khwarezmian
 religion = zoroastrian
 
 # History

@@ -18,7 +18,7 @@ b_bailjar = tribal
 
 # Misc
 culture = turkish
-religion = zoroastrian
+religion = manichean
 
 # History
 

@@ -6,10 +6,10 @@ title = c_busaso
 # Settlements
 max_settlements = 3
 
-b_mosylon = castle
+b_mosylon = tribal
 
 #b_bandaraassim = city
-b_lasanod = temple
+#b_lasanod = temple
 #b_garoowe = castle
 #b_qardho = castle
 #b_erigavo = city
@@ -18,7 +18,7 @@ b_lasanod = temple
 
 # Misc
 culture = somali
-religion = sunni
+religion = attar
 
 # History
 

@@ -1,0 +1,60 @@
+83922101 = {
+	name="Balthing"
+	culture = visigothic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 216
+			emblem = 0
+			color = 1
+			color = 9
+			color = 0
+		}
+	}
+}
+83922102 = {
+	name="Tervingi"
+	culture = visigothic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 90
+			emblem = 0
+			color = 1
+			color = 3
+			color = 0
+		}
+	}
+}
+83922103 = {
+	name="Rodericid"
+	culture = visigothic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 239
+			emblem = 0
+			color = 1
+			color = 7
+			color = 0
+		}
+	}
+}
+83922104 = {
+	name="Wisimarid"
+	culture = vandal
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 160
+			emblem = 0
+			color = 9
+			color = 10
+			color = 0
+		}
+	}
+}

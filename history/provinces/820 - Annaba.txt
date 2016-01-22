@@ -16,11 +16,14 @@ b_skikda = city
 #b_drean = castle
 
 # Misc
-culture = maghreb_arabic
-religion = catholic
+culture = african_romance
+religion = donatist
 
 # History
-1000.1.1 = {
-	religion = sunni
+1.1.1 = {
+	b_eltarf = ct_port_1
+	b_skikda = ct_port_1
+	b_annabah = ca_shipyard_1
+	b_soukahras = tp_shipyard_1
 }
-1096.1.1 = { trade_post = b_doria }
+538.1.1 = { religion = donatist }

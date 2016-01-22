@@ -18,13 +18,7 @@ b_akroynon = temple
 
 # Misc
 culture = greek
-religion = orthodox
+religion = catholic
 
 # History
-720.1.1 = { religion = orthodox } # iconoclast
-#855.1.1 = { religion = orthodox }
-
-# The Seljuks take over Anatolia
-
-1097.8.26 = { culture = turkish }
-1097.8.26 = { religion = sunni }
+630.1.1 = { religion = monothelite } # Widespread Support

@@ -1,0 +1,456 @@
+8392220001 = { #alaric I of visigoth
+	name="Alaricho"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	370.1.1={
+		birth="370.1.1"
+	}
+	410.1.1={
+		death="410.1.1"
+	}
+}
+8392220002 = { #Athaulf adolph
+	name="Athaulf"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	370.1.1={
+		birth="370.1.1"
+	}
+	415.1.1={
+		death="415.1.1"
+	}
+}
+8392220003 = { #sigeric of visigoth
+	name="Sigeric"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	380.1.1={
+		birth="380.1.1"
+	}
+	415.1.1={
+		death="415.1.1"
+	}
+}
+8392220004 = { #wallia walter
+	name="Wallia"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	380.1.1={
+		birth="380.1.1"
+	}
+	419.1.1={
+		death="419.1.1"
+	}
+}
+8392220005 = { #Theodoric
+	name="Theodoricho"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	400.1.1={
+		birth="400.1.1"
+	}
+	451.1.1={
+		death="451.1.1"
+	}
+}
+8392220006 = { #Thorismund
+	name="Thorismund"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	400.1.1={
+		birth="400.1.1"
+	}
+	453.1.1={
+		death="453.1.1"
+	}
+}
+8392220007 = { #Theodoric
+	name="Theodoricho"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	420.1.1={
+		birth="420.1.1"
+	}
+	466.1.1={
+		death="466.1.1"
+	}
+}
+8392220008 = { #Euric
+	name="Eurico"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	450.1.1={
+		birth="450.1.1"
+	}
+	484.1.1={
+		death="484.1.1"
+	}
+}
+8392220009 = { #Alaric II
+	name="Alaricho"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	460.1.1={
+		birth="460.1.1"
+	}
+	507.1.1={
+		death="507.1.1"
+	}
+}
+8392220010 = { #Gesalec
+	name="Geselec"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	father=8392220009
+	500.1.1={
+		birth="500.1.1"
+	}
+	511.1.1={
+		death="511.1.1"
+	}
+}
+8392220012 = { 
+	name="Amalaric"
+	dynasty=1100202
+	religion="arian"
+	culture="visigothic"
+	500.1.1={
+		birth="500.1.1"
+	}
+	531.1.1={
+		death="531.1.1"
+	}
+}
+#post-balti
+8392220013 = { 
+	name="Theudis"
+	religion="arian"
+	culture="visigothic"
+	500.1.1={
+		birth="500.1.1"
+	}
+	548.1.1={
+		death="548.1.1"
+	}
+}
+8392220014 = { 
+	name="Theudigisel"
+	religion="arian"
+	culture="visigothic"
+	500.1.1={
+		birth="500.1.1"
+	}
+	549.1.1={
+		death="549.1.1"
+	}
+}
+8392220015 = { 
+	name="Agila"
+	religion="arian"
+	culture="visigothic"
+	500.1.1={
+		birth="500.1.1"
+	}
+	554.1.1={
+		death="554.1.1"
+	}
+}
+8392220016 = { 
+	name="Athanagildo"
+	religion="arian"
+	culture="visigothic"
+	520.1.1={
+		birth="520.1.1"
+	}
+	568.1.1={
+		death="568.1.1"
+	}
+}
+
+8392220017 = { 
+	name="Liuva"
+	religion="arian"
+	culture="visigothic"
+	520.1.1={
+		birth="520.1.1"
+	}
+	572.1.1={
+		death="572.1.1"
+	}
+}
+8392220018 = { 
+	name="Liuvigildo"
+	religion="arian"
+	culture="visigothic"
+	520.1.1={
+		birth="520.1.1"
+	}
+	586.1.1={
+		death="586.1.1"
+	}
+}
+8392220020 = { 
+	name="Recaredo"
+	religion="catholic"
+	culture="visigothic"
+	550.1.1={
+		birth="550.1.1"
+	}
+	601.1.1={
+		death="601.1.1"
+	}
+}
+8392220021 = { 
+	name="Liuva"
+	religion="catholic"
+	culture="visigothic"
+	550.1.1={
+		birth="550.1.1"
+	}
+	603.1.1={
+		death="603.1.1"
+	}
+}
+8392220022 = { 
+	name="Witterico"
+	religion="catholic"
+	culture="visigothic"
+	550.1.1={
+		birth="550.1.1"
+	}
+	610.1.1={
+		death="610.1.1"
+	}
+}
+
+8392220024 = { 
+	name="Gundemaro"
+	religion="catholic"
+	culture="visigothic"
+	550.1.1={
+		birth="550.1.1"
+	}
+	612.1.1={
+		death="612.1.1"
+	}
+}
+8392220025 = { 
+	name="Sisebuto"
+	religion="catholic"
+	culture="visigothic"
+	580.1.1={
+		birth="580.1.1"
+	}
+	621.1.1={
+		death="621.1.1"
+	}
+}
+8392220026 = { 
+	name="Recaredo"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220025
+	510.1.1={
+		birth="610.1.1"
+	}
+	621.1.1={
+		death="621.1.2"
+	}
+}
+8392220027 = { 
+	name="Suintila"
+	religion="catholic"
+	culture="visigothic"
+	580.1.1={
+		birth="580.1.1"
+	}
+	631.1.1={
+		death="631.1.1"
+	}
+}
+8392220028 = { 
+	name="Sisenando"
+	religion="catholic"
+	culture="visigothic"
+	600.1.1={
+		birth="600.1.1"
+	}
+	636.1.1={
+		death="636.1.1"
+	}
+}
+8392220029 = { 
+	name="Chintila"
+	religion="catholic"
+	culture="visigothic"
+	600.1.1={
+		birth="600.1.1"
+	}
+	640.1.1={
+		death="640.1.1"
+	}
+}
+8392220030 = { 
+	name="Recesvinto"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220029
+	620.1.1={
+		birth="620.1.1"
+	}
+	672.1.1={
+		death="672.1.1"
+	}
+}
+8392220031 = { 
+	name="Wamba"
+	religion="catholic"
+	culture="visigothic"
+	650.1.1={
+		birth="660.1.1"
+	}
+	680.1.1={
+		death="680.1.1"
+	}
+}
+8392220032 = { 
+	name="Ervigio"
+	religion="catholic"
+	culture="visigothic"
+	650.1.1={
+		birth="660.1.1"
+	}
+	687.1.1={
+		death="687.1.1"
+	}
+}
+8392220033 = { 
+	name="Egica"
+	religion="catholic"
+	culture="visigothic"
+	650.1.1={
+		birth="660.1.1"
+	}
+	702.1.1={
+		death="702.1.1"
+	}
+}
+8392220034 = { 
+	name="Wittiza"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220033
+	650.1.1={
+		birth="660.1.1"
+	}
+	702.1.1={
+		death="702.1.1"
+	}
+}
+8392220035 = { 
+	name="Rodericho"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220034
+	650.1.1={
+		birth="680.1.1"
+	}
+	734.1.1={
+		death="754.1.1"
+	}
+}
+8392220036 = { 
+	name="Wittiza"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220035
+	680.1.1={
+		birth="700.1.1"
+	}
+	754.1.1={
+		death="765.1.1"
+	}
+}
+8392220037 = { 
+	name="Liuva"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220036
+	680.1.1={
+		birth="730.1.1"
+	}
+	784.1.1={
+		death="780.1.1"
+	}
+}
+8392220038= { 
+	name="Wittiza"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220037
+	700.1.1={
+		birth="760.1.1"
+	}
+	754.1.1={
+		death="780.1.1"
+	}
+}
+8392220039= { 
+	name="Berengario"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220037
+	700.1.1={
+		birth="764.1.1"
+	}
+	754.1.1={
+		death="780.1.1"
+	}
+}
+8392220040= { 
+	name="Johan"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220037
+	700.1.1={
+		birth="765.1.1"
+	}
+	754.1.1={
+		death="780.1.1"
+	}
+}
+8392220041= { 
+	name="Sans"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220037
+	700.1.1={
+		birth="768.1.1"
+	}
+	754.1.1={
+		death="780.1.1"
+	}
+}
+8392220042= { 
+	name="Theodoricho"
+	religion="catholic"
+	culture="visigothic"
+	father=8392220037
+	700.1.1={
+		birth="770.1.1"
+	}
+	754.1.1={
+		death="780.1.1"
+	}
+}
+

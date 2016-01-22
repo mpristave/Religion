@@ -16,13 +16,13 @@ b_tephrice = temple
 
 # Misc
 culture = armenian
-religion = orthodox
-
+religion = paulician
 # History
-680.1.1 = { religion = paulician } # iconoclast
-#844.1.1 = { religion = paulician }
-873.1.1 = { religion = iconoclast }
-930.1.1 = { religion = orthodox }
+
+
+930.1.1 = {
+	religion = orthodox
+}
 
 
 1091.8.26 = { 

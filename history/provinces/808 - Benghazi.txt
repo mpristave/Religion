@@ -16,8 +16,8 @@ b_tulmaytath = castle
 #b_jardinah = castle
 
 # Misc
-culture = maghreb_arabic
-religion = sunni
+culture = coptic
+religion = miaphysite 
 
 # History
 

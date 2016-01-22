@@ -5,19 +5,19 @@ title = c_avhaz
 
 # Settlements
 max_settlements = 5
-b_shushtar = castle
-b_idhaj = castle
-b_dezful = city
-b_helen = temple
+b_shushtar = tribal
+#b_idhaj = castle
+#b_dezful = city
+#b_helen = temple
 
 #b_masjedsoleyman = castle
 #b_shahrekord = castle
 #b_koohrang = castle
 #b_farsan = castle
 
-culture = persian
-religion = mazdaki
+culture = adnanite # Sassanid Forced Resettlement
+religion = semitic_pagan
 
 # History
-800.1.1 = { religion = sunni }
-
+540.1.1 = { religion = zoroastrian } # al-Qays migrate
+540.1.1 = { culture = persian } # al-Qays migrate

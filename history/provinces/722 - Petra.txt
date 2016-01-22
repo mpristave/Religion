@@ -16,7 +16,7 @@ b_petra = temple
 #b_husseiniya = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = nabatean
+religion = monophysite
 
 # History

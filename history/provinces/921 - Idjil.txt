@@ -13,8 +13,8 @@ b_idjil = tribal
 #b_fderick = castle #Fdérick
 
 # Misc
-culture = maghreb_arabic
-religion = west_african_pagan
+culture = berber
+religion = gurzil
 
 # History
 

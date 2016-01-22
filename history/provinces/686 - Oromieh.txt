@@ -16,7 +16,7 @@ b_salmas = castle
 #b_mahabad = city
 
 #Misc
-culture = kurdish
-religion = sunni
+culture = aramean
+religion = nestorian
 
 # History

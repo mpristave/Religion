@@ -6,8 +6,8 @@ title = c_bam
 # Settlements
 max_settlements = 3
 b_bampur = castle
-b_kaj = city
-b_bal_chah = temple
+#b_kaj = city
+#b_bal_chah = temple
 
 #b_baravat = castle
 #b_fahraj = castle
@@ -20,4 +20,3 @@ culture = persian
 religion = zoroastrian
 
 # History
-825.1.1 = { religion = sunni } 

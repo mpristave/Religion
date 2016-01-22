@@ -17,11 +17,13 @@ b_mila = temple
 #b_jijel = castle
 
 # Misc
-culture = maghreb_arabic
+culture = taqbaylit
 religion = catholic
 
 # History
-1000.1.1 = {
-	religion = sunni
+1.1.1 = {
+	b_setif = ct_port_1
+	b_bejaija = ca_shipyard_1
+	b_mila = tp_shipyard_1
 }
-1109.1.1 = { trade_post = b_doria }
+538.1.1 = { religion = donatist }

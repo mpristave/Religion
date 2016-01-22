@@ -17,8 +17,8 @@ b_benitajjit = castle
 #b_boudnib = castle
 
 # Misc
-culture = maghreb_arabic
-religion = kharijite
+culture = berber
+religion = berber_pagan
 
 # History
 947.1.1 = { religion = sunni }

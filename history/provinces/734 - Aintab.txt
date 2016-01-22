@@ -15,14 +15,8 @@ b_kyrrhos = temple
 #b_raban = castle
 
 # Misc
-culture = armenian
-religion = miaphysite
+culture = aramean
+religion = audianistic
 
 # History
-1177.1.1 = { 
-	culture = kurdish 
-	religion = sunni
-}
-1320.1.1 = { culture = levantine_arabic }
-
-
+630.1.1 = { religion = monothelite } # Widespread Support

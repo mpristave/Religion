@@ -15,11 +15,11 @@ b_shikhlar = temple
 #b_maraza = city
 
 # Misc
-culture = persian
-religion = zoroastrian
+culture = caucasian_albanian 
+religion = miaphysite
 
 # History
-651.1.1 = {
+1.1.1 = {
 	b_ahemakha = ca_town_1
 	b_quba = ct_marketplace_1
 	b_shikhlar = tp_town_1

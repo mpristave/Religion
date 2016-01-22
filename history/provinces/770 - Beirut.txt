@@ -16,8 +16,9 @@ b_sidon = temple
 #b_beitkfeya = castle
 
 # Misc
-culture = levantine_arabic
-religion = monothelite
+culture = aramean
+religion = apollinarian 
 
 # History
-1299.1.1 = { trade_post = b_ziani }
+511.1.1 = { religion = monophysite } # Anti-Chalcedonainism Grows 
+630.1.1 = { religion = monothelite } # Widespread Support

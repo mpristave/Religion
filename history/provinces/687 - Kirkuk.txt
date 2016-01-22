@@ -16,12 +16,12 @@ b_chuartan = city
 #b_kifri = castle
 
 #Misc
-culture = kurdish
-religion = sunni
+culture = aramean
+religion = nestorian
 
 # History
 
-867.1.1 = { 
+1.1.1 = { 
 	b_kirkuk = ca_keep_1
 	b_kirkuk = ca_training_grounds_1
 	b_kirkuk = ca_keep_2

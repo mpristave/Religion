@@ -16,9 +16,10 @@ b_zweitina = temple
 #b_qatna = castle
 
 # Misc
-culture = levantine_arabic
-religion = orthodox
+culture = aramean
+
+religion = patripassianism
 
 # History
-867.1.1 = { religion = sunni }
-1187.1.1 = { b_alkhazandar = castle } 
+511.1.1 = { religion = monophysite } # Anti-Chalcedonainism Grows 
+630.1.1 = { religion = monothelite } # Widespread Support

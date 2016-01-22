@@ -15,12 +15,12 @@ b_koohdasht = city
 #b_poledokhtar = castle
 
 #Misc
-culture = persian
-religion = sunni
+culture = aramean
+religion = manichean
 
 # History
 
-867.1.1 = {
+1.1.1 = {
 	b_dezbar = ca_keep_1
 	b_dezbar = ca_training_grounds_1
 	b_dezbar = ca_keep_2

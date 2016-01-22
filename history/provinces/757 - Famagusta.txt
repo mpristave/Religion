@@ -17,11 +17,8 @@ b_cithium = temple
 #b_peristerona = castle
 
 # Misc
-culture = greek
-religion = orthodox
+culture = helleno_aramean
+religion = catholic
 
 # History
-1165.1.1 = { trade_post = b_faliero }
-1200.1.1 = { b_kyrenia = castle } 
-
-
+630.1.1 = { religion = monothelite } # Widespread Support

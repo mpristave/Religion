@@ -18,8 +18,8 @@ b_ifni = tribal
 #b_tizgui = castle
 
 # Misc
-culture = maghreb_arabic
-religion = shiite
+culture = berber
+religion = gurzil
 
 # History
 

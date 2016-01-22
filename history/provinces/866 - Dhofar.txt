@@ -16,8 +16,8 @@ b_raysut = temple
 #b_harzan = castle
 
 # Misc
-culture = bedouin_arabic
-religion = ibadi
+culture = tribal_arab
+religion = shams
 
 # History
-850.1.1 = { religion = sunni }
+

@@ -17,10 +17,9 @@ b_arraml = temple
 #b_khirbat = castle
 
 # Misc
-culture = levantine_arabic
-
-religion = sunni
+culture = assyrian
+religion = assyrian_pagan
 
 # History
-
+630.1.1 = { religion = monothelite } # Widespread Support
 

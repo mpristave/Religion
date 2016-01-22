@@ -8,6 +8,7 @@ max_settlements = 4
 b_sinjar = castle
 b_telassar = city
 b_hatra = temple
+b_nineveh = city
 
 #b_nineveh = city
 #b_talkayf = castle
@@ -16,8 +17,7 @@ b_hatra = temple
 #b_nabiyunus = castle
 
 #Misc
-culture = levantine_arabic
+culture = assyrian
 religion = nestorian
 
 # History
-867.1.1 = { religion = sunni }

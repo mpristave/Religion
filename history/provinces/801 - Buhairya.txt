@@ -16,7 +16,7 @@ b_mut = temple
 #b_ismant = castle
 
 # Misc
-culture = nubian
+culture = old_nubian
 religion = miaphysite
 
 # History

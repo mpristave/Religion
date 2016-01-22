@@ -6,7 +6,7 @@ title = c_djerba
 # Settlements
 max_settlements = 3
 
-b_houmtsouk = castle
+b_houmtsouk = tribal
 b_midoun = city
 b_ajim = temple
 
@@ -17,11 +17,15 @@ b_ajim = temple
 #b_taguermess = castle
 
 # Misc
-culture = maghreb_arabic
-religion = ibadi
-terrain = desert
+culture = libyan
+religion = amanai
 
 # History
-
+1.1.1 = {
+	b_midoun = ct_port_1
+	b_houmtsouk = ca_shipyard_1
+	b_ajim = tp_shipyard_1
+}
+769.1.1 = { b_houmtsouk = castle }
 909.1.1 = { religion = sunni }
 1126.1.1 = { trade_post = b_ziani }

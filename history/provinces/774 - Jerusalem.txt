@@ -1,5 +1,7 @@
 # 774 - Jerusalem
 
+# I dedicate Jerusalem, the holiest of cities to the holiest of modders, Shaytana
+
 # County Title
 title = c_jerusalem
 
@@ -16,12 +18,12 @@ b_rammala = castle
 #b_saintsamuel = temple
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = hebrew
+religion = samaritan
 
 # History
 
-867.1.1 = { 
+1.1.1 = { 
 	b_mirabel = ca_keep_1
 	b_mirabel = ca_training_grounds_1
 	b_mirabel = ca_stable_1

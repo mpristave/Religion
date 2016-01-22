@@ -17,8 +17,8 @@ b_sidiheg = temple
 #b_beneldir = castle
 
 # Misc
-culture = maghreb_arabic
-religion = kharijite
+culture = berber
+religion = berber_pagan
 
 # History
 

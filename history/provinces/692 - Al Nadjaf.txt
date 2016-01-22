@@ -16,8 +16,7 @@ b_nadjaf = temple
 #b_jaarah = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = aramean
+religion = nestorian
 
 # History
-850.1.1 = { religion = shiite}

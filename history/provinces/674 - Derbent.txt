@@ -5,9 +5,9 @@ title = c_derbent
 
 # Settlements
 max_settlements = 4
-b_derbent = castle
-b_narinkala = city
-b_juma = temple
+b_derbent = tribal
+#b_narinkala = city
+#b_juma = temple
 #b_chikkulkan = castle
 #b_kuli = castle
 #b_humraj = city
@@ -15,8 +15,8 @@ b_juma = temple
 #b_datuna = temple
 
 # Misc
-culture = armenian
-religion = miaphysite
+culture = alan
+religion = tengri_pagan
 
 # History
 

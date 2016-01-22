@@ -20,7 +20,7 @@ culture = persian
 religion = zoroastrian
 
 # History
-651.1.1 = {
+1.1.1 = {
 	b_kalar = ca_town_1
 	b_kalar = ca_wall_1
 	b_kalar = ca_keep_1

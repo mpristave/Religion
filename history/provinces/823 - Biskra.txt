@@ -17,10 +17,8 @@ b_batna = city
 #b_branis = castle
 
 # Misc
-culture = maghreb_arabic
-religion = kharijite
+culture = african_romance 
+religion = catholic
 
 # History
-1000.1.1 = {
-	religion = sunni
-}
+

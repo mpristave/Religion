@@ -17,8 +17,7 @@ b_mashhad = temple
 # b_tus
 
 # Misc
-culture = persian
+culture = khwarezmian
 religion = zoroastrian
 
 # History
-1187.1.1 = { religion = sunni }

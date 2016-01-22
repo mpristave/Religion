@@ -16,8 +16,8 @@ b_adelon = temple
 #b_athlith = castle
 
 # Misc
-culture = levantine_arabic
-religion = orthodox
+culture = aramean
+religion = monothelite
 
 # History
 1109.1.1 = { b_syrcaesarea = castle } 

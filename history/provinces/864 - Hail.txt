@@ -6,7 +6,6 @@ title = c_hail
 # Settlements
 max_settlements = 2
 b_hail = tribal
-
 #b_asshinan = temple
 #b_alghazalah = city
 
@@ -17,8 +16,8 @@ b_hail = tribal
 #b_murayfiq = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = adnanite 
+religion = shams
 
 # History
 

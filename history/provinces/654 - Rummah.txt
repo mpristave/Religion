@@ -15,7 +15,7 @@ b_samoudah = temple
 #b_assufayri = castle
 #b_arraqai = castle
 
-culture = bedouin_arabic
-religion = sunni
+culture = adnanite 
+religion = nestorian
 
 # History

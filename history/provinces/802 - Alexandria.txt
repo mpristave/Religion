@@ -1,5 +1,7 @@
 # 802 - Alexandria
 
+# I dedicate the county of Alexandria to DarkReborn, which has a cool library and lighthouse. 
+
 # County Title
 title = c_alexandria
 
@@ -16,12 +18,12 @@ b_hammam = castle
 #b_elkanoun = castle
 
 # Misc
-culture = egyptian_arabic
+culture = greek
 religion = miaphysite
 
 # History
 
-867.1.1 = { 
+1.1.1 = { 
 	b_abukir = ca_keep_1
 	b_abukir = ca_training_grounds_1
 	b_abukir = ca_stable_1

@@ -6,7 +6,6 @@ title = c_halaban
 # Settlements
 max_settlements = 2
 b_afif = tribal
-
 #b_badaiidyan = city
 #b_alqaiyah = temple
 
@@ -17,8 +16,8 @@ b_afif = tribal
 #b_arradum = castle
 
 # Misc
-culture = bedouin_arabic
-religion = sunni
+culture = adnanite 
+religion = hubal
 
 # History
 

@@ -16,7 +16,7 @@ b_bethlehem = temple
 #b_bethgibelin = castle
 
 # Misc
-culture = levantine_arabic
-religion = sunni
+culture = hebrew
+religion = samaritan
 
 # History

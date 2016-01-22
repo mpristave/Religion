@@ -16,8 +16,8 @@ b_qana = city
 #b_azzan = castle
 
 # Misc
-culture = bedouin_arabic
-religion = ibadi
+culture = himyarite
+religion = almaqah
 
 # History
-850.1.1 = { religion = sunni }
+
