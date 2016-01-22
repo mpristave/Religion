@@ -3674,6 +3674,7 @@ celtic_group = {
 		intermarry = docetist
 		intermarry = mari_christ
 		intermarry = monophysite
+		intermarry = miaphysite
 		intermarry = monothelite
 		intermarry = nasrani
 		intermarry = orthodox
@@ -4019,6 +4020,6062 @@ norsegerman_group = {
 			light_cavalry_offensive = 0.30
 			light_infantry_offensive = 0.30
 			archers_offensive = 0.30
+<<<<<<< HEAD
+=======
+			heavy_infantry_offensive = 0.25
+			knights_offensive = 0.25
+			pikemen_offensive = 0.25
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 20
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		priests_can_marry = yes
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 12
+	}
+}
+chinese_group = {
+	crusade_cb = crusade_chinese
+	graphical_culture = mongolgfx
+	playable = yes
+	has_coa_on_barony_only = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Reformed
+	bon_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = mongolgfx
+		color = { 0.75 0.5 0.35 }
+		icon = 92
+		heresy_icon = 93
+
+		high_god_name = GOD_SHENLA_OKAR
+		
+		priest_title = LAMA
+		scripture_name = THE_MDZOD_PHUG
+		god_names = {
+			GOD_SHENLHA_OKAR GOD_YESHE_WALMO GOD_ZHANG_ZHUNG_MERI
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.05
+			general_opinion = 10
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = -0.60
+			build_cost_modifier = -0.23
+			land_organisation = 0.35
+			castle_vassal_min_levy = 0.15
+			castle_vassal_max_levy = 0.15
+			city_vassal_min_levy = 0.30
+			city_vassal_max_levy = 0.30
+			temple_vassal_min_levy = -0.45
+			temple_vassal_max_levy = -0.45
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.50
+			diplomacy = -1
+			martial = -1
+			stewardship = 1
+			intrigue = 2
+			learning = 2
+#			ai_ambition = 10
+#			ai_zeal = -30
+#			ai_honor = 50
+#			ai_greed = 50
+		}
+		unit_modifier = {		
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.55
+			light_cavalry_offensive = -0.15
+			light_infantry_offensive = -0.15
+			archers_offensive = -0.15
+			heavy_infantry_offensive = -0.10
+			knights_offensive = -0.10
+			pikemen_offensive = -0.10
+			land_morale = -0.40
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.70
+			light_infantry_defensive = 0.70
+			archers_defensive = 0.70
+			heavy_infantry_defensive = 0.40
+			knights_defensive = 0.40
+			pikemen_defensive = 0.40
+			land_morale = 1.90
+		}
+		
+		aggression = 1.5
+		can_call_crusade = yes
+		independence_war_score_bonus = 10
+		priests_can_marry = yes
+		max_consorts = 3
+		short_reign_opinion_year_mult = 3 # The default in LI is 5
+
+		# Chinese open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = bon
+		intermarry = confucian
+		intermarry = lubu
+		intermarry = lubu_reformed
+		
+		# Chinese restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = tao
+		intermarry = tao_reformed
+		
+		# Buddhist open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = bud_pratyeka
+		intermarry = bud_sthaviravada
+		intermarry = bud_zen
+		intermarry = bud_zor
+		intermarry = bud_zen_reformed
+		intermarry = bud_zor_reformed
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
+	}
+	lubu_reformed = {
+		crusade_name = CRUSADE
+		allow_in_ruler_designer = no
+		graphical_culture = mongolgfx
+		color = { 0.55 0.65 0.95 }
+		icon = 95
+		heresy_icon = 96
+		
+		high_god_name = GOD_LUBU
+		
+		priest_title = MUSHI
+		scripture_name = THE_LUBU
+		god_names = {
+			GOD_LUBU GOD_FENGXIAN GOD_FLYINGGENERAL
+		}
+		evil_god_names = {
+			YANLUOWANG YAOGUAI
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			general_opinion = 10
+			church_opinion = -5
+			castle_vassal_tax_modifier = 0.30
+			temple_vassal_tax_modifier = -0.40
+			land_organisation = 0.65
+			castle_vassal_min_levy = 0.30
+			castle_vassal_max_levy = 0.30
+			city_vassal_min_levy = 0.45
+			city_vassal_max_levy = 0.45
+			temple_vassal_min_levy = -0.10
+			temple_vassal_max_levy = -0.10
+#			monthly_character_prestige = 1.10
+			assassinate_chance_modifier = 0.20
+			arrest_chance_modifier = 0.20
+			martial = 3
+			stewardship = 2
+			learning = -1
+#			ai_ambition = 30
+#			ai_honor = 50
+		}
+		unit_modifier = {		
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.50
+			light_cavalry_offensive = -0.30
+			light_infantry_offensive = -0.30
+			archers_offensive = -0.30
+			heavy_infantry_offensive = -0.10
+			knights_offensive = -0.10
+			pikemen_offensive = -0.10
+			land_morale = 0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.40
+			knights_defensive = 0.40
+			pikemen_defensive = 0.40
+			land_morale = 1.60
+		}
+		
+		can_call_crusade = yes
+		max_consorts = 3
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 3 # The default in LI is 5
+				
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
+	}
+	tao_reformed = {
+		crusade_name = CRUSADE
+		allow_in_ruler_designer = no
+		graphical_culture = mongolgfx
+		color = { 0.4 0.35 0.65 }
+		icon = 98
+		heresy_icon = 99
+		
+		high_god_name = GOD_JADEEMPEROR
+		
+		scripture_name = THE_TAO_TE_CHING
+		priest_title = MUSHI
+		god_names = {
+			GOD_JADEEMPEROR GOD_THREE_PURE_ONES GOD_THE_HEAVEN PROPHET_ZHUANGZI PROPHET_LAOZI
+		}
+		evil_god_names = {
+			YANLUOWANG YAOGUAI
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			general_opinion = 10
+			castle_vassal_tax_modifier = 0.20
+			build_cost_modifier = -0.30
+			land_organisation = 0.20
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = 0.20
+			city_vassal_max_levy = 0.20
+			temple_vassal_min_levy = 0.10
+			temple_vassal_max_levy = 0.10
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.40
+			arrest_chance_modifier = 0.40
+			diplomacy = -2
+			martial = 2
+			intrigue = 2
+			learning = 2
+#			ai_ambition = 60
+#			ai_zeal = 30
+#			ai_rationality = -30
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.50
+			light_cavalry_offensive = -0.30
+			light_infantry_offensive = -0.30
+			archers_offensive = -0.30
+			heavy_infantry_offensive = -0.10
+			knights_offensive = -0.10
+			pikemen_offensive = -0.10
+			land_morale = 0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 1.00
+			light_infantry_defensive = 1.00
+			archers_defensive = 1.00
+			heavy_infantry_defensive = 0.40
+			knights_defensive = 0.40
+			pikemen_defensive = 0.40
+			land_morale = 2.60
+		}
+		
+		allow_viking_invasion = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		priests_can_marry = yes
+		max_consorts = 3
+				
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
+	}
+	######################
+	confucian = {
+		graphical_culture = mongolgfx
+		color = { 0.9 0.7 0.0 }
+		icon = 162
+		heresy_icon = 163
+		
+		high_god_name = GOD_SHANGDI
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SHISAN_JING
+		god_names = {
+		  PROPHET_CONFUCIUS GOD_THE_FOUR_CORRELATES GOD_THE_TWELVE_PHILOSOPHERS GOD_SHANGDI GOD_THE_HEAVEN
+		}
+		evil_god_names = {
+			YANLUOWANG YAOGUAI
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.02
+			sex_appeal_opinion = -5
+			castle_vassal_tax_modifier = 0.10
+			city_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.20
+			build_cost_modifier = -0.40
+			land_organisation = 0.40
+			city_vassal_min_levy = 0.50
+			city_vassal_max_levy = 0.50
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = -0.50
+#			monthly_character_piety = -0.20
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = -1
+			martial = -1
+			stewardship = 3
+			intrigue = -1
+			learning = 6
+			fertility = -0.10
+#			ai_ambition = 30
+#			ai_zeal = -50
+#			ai_honor = 80
+#			ai_rationality = 120
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.50
+			light_cavalry_offensive = -0.30
+			light_infantry_offensive = -0.30
+			archers_offensive = -0.30
+			heavy_infantry_offensive = -0.10
+			knights_offensive = -0.10
+			pikemen_offensive = -0.10
+			land_morale = -0.50
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.70
+			knights_defensive = 0.70
+			pikemen_defensive = 0.70
+			land_morale = 1.90
+		}
+		
+		can_call_crusade = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		max_consorts = 3
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 3 # The default in LI is 5
+
+		# Buddhist open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = bud_pratyeka
+		intermarry = bud_sthaviravada
+		intermarry = bud_zen
+		intermarry = bud_zor
+		intermarry = bud_zen_reformed
+		intermarry = bud_zor_reformed
+
+		# Chinese open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = bon
+		intermarry = lubu
+		intermarry = bon_reformed
+		intermarry = lubu_reformed
+		
+		# Chinese restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = tao
+		intermarry = tao_reformed
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+	}
+	
+	lubu = {
+		graphical_culture = mongolgfx
+		color = { 143 86 60 }
+		icon = 94
+		heresy_icon = 96
+		
+		reformed = lubu_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_LUBU
+		
+		priest_title = MUSHI
+		scripture_name = THE_LUBU
+		god_names = {
+			GOD_LUBU GOD_FENGXIAN GOD_FLYINGGENERAL
+		}
+		evil_god_names = {
+			YANLUOWANG YAOGUAI
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.03
+			church_opinion = -10
+			castle_vassal_tax_modifier = 0.30
+			temple_vassal_tax_modifier = -0.30
+			land_organisation = 0.60
+			castle_vassal_min_levy = 0.30
+			castle_vassal_max_levy = 0.30
+			city_vassal_min_levy = 0.45
+			city_vassal_max_levy = 0.45
+			temple_vassal_min_levy = -0.05
+			temple_vassal_max_levy = -0.10
+#			monthly_character_prestige = 0.10
+#			monthly_character_piety = -0.20
+			assassinate_chance_modifier = 0.20
+			arrest_chance_modifier = 0.20
+			diplomacy = -1
+			martial = 3
+			stewardship = 3
+#			ai_ambition = 50
+#			ai_honor = 30
+#			ai_rationality = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.50
+			light_cavalry_offensive = -0.30
+			light_infantry_offensive = -0.30
+			archers_offensive = -0.30
+			heavy_infantry_offensive = -0.10
+			knights_offensive = -0.10
+			pikemen_offensive = -0.10
+			land_morale = 0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			heavy_infantry_defensive = 0.40
+			knights_defensive = 0.40
+			pikemen_defensive = 0.40
+			land_morale = 0.60
+		}
+		
+		can_call_crusade = no
+		max_consorts = 3
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+	}
+	
+	bon = {
+		graphical_culture = mongolgfx
+		color = { 0.6 0.5 0.4 }
+		icon = 91
+		heresy_icon = 93
+		
+		reformed = bon_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_SHENLA_OKAR
+		
+		crusade_name = GREAT_HOLY_WAR
+		priest_title = LAMA
+		scripture_name = THE_MDZOD_PHUG
+		god_names = {
+			GOD_SHENLHA_OKAR GOD_YESHE_WALMO GOD_ZHANG_ZHUNG_MERI
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = -0.15
+			build_cost_modifier = -0.23
+			land_organisation = 0.20
+			castle_vassal_min_levy = 0.25
+			castle_vassal_max_levy = 0.25
+			city_vassal_min_levy = 0.20
+			city_vassal_max_levy = 0.20
+			temple_vassal_min_levy = -0.25
+			temple_vassal_max_levy = -0.30
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = -0.20
+			diplomacy = -1
+			martial = 2
+			stewardship = 2
+			intrigue = 1
+			learning = 1
+#			ai_ambition = 10
+#			ai_zeal = -30
+#			ai_honor = 50
+#			ai_rationality = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.55
+			light_cavalry_offensive = -0.15
+			light_infantry_offensive = -0.15
+			archers_offensive = -0.15
+			heavy_infantry_offensive = -0.10
+			knights_offensive = -0.10
+			pikemen_offensive = -0.10
+			land_morale = -0.40
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.40
+			knights_defensive = 0.40
+			pikemen_defensive = 0.40
+			land_morale = 1.10
+		}
+		
+		aggression = 1.5
+		can_call_crusade = no
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		max_consorts = 3
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Buddhist open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = bud_pratyeka
+		intermarry = bud_sthaviravada
+		intermarry = bud_zen
+		intermarry = bud_zor
+		intermarry = bud_zen_reformed
+		intermarry = bud_zor_reformed
+
+		# Chinese open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = bon
+		intermarry = confucian
+		intermarry = lubu
+		intermarry = bon_reformed
+		intermarry = lubu_reformed
+		
+		# Chinese restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = tao
+		intermarry = tao_reformed
+
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
+	}
+	
+	tao = {
+		graphical_culture = mongolgfx
+		color = { 0.4 0.1 0.1 }
+		icon = 97
+		heresy_icon = 99
+		
+		reformed = tao_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_JADEEMPEROR
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TAO_TE_CHING
+		priest_title = MUSHI
+		god_names = {
+			GOD_JADEEMPEROR GOD_THREE_PURE_ONES GOD_THE_HEAVEN PROPHET_ZHUANGZI PROPHET_LAOZI
+		}
+		evil_god_names = {
+			YANLUOWANG YAOGUAI
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			church_opinion = -5
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = -0.15
+			build_cost_modifier = -0.23
+			land_organisation = 0.05
+			castle_vassal_min_levy = 0.15
+			castle_vassal_max_levy = 0.15
+			city_vassal_min_levy = 0.30
+			city_vassal_max_levy = 0.30
+			temple_vassal_min_levy = -0.05
+			temple_vassal_max_levy = -0.10
+##			monthly_character_prestige = -2.00
+##			monthly_character_piety = -0.20
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = -4
+			martial = 1
+			stewardship = 2
+			intrigue = 2
+			learning = 4
+#			ai_ambition = 30
+#			ai_zeal = -50
+#			ai_greed = -20
+#			ai_rationality = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.55
+			light_cavalry_offensive = 0.35
+			light_infantry_offensive = 0.35
+			archers_offensive = 0.35
+			heavy_infantry_offensive = -0.60
+			knights_offensive = -0.60
+			pikemen_offensive = -0.60
+			land_morale = 0.40
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.40
+			knights_defensive = 0.40
+			pikemen_defensive = 0.40
+			land_morale = 0.60
+		}
+		
+		aggression = 1.5
+		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 10
+		max_consorts = 3
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 6
+	}
+}
+norsegerman_group = {
+	crusade_cb = crusade_norsegerman
+	graphical_culture = norsegfx
+	playable = yes
+	has_coa_on_barony_only = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Norse/German Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+	
+	# Reformed
+	german_pagan_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = norsegfx
+		color = { 154 130 106 }
+		icon = 102
+		heresy_icon = 103
+		
+		high_god_name = GOD_WODANAZ
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_WODANAZ GOD_THUNARAZ GOD_TEIWAZ GOD_FRAUJAZ GOD_FRIIJO GOD_SOWILO GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			HALJO MUTHSPELL
+		}
+		
+		character_modifier ={
+			global_revolt_risk = -0.03
+			general_opinion = 10
+			church_opinion = -10	
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.20
+			temple_vassal_tax_modifier = 0.10
+			build_cost_modifier = 0.10
+			land_organisation = 0.05
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.50
+#			monthly_character_prestige = 1.20
+			diplomacy = 1
+			martial = 3
+			intrigue = -1
+			learning = -3
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_honor = 60
+#			ai_rationality = 50
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.10
+			light_cavalry_offensive = 0.30
+			light_infantry_offensive = 0.30
+			archers_offensive = 0.30
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			knights_defensive = 0.50
+			heavy_infantry_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 1.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 20
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		has_heir_designation = yes
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = german_pagan
+		intermarry = norse_pagan
+		intermarry = sowilo
+		intermarry = teiwaz
+		intermarry = norse_christ_reformed
+		intermarry = norse_pagan_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	norse_christ_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = norsegfx
+		color = { 154 154 106 }
+		icon = 106
+		heresy_icon = 107
+		
+		high_god_name = GOD_KRISTUR
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		
+		piety_name = PIETY
+		god_names = {
+			GOD_THE_LORD GOD_KRISTUR GOD_STTYR GOD_STTHOR GOD_STFREY GOD_STFREYJA
+		}
+		evil_god_names = {
+			LOKI THE_DEVIL
+		} 
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			general_opinion = 10
+			church_opinion = -10
+			castle_vassal_tax_modifier = 0.10
+			build_cost_modifier = 0.10
+			land_organisation = 0.15
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.50
+#			monthly_character_prestige = 1.20
+			diplomacy = 2
+			martial = 2
+			stewardship = 1
+			learning = -4
+			fertility = -0.05
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_honor = 60
+#			ai_rationality = 50
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 1.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+		female_temple_holders = yes
+		feminist = yes
+		independence_war_score_bonus = 20
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		has_heir_designation = yes
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = german_pagan
+		intermarry = norse_pagan
+		intermarry = sowilo
+		intermarry = teiwaz
+		intermarry = german_pagan_reformed
+		intermarry = norse_pagan_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	norse_pagan_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = norsegfx
+		color = { 186 186 186 }
+		icon = 20
+		heresy_icon = 21
+		
+		high_god_name = GOD_THE_ODIN
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_SAGAS
+		god_names = {
+			GOD_THOR GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_THE_ODIN GOD_FREY
+			GOD_FREYJA GOD_TYR GOD_THE_ANCESTORS GOD_THE_ONEHANDED
+		}
+		evil_god_names = {
+			LOKI HEL FENRIR JORMUNGANDR
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			general_opinion = 10
+			church_opinion = -10
+			temple_vassal_tax_modifier = 0.10
+			build_cost_modifier = 0.10
+			land_organisation = 0.15
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.50
+#			monthly_character_prestige = 1.20
+			diplomacy = 1
+			martial = 2
+			stewardship = 1
+			learning = -4
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_honor = 60
+#			ai_rationality = 50
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 1.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+		female_temple_holders = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		independence_war_score_bonus = 20
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		has_heir_designation = yes
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = german_pagan
+		intermarry = norse_pagan
+		intermarry = sowilo
+		intermarry = teiwaz
+		intermarry = german_pagan_reformed
+		intermarry = norse_christ_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	ragnarok_reformed = {
+		crusade_name = CRUSADE
+		allow_in_ruler_designer = no
+		graphical_culture = norsegfx
+		color = { 25 25 25 }
+		icon = 20
+		heresy_icon = 21
+		
+		high_god_name = GOD_FENRIR
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_RAGNAROKPROPHECY
+		god_names = {
+			GOD_FENRIR GOD_GREATWOLF GOD_LOKI HEL
+		}
+		evil_god_names = {
+			GOD_TYR GOD_FENRISBINDER
+		} 
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			general_opinion = 10
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = 0.20
+			build_cost_modifier = 0.20
+			land_organisation = -0.20
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.40
+			city_vassal_max_levy = -0.70
+			temple_vassal_min_levy = 0.30
+			temple_vassal_max_levy = 0.30
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.40
+			arrest_chance_modifier = 0.40
+			diplomacy = -2
+			martial = 4
+			stewardship = -2
+			intrigue = 1
+			learning = -1
+#			ai_ambition = 50
+#			ai_zeal = 80
+#			ai_honor = -30
+#			ai_rationality = -50
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			land_morale = 0.50
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 1.00
+			light_infantry_defensive = 1.00
+			archers_defensive = 1.00
+			land_morale = 2.00
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		female_temple_holders = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		independence_war_score_bonus = 20
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	teiwaz_reformed = {
+		crusade_name = CRUSADE
+		allow_in_ruler_designer = no
+		graphical_culture = norsegfx
+		color = { 158 172 189 }
+		icon = 102
+		heresy_icon = 103
+		
+		high_god_name = GOD_TEIWAZ
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_TEIWAZ GOD_THE_ONEHANDED GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			HALJO MUTHSPELL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			general_opinion = 10
+			church_opinion = -5
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.30
+			temple_vassal_tax_modifier = -0.20
+			build_cost_modifier = 0.50
+			land_organisation = 0.15
+			castle_vassal_min_levy = 0.40
+			castle_vassal_max_levy = 0.40
+			city_vassal_min_levy = -0.15
+			city_vassal_max_levy = -0.45
+			temple_vassal_min_levy = 0.10
+			temple_vassal_max_levy = 0.10
+#			monthly_character_prestige = 1.10
+			assassinate_chance_modifier = 0.20
+			arrest_chance_modifier = 0.20
+			martial = 6
+			stewardship = -1
+			intrigue = -2
+			learning = -3
+#			ai_ambition = 20
+#			ai_zeal = 50
+#			ai_honor = 20
+#			ai_rationality = -20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.10
+			light_cavalry_offensive = 0.30
+			light_infantry_offensive = 0.30
+			archers_offensive = 0.30
+			land_morale = 0.50
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.00
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		independence_war_score_bonus = 20
+		can_call_crusade = yes
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	######################
+	norse_pagan = {
+		graphical_culture = norsegfx
+		color = { 182 182 182 }
+		icon = 19
+		heresy_icon = 164
+		
+		reformed = norse_pagan_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_THE_ODIN
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_SAGAS
+		god_names = {
+			GOD_THOR GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_THE_ODIN GOD_FREY
+			GOD_FREYJA GOD_TYR GOD_THE_ANCESTORS GOD_THE_ONEHANDED
+		}
+		evil_god_names = {
+			LOKI HEL FENRIR JORMUNGANDR
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			general_opinion = 10
+			church_opinion = 5
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = 0.20
+			land_organisation = -0.15
+			castle_vassal_min_levy = 0.30
+			castle_vassal_max_levy = 0.30
+			city_vassal_min_levy = -0.30
+			city_vassal_max_levy = -0.60
+			temple_vassal_min_levy = -0.20
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = 0.80
+			diplomacy = 1
+			martial = 3
+			stewardship = -1
+			learning = -3
+#			ai_ambition = -20
+#			ai_zeal = 20
+#			ai_honor = 40
+#			ai_rationality = -20
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+#		can_hold_temples = yes
+		female_temple_holders = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		independence_war_score_bonus = 40
+		max_consorts = 3
+		peace_prestige_loss = yes
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 7 # The default in LI is 5
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = german_pagan
+		intermarry = sowilo
+		intermarry = teiwaz
+		intermarry = german_pagan_reformed
+		intermarry = norse_christ_reformed
+		intermarry = norse_pagan_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	norse_war = {
+		graphical_culture = norsegfx
+		color = { 206 186 186 }
+		icon = 19
+		heresy_icon = 164
+		
+		high_god_name = GOD_TYR
+		
+		parent = norse_pagan
+		reformed = norse_pagan_reformed
+		reformer_head_of_religion = yes
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_RUNESOFWAR
+		god_names = {
+			GOD_TYR GOD_THE_ONEHANDED GOD_FENRISBINDER GOD_FREYJA GOD_THE_ODIN GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			FENRIR
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.04
+			church_opinion = -5
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.20
+			temple_vassal_tax_modifier = 0.10
+			build_cost_modifier = 0.50
+			land_organisation = 0.20
+			castle_vassal_min_levy = 0.50
+			castle_vassal_max_levy = 0.50
+			city_vassal_min_levy = -0.25
+			city_vassal_max_levy = -0.25
+			temple_vassal_min_levy = 0.30
+			temple_vassal_max_levy = 0.30
+#			monthly_character_prestige = 0.10
+#			monthly_character_piety = 0.50
+			assassinate_chance_modifier = 0.30
+			arrest_chance_modifier = 0.30
+			diplomacy = -2
+			martial = 6
+			stewardship = -1
+			intrigue = 1
+			learning = -1
+#			ai_ambition = 70
+#			ai_zeal = 100
+#			ai_honor = -20
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			land_morale = 0.70
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+#		can_hold_temples = yes
+		female_temple_holders = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		independence_war_score_bonus = 20
+		max_consorts = 3
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 7 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	ragnarok = {
+		graphical_culture = norsegfx
+		color = { 50 50 50 }
+		icon = 19
+		heresy_icon = 164
+		
+		high_god_name = GOD_FENRIR
+		
+		parent = norse_pagan
+		reformed = ragnarok_reformed
+		reformer_head_of_religion = yes
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_RAGNAROKPROPHECY
+		god_names = {
+			GOD_FENRIR GOD_GREATWOLF GOD_LOKI HEL
+		}
+		evil_god_names = {
+			GOD_TYR GOD_FENRISBINDER
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.02
+			castle_vassal_tax_modifier = 0.10
+			city_vassal_tax_modifier = -0.20
+			temple_vassal_tax_modifier = 0.50
+			build_cost_modifier = 0.20
+			land_organisation = -0.25
+			castle_vassal_min_levy = 0.30
+			castle_vassal_max_levy = 0.30
+			city_vassal_min_levy = -0.50
+			city_vassal_max_levy = -0.80
+			temple_vassal_min_levy = 0.50
+			temple_vassal_max_levy = 0.50
+#			monthly_character_piety = 1.50
+			assassinate_chance_modifier = 0.50
+			arrest_chance_modifier = 0.50
+			diplomacy = -4
+			martial = 5
+			stewardship = -3
+			intrigue = 3
+			learning = 2
+#			ai_ambition = 100
+#			ai_zeal = 130
+#			ai_honor = -70
+#			ai_rationality = -70
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			land_morale = 0.70
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.00
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+#		can_hold_temples = yes
+		defensive_attrition = yes
+		female_temple_holders = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		independence_war_score_bonus = 20
+		max_consorts = 3
+		peace_prestige_loss = yes
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 9 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	
+	sowilo = {
+		graphical_culture = norsegfx
+		color = { 255 255 209 }
+		icon = 19
+		heresy_icon = 164
+		
+		reformed = northern_sun_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_NORSE_SOL
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_SAGAS
+		god_names = {
+			GOD_NORSE_SOL GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			GOD_HODR
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			church_opinion = -15
+			temple_vassal_tax_modifier = 0.20
+			build_cost_modifier = 0.10
+			land_organisation = 0.10
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.50
+			temple_vassal_min_levy = 0.05
+#			monthly_character_prestige = 0.20
+#			monthly_character_piety = -0.20
+			martial = 2
+			stewardship = 2
+			learning = -3
+#			ai_ambition = 40
+#			ai_zeal = 20
+#			ai_honor = 40
+#			ai_rationality = 70
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+		female_temple_holders = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		independence_war_score_bonus = 20
+		max_consorts = 3
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		has_heir_designation = yes
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = german_pagan
+		intermarry = norse_pagan
+		intermarry = teiwaz
+		intermarry = german_pagan_reformed
+		intermarry = norse_christ_reformed
+		intermarry = norse_pagan_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+
+	nott = {
+		graphical_culture = norsegfx
+		color = { 15 20 20 }
+		icon = 19
+		heresy_icon = 164
+		
+		reformed = norse_pagan_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_NOTT
+		
+		piety_name = PIETY
+		priest_title = GODI
+		scripture_name = THE_SAGAS
+		
+		god_names = {
+			GOD_NOTT
+		}
+		evil_god_names = {
+			GOD_ODINSOL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			church_opinion = -5
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = 0.30
+			build_cost_modifier = 0.20
+			land_organisation = -0.25
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.40
+			city_vassal_max_levy = -0.70
+			temple_vassal_min_levy = 0.35
+			temple_vassal_max_levy = 0.30
+#			monthly_character_piety = 0.80
+			assassinate_chance_modifier = 0.40
+			arrest_chance_modifier = 0.40
+			diplomacy = -3
+			martial = 4
+			stewardship = -1
+			intrigue = 1
+#			ai_ambition = 70
+#			ai_zeal = 80
+#			ai_honor = -50
+#			ai_rationality = -30
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			land_morale = 0.50
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.00
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+		allow_viking_invasion = yes
+		can_call_crusade = no
+#		can_hold_temples = yes
+		defensive_attrition = yes
+		female_temple_holders = yes
+		feminist = yes
+		independence_war_score_bonus = 20
+		max_consorts = 3
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		short_reign_opinion_year_mult = 9 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	
+	german_pagan = {
+		graphical_culture = norsegfx
+		color = { 189 173 158 }
+		icon = 100
+		heresy_icon = 101
+		
+		reformed = german_pagan_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_WODANAZ
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_WODANAZ GOD_THUNARAZ GOD_TEIWAZ GOD_FRAUJAZ GOD_FRIIJO GOD_SOWILO GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			HALJO MUTHSPELL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			general_opinion = 10
+			church_opinion = 5
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.20
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = 0.20
+			land_organisation = -0.25
+			castle_vassal_min_levy = 0.30
+			castle_vassal_max_levy = 0.30
+			city_vassal_min_levy = -0.30
+			city_vassal_max_levy = -0.60
+			temple_vassal_min_levy = -0.20
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = 0.80
+			diplomacy = 1
+			martial = 4
+			stewardship = -2
+			intrigue = -1
+			learning = -2
+#			ai_ambition = -20
+#			ai_zeal = 20
+#			ai_honor = 40
+#			ai_rationality = -20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.10
+			light_cavalry_offensive = 0.30
+			light_infantry_offensive = 0.30
+			archers_offensive = 0.30
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 40
+		max_consorts = 3
+		peace_prestige_loss = yes
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 7 # The default in LI is 5
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = norse_pagan
+		intermarry = sowilo
+		intermarry = teiwaz
+		intermarry = german_pagan_reformed
+		intermarry = norse_christ_reformed
+		intermarry = norse_pagan_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	irminsul = {
+		graphical_culture = norsegfx
+		color = { 189 158 158 }
+		icon = 100
+		heresy_icon = 101
+		
+		parent = german_pagan
+		reformed = german_pagan_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_WODANAZ
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_IRMINSUL
+		god_names = {
+			GOD_WODANAZ GOD_TEIWAZ GOD_IRMIN GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			HALJO MUTHSPELL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			church_opinion = 20 
+			castle_vassal_tax_modifier = 0.35
+			city_vassal_tax_modifier = -0.40
+			build_cost_modifier = 0.25
+			land_organisation = -0.25
+			castle_vassal_min_levy = 0.35
+			castle_vassal_max_levy = 0.35
+			city_vassal_min_levy = -0.40
+			city_vassal_max_levy = -0.75
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.10
+			arrest_chance_modifier = 0.10
+			diplomacy = -2
+			martial = 4
+			stewardship = -3
+			intrigue = 2
+			learning = 3
+#			ai_ambition = 50
+#			ai_zeal = 70
+#			ai_honor = -20
+#			ai_greed = 50
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.15
+			light_cavalry_offensive = 0.55
+			light_infantry_offensive = 0.55
+			archers_offensive = 0.55
+			land_morale = 0.20
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		aggression = 2.5
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 30
+		max_consorts = 3
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	
+	allfather = {
+		graphical_culture = norsegfx
+		color = { 91 134 134 }
+		icon = 100
+		heresy_icon = 101
+		
+		reformed = german_pagan_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_WODANAZ
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_WODANAZ GOD_THE_ALLFATHER GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			HALJO MUTHSPELL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.20
+			build_cost_modifier = 0.30
+			land_organisation = -0.35
+			castle_vassal_min_levy = 0.40
+			castle_vassal_max_levy = 0.40
+			city_vassal_min_levy = -0.40
+			city_vassal_max_levy = -0.85
+			temple_vassal_min_levy = -0.15 
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = -0.20
+			diplomacy = -1
+			martial = 5
+			stewardship = -1
+			intrigue = -1
+			learning = -2
+#			ai_zeal = 20
+#			ai_honor = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.10
+			light_cavalry_offensive = 0.30
+			light_infantry_offensive = 0.30
+			archers_offensive = 0.30
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 2.5
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		independence_war_score_bonus = 50 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		max_consorts = 3
+		peace_prestige_loss = yes
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+
+		# Germanic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = allfather
+		intermarry = german_pagan
+		intermarry = norse_pagan
+		intermarry = sowilo
+		intermarry = teiwaz
+		intermarry = german_pagan_reformed
+		intermarry = norse_christ_reformed
+		intermarry = norse_pagan_reformed
+		intermarry = teiwaz_reformed
+		
+		# Germanic restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = irminsul
+		intermarry = norse_war
+		intermarry = nott
+		intermarry = ragnarok_reformed
+
+		# Baltic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dievas
+		intermarry = peckols
+		intermarry = perkunas
+		intermarry = baltic_pagan_reformed 
+
+		# Slavic open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = dazhbog
+		intermarry = perun
+		intermarry = rod
+		intermarry = slavic_pagan
+		intermarry = svaroh
+		intermarry = svetovid
+		intermarry = veles
+		intermarry = slavic_pagan_reformed
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	
+	teiwaz = {
+		graphical_culture = norsegfx
+		color = { 91 111 134 }
+		icon = 100
+		heresy_icon = 101
+		
+		reformed = teiwaz_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_TEIWAZ
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_LEGENDS
+		god_names = {
+			GOD_TEIWAZ GOD_THE_ONEHANDED GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			HALJO MUTHSPELL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.03
+			church_opinion = -10 
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.30
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = 0.50
+			land_organisation = 0.10
+			castle_vassal_min_levy = 0.40
+			castle_vassal_max_levy = 0.40
+			city_vassal_min_levy = -0.15
+			city_vassal_max_levy = -0.45
+			temple_vassal_min_levy = 0.15
+			temple_vassal_max_levy = 0.10
+#			monthly_character_prestige = 0.10
+#			monthly_character_piety = -0.20
+			assassinate_chance_modifier = 0.20
+			arrest_chance_modifier = 0.20
+			diplomacy = -1
+			martial = 6
+			intrigue = -2
+			learning = -2
+#			ai_ambition = 40
+#			ai_zeal = 50 
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.10
+			light_cavalry_offensive = 0.30
+			light_infantry_offensive = 0.30
+			archers_offensive = 0.30
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		can_call_crusade = no
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		independence_war_score_bonus = 20
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 7 # The default in LI is 5
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+}
+christian = {
+	graphical_culture = westerngfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	has_coa_on_barony_only = yes
+	hostile_within_group = yes
+	crusade_cb = crusade_christian
+
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David
+		Demetrius Eustace George Gregory Hans Isaac Joakim Jacob John Jordan Joseph Laurence
+		Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip Salvador Samuel
+		Sebastian Simon Stephen Thomas
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy
+		Elisabeth Joan Judith Juliana Helen Magdalena Margaret Maria Marine Patricia Philippa
+		Rachel Sarah Sophia Stephania
+	}
+	
+	# Reformed
+	cathar_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 143 31 255 }
+		icon = 177
+		heresy_icon = 178
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_CATHAR
+		god_names = {
+			GOD_GOD
+		}
+		evil_god_names = {
+			SATAN FLESH 
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.65
+			land_organisation = 0.05
+			temple_vassal_min_levy = -0.35
+			temple_vassal_max_levy = -0.35
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.50
+			diplomacy = 2
+			martial = -1
+			stewardship = -1
+			intrigue = 1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+#			ai_greed = 50
+#			ai_rationality = -20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	christian_populist_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 255 255 255 }
+		icon = 106
+		heresy_icon = 107
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		
+		god_names = {
+			GOD_GOD GOD_POORGOD
+		}
+		evil_god_names = {
+			SATAN THE_WHITE_RIDER CONQUEST 
+		}
+		
+		character_modifier = {
+			general_opinion = 10	
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.10
+			land_organisation = -0.10
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.20
+			temple_vassal_min_levy = 0.30
+			temple_vassal_max_levy = 0.30
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.40
+			arrest_chance_modifier = 0.40
+			martial = 2
+			stewardship = -2
+			intrigue = 1
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 80
+#			ai_honor = -30
+#			ai_rationality = -50
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			land_morale = 0.50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.00
+		}
+		
+		allow_viking_invasion = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	mari_christ_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 75 138 0 }
+		icon = 160
+		heresy_icon = 161
+		
+		high_god_name = GOD_THE_BLESSED_VIRGIN
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		
+		god_names = {
+			GOD_GOD GOD_MARI GOD_MARIURRACA GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			THE_DEVIL AKERBELTZ 
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = -0.65
+			build_cost_modifier = 0.10
+			land_organisation = -0.05
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.25
+			temple_vassal_min_levy = -0.35
+			temple_vassal_max_levy = -0.35
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.50
+			diplomacy = 2
+			martial = 1
+			stewardship = -2
+			intrigue = 1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+#			ai_greed = 50
+#			ai_rationality = -20
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			levy_size = 0.05
+			light_cavalry_offensive = 0.15
+			light_infantry_offensive = 0.15
+			archers_offensive = 0.15
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		aggression = 1.5
+		can_call_crusade = yes
+		independence_war_score_bonus = 10
+		priests_can_marry = yes
+		feminist = yes
+		female_temple_holders = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 12
+	}
+	montanist_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = westerngfx
+		color = { 255 66 129 }
+		icon = 108
+		heresy_icon = 109
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_MONTANIST
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_MONTANINCARNATION
+		}
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			general_opinion = 10
+			church_opinion = -10
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = -0.10
+			land_organisation = 0.25
+#			monthly_character_prestige = 1.20
+			diplomacy = 3
+			stewardship = 1
+			learning = -3
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_honor = 60
+#			ai_rationality = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		can_call_crusade = no
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		priests_can_marry = yes
+		has_heir_designation = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	nasrani_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = indiangfx
+		color = { 0.7 0.4 0.6 }
+		icon = 106
+		heresy_icon = 107
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_PESHITTA
+		
+		god_names = {
+			GOD_GOD PROPHET_SAINT_THOMAS
+		}
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			general_opinion = 10
+			church_opinion = -10
+			sex_appeal_opinion = 10
+			castle_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = 0.40
+			build_cost_modifier = -0.10
+			land_organisation = 0.25
+#			monthly_character_prestige = 1.20
+			diplomacy = 2
+			stewardship = 1
+			learning = -2
+			fertility = 0.15
+#			ai_ambition = 20
+#			ai_zeal = 30
+#			ai_honor = 60
+#			ai_rationality = 50
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			levy_size = 0.20
+			land_morale = -0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.70
+			light_infantry_defensive = 0.70
+			archers_defensive = 0.70
+			heavy_infantry_defensive = 0.70
+			knights_defensive = 0.70
+			pikemen_defensive = 0.70
+			land_morale = 1.90
+		}
+		
+		can_call_crusade = no
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		priests_can_marry = yes
+		has_heir_designation = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	priscillian_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = westerngfx
+		color = { 174 0 184 }
+		icon = 160
+		heresy_icon = 161
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_12TEACHINGS
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_TWELVE
+		}
+		evil_god_names = {
+			THE_DEVIL AHREMANUS
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			church_opinion = 30
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.65
+			land_organisation = 0.05
+			temple_vassal_min_levy = -0.35
+			temple_vassal_max_levy = -0.35
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.6
+			diplomacy = 2
+			martial = -1
+			stewardship = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+#			ai_greed = 50
+#			ai_rationality = -20
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			land_morale = 0.05
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		can_call_crusade = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		priests_can_marry = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	slavic_christian_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 94 181 119 }
+		icon = 106
+		heresy_icon = 107
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_PERUNCHRIST GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DEVIL CHERNOBOG
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = -0.65
+			build_cost_modifier = 0.10
+			land_organisation = -0.05
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.25
+			temple_vassal_min_levy = -0.35
+			temple_vassal_max_levy = -0.35
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.50
+			diplomacy = 2
+			martial = 1
+			stewardship = -2
+			intrigue = 1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+#			ai_greed = 50
+#			ai_rationality = -20	
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			levy_size = 0.05
+			light_cavalry_offensive = 0.15
+			light_infantry_offensive = 0.15
+			archers_offensive = 0.15
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		aggression = 1.5
+		can_call_crusade = yes
+		independence_war_score_bonus = 10
+		priests_can_marry = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	######################
+	catholic = {
+		graphical_culture = westerngfx
+		color = { 255 255 153 }
+		icon = 1
+		heresy_icon = 6
+		
+		high_god_name = GOD_GOD
+		
+		crusade_name = "CRUSADE"
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.65
+			land_organisation = 0.05
+			temple_vassal_min_levy = -0.35
+			temple_vassal_max_levy = -0.35
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.50
+			diplomacy = 2
+			martial = -1
+			stewardship = -1
+			intrigue = 1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+#			ai_greed = 50
+#			ai_rationality = -20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+	
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_have_antipopes = yes
+		can_retire_to_monastery = yes
+		investiture = yes
+		priests_can_inherit = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	antinomian = {
+		graphical_culture = westerngfx
+		color = { 152 255 189 }
+		icon = 106
+		heresy_icon = 107
+		
+		parent = catholic
+		reformed = christian_populist_reformed
+		#christian_populist_reformed has no religious head
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_GRACE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.02
+			castle_vassal_tax_modifier = 0.40
+			city_vassal_tax_modifier = -0.20
+			build_cost_modifier = 0.10
+			land_organisation = -0.35
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.35
+			temple_vassal_min_levy = 0.20
+			temple_vassal_max_levy = 0.20
+##			monthly_character_prestige = -2.00
+##			monthly_character_piety = 0.50
+			assassinate_chance_modifier = -0.10
+			arrest_chance_modifier = -0.10
+			diplomacy = -3
+			martial = 3
+			stewardship = -3
+			intrigue = 3
+			learning = 4
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 50
+#			ai_honor = -50
+#			ai_greed = -20
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.05
+			light_cavalry_offensive = 0.75
+			light_infantry_offensive = 0.75
+			archers_offensive = 0.75
+			knights_offensive = -0.50
+			heavy_infantry_offensive = -0.50
+			pikemen_offensive = -0.50
+			land_morale = 1.00
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+		}
+		
+		aggression = 1.5
+		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 10 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		short_reign_opinion_year_mult = 9 # The default in LI is 5
+		priests_can_marry = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	cathar = {
+		graphical_culture = westerngfx
+		color = { 189 152 255 }
+		icon = 175
+		heresy_icon = 176
+		
+		parent = catholic
+		reformed = cathar_reformed
+		#cathar_reformed has NO religious head, WAD
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_CATHAR
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN FLESH 
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.02
+			church_opinion = 10
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			land_organisation = -0.25
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.10
+			temple_vassal_min_levy = 0.20
+			temple_vassal_max_levy = 0.20
+##			monthly_character_prestige = -2.00
+##			monthly_character_piety = 0.60
+			assassinate_chance_modifier = -0.10
+			arrest_chance_modifier = -0.10
+			diplomacy = -3
+			martial = 1
+			stewardship = -2
+			intrigue = 3
+			learning = 5
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 50
+#			ai_honor = -50
+#			ai_greed = -20
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.60
+			light_infantry_offensive = 0.60
+			archers_offensive = 0.60
+			knights_offensive = -0.50
+			heavy_infantry_offensive = -0.50
+			pikemen_offensive = -0.50
+			land_morale = 1.05
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+		}
+		
+		allow_viking_invasion = yes
+		can_call_crusade = no
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	donatist = {
+		graphical_culture = westerngfx
+		color = { 211 211 105 }
+		icon = 104
+		heresy_icon = 105
+		
+		parent = catholic
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_DONATUS
+		god_names = {
+			GOD_GOD GOD_THE_LORD PROPHET_DONATUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			church_opinion = 5
+			castle_vassal_tax_modifier = 0.30
+			build_cost_modifier = 0.15
+			land_organisation = -0.15
+			castle_vassal_min_levy = 0.15
+			castle_vassal_max_levy = 0.15
+			city_vassal_min_levy = -0.15
+			city_vassal_max_levy = -0.15
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = 0.50
+			assassinate_chance_modifier = 0.10
+			arrest_chance_modifier = 0.10
+			diplomacy = 1
+			martial = 2
+			stewardship = -2
+			intrigue = 2
+			learning = 2
+			fertility = -0.10
+#			ai_ambition = 30
+#			ai_zeal = 70
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			levy_size = 0.05
+			light_cavalry_offensive = 0.20
+			light_infantry_offensive = 0.20
+			archers_offensive = 0.20
+			land_morale = 0.20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.55
+			light_infantry_defensive = 0.55
+			archers_defensive = 0.55
+			land_morale = 0.55
+		}
+		
+		can_call_crusade = no
+		independence_war_score_bonus = 20
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	fraticelli = {
+		graphical_culture = westerngfx
+		color = { 225 189 152 }
+		icon = 104
+		heresy_icon = 105
+		
+		parent = catholic
+		reformed = christian_populist_reformed
+		#christian_populist_reformed has NO religious head, WAD
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_POORGOD
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			church_opinion = -5
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.20
+			land_organisation = -0.25
+			temple_vassal_min_levy = 0.05
+##			monthly_character_prestige = -2.00
+##			monthly_character_piety = -0.20
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = -1
+			intrigue = 1
+			learning = 2
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_honor = -30
+#			ai_greed = -20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.50
+			light_infantry_offensive = 0.50
+			archers_offensive = 0.50
+			knights_offensive = -0.50
+			heavy_infantry_offensive = -0.50
+			pikemen_offensive = -0.50
+			land_morale = 0.80
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+		}
+		
+		allow_viking_invasion = yes
+		can_call_crusade = no
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		priests_can_marry = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	waldensian = {
+		graphical_culture = westerngfx
+		color = { 105 105 211 }
+		icon = 104
+		heresy_icon = 105
+		
+		parent = catholic
+		reformed = christian_populist_reformed
+		#christian_populist_reformed has NO religious head, WAD
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_POORGOD
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			church_opinion = -5
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.20
+			land_organisation = -0.25
+			temple_vassal_min_levy = 0.05
+##			monthly_character_prestige = -2.00
+##			monthly_character_piety = -0.20
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = -1
+			intrigue = 1
+			learning = 2
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_honor = -30
+#			ai_greed = -20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.50
+			light_infantry_offensive = 0.50
+			archers_offensive = 0.50
+			heavy_infantry_offensive = -0.50
+			knights_offensive = -0.50
+			pikemen_offensive = -0.50
+			land_morale = 0.80
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+		}
+		
+		can_call_crusade = no
+		priests_can_marry = yes
+		allow_viking_invasion = yes
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+
+	orthodox = {
+		graphical_culture = westerngfx
+		color = { 255 212 128 }
+		icon = 2
+		heresy_icon = 7
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			general_opinion = 10
+			church_opinion = -10
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = -0.10
+			land_organisation = 0.25
+#			monthly_character_prestige = 1.20
+			diplomacy = 3
+			stewardship = 1
+			learning = -3
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_honor = 60
+#			ai_rationality = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		autocephaly = yes
+		can_call_crusade = no
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		investiture = no
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		has_heir_designation = yes
+		
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	bogomilist = {
+		graphical_culture = westerngfx
+		color = { 255 172 5 }
+		icon = 2
+		heresy_icon = 7
+		
+		high_god_name = GOD_GOD
+		
+		parent = orthodox
+		reformed = christian_populist_reformed
+		#christian_populist_reformed has NO religious head, WAD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BOGOMIL
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROPHET_BOGOMIL
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.01
+			church_opinion = 15 
+			land_organisation = -0.25
+			temple_vassal_min_levy = 0.05 
+##			monthly_character_prestige = -2.00
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = -3
+			intrigue = 1
+			learning = 3
+#			ai_ambition = 20
+#			ai_honor = -30
+#			ai_greed = -20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.50
+			light_infantry_offensive = 0.50
+			archers_offensive = 0.50
+			heavy_infantry_offensive = -0.50
+			knights_offensive = -0.50
+			pikemen_offensive = -0.50
+			land_morale = 0.90
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+		}
+		
+		allow_viking_invasion = yes
+		can_call_crusade = no
+		short_reign_opinion_year_mult = 8 # The default in LI is 5
+		priests_can_marry = yes
+		has_heir_designation = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	} 
+	melkite = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 255 192 66 }
+		icon = 2
+		heresy_icon = 7
+		
+		parent = orthodox
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = -0.35
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.10
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.15 
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.10
+			arrest_chance_modifier = 0.10
+			stewardship = -2
+			intrigue = 3
+			learning = 3
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 70
+#			ai_honor = -20
+#			ai_greed = 50
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			land_morale = 0.20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		investiture = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	montanist = {
+		graphical_culture = westerngfx
+		color = { 255 128 170 }
+		icon = 2
+		heresy_icon = 7
+		
+		high_god_name = GOD_GOD
+		
+		parent = orthodox
+		reformed = montanist_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_MONTANIST
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROPHET_MONTANUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.25
+			temple_vassal_tax_modifier = -0.40
+			build_cost_modifier = -0.05
+			land_organisation = 0.15
+			castle_vassal_min_levy = 0.05
+			castle_vassal_max_levy = 0.05
+			city_vassal_min_levy = 0.05
+			city_vassal_max_levy = 0.15
+			temple_vassal_min_levy = -0.10
+			temple_vassal_max_levy = -0.10
+#			monthly_character_prestige = 0.25
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.10
+			arrest_chance_modifier = 0.10
+			stewardship = -2
+			intrigue = 3
+			learning = 3
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 70
+#			ai_honor = -20
+#			ai_greed = 50
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			heavy_infantry_offensive = 0.25
+			knights_offensive = 0.25
+			pikemen_offensive = 0.25
+			land_morale = 0.20
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		can_call_crusade = no
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	sabellianist = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 128 255 212 }
+		icon = 2
+		heresy_icon = 7
+		
+		high_god_name = GOD_GOD
+		
+		parent = orthodox
+		
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROPHET_SABELLIUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			church_opinion = 15
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.55
+			temple_vassal_min_levy = -0.30
+			temple_vassal_max_levy = -0.35
+#			monthly_character_piety = 0.30
+			diplomacy = 1
+			martial = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_greed = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		investiture = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	valentinian = {
+		graphical_culture = westerngfx
+		color = { 255 149 128 }
+		icon = 2
+		heresy_icon = 7
+		
+		high_god_name = GOD_FATHER
+		
+		parent = orthodox
+		
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_FATHER
+		god_names = {
+			GOD_FATHER GOD_AEONS GOD_SOPHIA GOD_JESUS
+		}
+		evil_god_names = {
+			HYLE
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.02
+			church_opinion = 20
+			sex_appeal_opinion = -5
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = -0.10
+			land_organisation = 0.10
+			castle_vassal_min_levy = -0.10
+			castle_vassal_max_levy = -0.10
+			city_vassal_min_levy = 0.10
+			city_vassal_max_levy = 0.10
+			temple_vassal_min_levy = 0.05 
+#			monthly_character_prestige = -0.50
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = -1
+			martial = -1
+			stewardship = 1
+			intrigue = -2
+			learning = 5
+			fertility = -0.15
+#			ai_ambition = 20
+#			ai_honor = 50
+#			ai_rationality = 100
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			knights_defensive = 0.30
+			heavy_infantry_defensive = 0.30
+			pikemen_defensive = 0.30
+			land_morale = 1.30
+		}
+		
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		can_call_crusade = no
+		has_heir_designation = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+
+	arian = {
+		graphical_culture = westerngfx
+		color = { 255 53 63 }
+		icon = 158
+		heresy_icon = 159
+		
+		
+		
+		high_god_name = GOD_GOD
+		
+		crusade_name = "EXALTED_MARCH"
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_ARIAN
+		god_names = {
+			GOD_GOD GOD_THE_LORD PROPHET_ARIUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			general_opinion = 10
+			church_opinion = -10
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.10
+			build_cost_modifier = -0.10
+			land_organisation = 0.25
+#			monthly_character_prestige = 1.20
+			diplomacy = 3
+			stewardship = 1
+			learning = -3
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_honor = 60
+#			ai_rationality = 50	
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		autocephaly = yes 
+		investiture = yes
+		can_call_crusade = no
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		can_retire_to_monastery = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		has_heir_designation = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	adoptionist = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 255 143 51 }
+		icon = 158
+		heresy_icon = 159
+		
+		parent = arian
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			church_opinion = 15
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.55
+			temple_vassal_min_levy = -0.30
+			temple_vassal_max_levy = -0.35
+#			monthly_character_piety = 0.30
+			diplomacy = 1
+			martial = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_greed = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes
+		investiture = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	mari_christ = {
+		graphical_culture = westerngfx
+		color = { 61 255 51 }
+		icon = 158
+		heresy_icon = 159
+		
+		parent = arian
+		reformed = mari_christ_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_MARI
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		
+		god_names = {
+			GOD_JESUS GOD_MARI GOD_MARIURRACA GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			THE_DEVIL AKERBELTZ 
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = -0.20
+			build_cost_modifier = 0.10
+			land_organisation = -0.20
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.35
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = -0.20
+			diplomacy = 2
+			martial = 3
+			stewardship = -1
+			intrigue = -1
+			learning = -1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.05
+			light_cavalry_offensive = 0.15
+			light_infantry_offensive = 0.15
+			archers_offensive = 0.15
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 1.5
+		can_call_crusade = no
+		independence_war_score_bonus = 30
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		feminist = yes
+		female_temple_holders = yes
+		
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+
+		religious_clothing_head = 12
+		religious_clothing_priest = 12
+	}
+	priscillian = {
+		graphical_culture = westerngfx
+		color = { 245 51 255 }
+		icon = 158
+		heresy_icon = 159
+		
+		parent = arian
+		reformed = priscillian_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_12TEACHINGS
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_TWELVE PROPHET_PRISCILLIAN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.02
+			church_opinion = 10
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.20
+			temple_vassal_tax_modifier = 0.30
+			land_organisation = -0.15
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.30
+			city_vassal_max_levy = -0.30
+			temple_vassal_min_levy = 0.50
+			temple_vassal_max_levy = 0.50
+#			monthly_character_piety = 1.60
+			assassinate_chance_modifier = 0.50
+			arrest_chance_modifier = 0.50
+			diplomacy = -3
+			martial = 3
+			stewardship = -3
+			intrigue = 3
+			learning = 4
+			fertility = -0.10
+#			ai_ambition = 100
+#			ai_zeal = 130
+#			ai_honor = -70
+#			ai_rationality = -70
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			land_morale = 0.75
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.00
+		}
+		
+		allow_viking_invasion = yes
+		can_call_crusade = no
+		defensive_attrition = yes
+		short_reign_opinion_year_mult = 7 # The default in LI is 5
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	nestorian = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 102 204 153 }
+		icon = 46
+		heresy_icon = 47
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_CHRISTHUMAN GOD_CHRISTDIVINE PROPHET_NESTORIUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			general_opinion = 10
+#			dynasty_opinion = 10
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.10
+			land_organisation = -0.05
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.20
+			temple_vassal_min_levy = 0.30
+			temple_vassal_max_levy = 0.30
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.40
+			arrest_chance_modifier = 0.40
+			martial = 2
+			stewardship = -2
+			intrigue = 1
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 80
+#			ai_honor = -30
+#			ai_rationality = -50
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			levy_size = 0.15
+			light_cavalry_offensive = -0.10
+			light_infantry_offensive = -0.10
+			archers_offensive = -0.10
+			knights_offensive = 0.10
+			heavy_infantry_offensive = 0.10
+			pikemen_offensive = 0.10
+			land_morale = 0.35
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.25
+		}
+		
+		allow_viking_invasion = yes
+		autocephaly = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		defensive_attrition = yes
+		investiture = no
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	docetist = {
+		graphical_culture = westerngfx
+		color = { 46 138 92 }
+		icon = 46
+		heresy_icon = 47
+		
+		parent = nestorian
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_DOCETIST
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_PROJECTIONJESUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.03
+			sex_appeal_opinion = -5
+			castle_vassal_tax_modifier = 0.10
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = -0.20
+			build_cost_modifier = -0.10
+			land_organisation = 0.10
+			castle_vassal_min_levy = -0.10
+			castle_vassal_max_levy = -0.10
+			city_vassal_min_levy = 0.10
+			city_vassal_max_levy = 0.10
+			temple_vassal_min_levy = 0.05
+#			monthly_character_prestige = -0.50
+#			monthly_character_piety = -0.20
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = 1
+			martial = -1
+			stewardship = 1
+			intrigue = -2
+			learning = 4
+			fertility = -0.20
+#			ai_ambition = 20
+#			ai_honor = 50
+#			ai_rationality = 100
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			land_morale = -0.10
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			knights_defensive = 0.30
+			heavy_infantry_defensive = 0.30
+			pikemen_defensive = 0.30
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes
+		can_call_crusade = no
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		investiture = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	iconoclast = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 153 204 102 }
+		icon = 46 #No Icon maybe???
+		heresy_icon = 47
+		
+		parent = nestorian
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN IDOLATERS
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			church_opinion = 20
+#			dynasty_opinion = -5
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.05
+			temple_vassal_tax_modifier = -0.35
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.15
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.10
+			arrest_chance_modifier = 0.10
+			diplomacy = -1
+			martial = 1
+			stewardship = -2
+			intrigue = 3
+			learning = 3
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 70
+#			ai_honor = -20
+#			ai_greed = 50
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_offensive = 0.15
+			light_infantry_offensive = 0.15
+			archers_offensive = 0.15
+			land_morale = 0.20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		can_call_crusade = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	monophysite = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 51 138 225 }
+		icon = 11
+		heresy_icon = 13
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.65
+			land_organisation = 0.05
+			temple_vassal_min_levy = -0.35
+			temple_vassal_max_levy = -0.35
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.50
+			diplomacy = 2
+			martial = -1
+			stewardship = -1
+			intrigue = 1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+#			ai_greed = 50
+#			ai_rationality = -20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes
+		investiture = no
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monothelite
+		intermarry = monophysite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	monothelite = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 51 225 225 }
+		icon = 11
+		heresy_icon = 13
+		
+		parent = monophysite
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			church_opinion = 15
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.55
+			temple_vassal_min_levy = -0.30
+			temple_vassal_max_levy = -0.35
+#			monthly_character_piety = 0.30
+			diplomacy = 1
+			martial = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_greed = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		investiture = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	apollinarist = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 0 184 174 }
+		icon = 11
+		heresy_icon = 13
+		
+		parent = monophysite
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_APOLLINARIS
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROPHET_APOLLINARIS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			church_opinion = 15
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.55
+			temple_vassal_min_levy = -0.30
+			temple_vassal_max_levy = -0.35
+#			monthly_character_piety = 0.30
+			diplomacy = 1
+			martial = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_greed = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes #Removed, with autocephaly, religious heads are kind of useless - DR / re-introduced following Heads overhaul by FG - Numahr
+		investiture = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	solomonic_christ = {
+		graphical_culture = westerngfx
+		color = { 150 110 110 }
+		icon = 11
+		heresy_icon = 13
+		
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_WISDOM_SOLOMON
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROHPET_SOLOMON
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			church_opinion = -10
+			castle_vassal_tax_modifier = 0.10
+			city_vassal_tax_modifier = 0.05
+			temple_vassal_tax_modifier = 0.15
+			build_cost_modifier = -0.25
+			land_organisation = 0.20
+			castle_vassal_min_levy = -0.10
+			castle_vassal_max_levy = -0.10
+			city_vassal_min_levy = 0.10
+			city_vassal_max_levy = 0.05
+			temple_vassal_min_levy = 0.20
+			temple_vassal_max_levy = 0.15
+#			monthly_character_prestige = 0.10
+#			monthly_character_piety = -0.10
+			diplomacy = 1
+			stewardship = 3
+			learning = -1
+			fertility = -0.15
+#			ai_ambition = 15
+#			ai_zeal = 30
+#			ai_honor = 65
+#			ai_rationality = 80
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			land_morale = -0.05
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.60
+		}
+
+		can_call_crusade = no
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_have_antipopes = no
+		investiture = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 1 # The default in LI is 5
+		priests_can_marry = yes
+
+		has_heir_designation = yes
+		
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	audianist = {
+		graphical_culture = westerngfx
+		color = { 198 95 148 }
+		icon = 104
+		heresy_icon = 105
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_HUMANGOD PROPHET_AUDAEUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.20
+			land_organisation = -0.10
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.10
+			temple_vassal_min_levy = -0.15 
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = -0.20
+			diplomacy = 2
+			martial = 1
+			learning = -1
+			fertility = -0.10
+#			ai_zeal = 20
+#			ai_honor = 20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		autocephaly = yes
+		can_call_crusade = no
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		independence_war_score_bonus = 20 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		investiture = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	celtic_christ = {
+		graphical_culture = westerngfx
+		color = { 121 210 129 }
+		icon = 84
+		heresy_icon = 86
+		
+		reformed = celtic_christ_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_KELLS
+		god_names = {
+			GOD_GOD GOD_THE_LORD HERO_CUC
+		}
+		evil_god_names = {
+			BALOR THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			castle_vassal_tax_modifier = 0.20
+			city_vassal_tax_modifier = -0.20
+			temple_vassal_tax_modifier = 0.20
+			build_cost_modifier = 0.10
+			land_organisation = -0.20
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.30
+			city_vassal_max_levy = -0.40
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.10
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = -0.20
+			diplomacy = 2
+			martial = 2
+			intrigue = -1
+			learning = -1
+			fertility = -0.05
+#			ai_zeal = 20
+#			ai_honor = 20	
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.10
+			light_cavalry_offensive = 0.30
+			light_infantry_offensive = 0.30
+			archers_offensive = 0.30
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 40
+		peace_prestige_loss = yes
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		priests_can_marry = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	marcionist = {
+		graphical_culture = westerngfx
+		color = { 251 255 71 }
+		icon = 104
+		heresy_icon = 105
+		
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_MARCION
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_HEAVENLY PROPHET_MARCION
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.03
+			church_opinion = 10
+			sex_appeal_opinion = -5
+			castle_vassal_tax_modifier = 0.10
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = -0.20
+			build_cost_modifier = -0.10
+			land_organisation = 0.10
+			castle_vassal_min_levy = -0.10
+			castle_vassal_max_levy = -0.10
+			city_vassal_min_levy = 0.10
+			city_vassal_max_levy = 0.10
+			temple_vassal_min_levy = 0.05
+#			monthly_character_prestige = -0.50
+#			monthly_character_piety = -0.10
+			assassinate_chance_modifier = -0.20
+			arrest_chance_modifier = -0.20
+			diplomacy = 1
+			martial = -1
+			stewardship = 1
+			intrigue = -2
+			learning = 5
+			fertility = -0.20
+#			ai_ambition = 20
+#			ai_honor = 50
+#			ai_rationality = 100
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			land_morale = -0.05
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			heavy_infantry_defensive = 0.30
+			knights_defensive = 0.30
+			pikemen_defensive = 0.30
+			land_morale = 0.30
+		}
+		
+		can_call_crusade = no
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
+	
+	nasrani = {
+		graphical_culture = westerngfx
+		color = { 75 90 30 }
+		icon = 104
+		heresy_icon = 105
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_PESHITTA
+		
+		god_names = {
+			GOD_GOD PROPHET_SAINT_THOMAS
+		}
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		reformed = nasrani_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			sex_appeal_opinion = 5
+			castle_vassal_tax_modifier = 0.20
+			land_organisation = -0.10
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.10
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = -0.20
+#			monthly_character_piety = -0.20
+			diplomacy = 2
+			martial = 1
+			learning = -1
+#			ai_zeal = 25
+#			ai_honor = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.10
+			land_morale = -0.05
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.60
+			light_infantry_defensive = 0.60
+			archers_defensive = 0.60
+			heavy_infantry_defensive = 0.10
+			knights_defensive = 0.10
+			pikemen_defensive = 0.10
+			land_morale = 0.70
+		}
+		
+		can_call_crusade = no
+		independence_war_score_bonus = 20
+		
+				
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	norse_christ = {
+		graphical_culture = westerngfx
+		color = { 201 201 156 }
+		icon = 104
+		heresy_icon = 105
+		
+		reformed = norse_christ_reformed
+		reformer_head_of_religion = yes
+		
+		high_god_name = GOD_KRISTUR
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		
+		god_names = {
+			GOD_THE_LORD GOD_KRISTUR GOD_STTYR GOD_STTHOR GOD_STFREY GOD_STFREYJA
+		}
+		evil_god_names = {
+			LOKI THE_DEVIL
+		} 
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			church_opinion = -15 
+			castle_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = 0.10
+			build_cost_modifier = 0.10
+			land_organisation = 0.10
+			castle_vassal_min_levy = 0.20
+			castle_vassal_max_levy = 0.20
+			city_vassal_min_levy = -0.20
+			city_vassal_max_levy = -0.50
+			temple_vassal_min_levy = 0.05
+#			monthly_character_prestige = 0.20
+#			monthly_character_piety = -0.20
+			diplomacy = 1
+			martial = 2
+			stewardship = 2
+			learning = -3
+			fertility = -0.05
+#			ai_ambition = 40
+#			ai_zeal = 20
+#			ai_honor = 40
+#			ai_rationality = 70
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		aggression = 2.0
+		allow_looting = yes
+#		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		can_call_crusade = no
+		independence_war_score_bonus = 20
+		max_consorts = 3
+#		can_hold_temples = yes
+		priests_can_marry = yes
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		has_heir_designation = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	pelagian = {
+		graphical_culture = westerngfx
+		color = { 166 101 230 }
+		icon = 104
+		heresy_icon = 105
+		
+		high_god_name = GOD_GOD
+		
+		crusade_name = "WAROFEXAMPLE"
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROHPET_PELIAGIUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.02
+			church_opinion = 20
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = -0.35
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.10
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.15
+#			monthly_character_piety = 1.00
+			assassinate_chance_modifier = 0.10
+			arrest_chance_modifier = 0.10
+			stewardship = -2
+			intrigue = 3
+			learning = 3
+			fertility = -0.10
+#			ai_ambition = 50
+#			ai_zeal = 70
+#			ai_honor = -20
+#			ai_greed = 50
+#			ai_rationality = -40
+		}
+		unit_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_offensive = 0.10
+			light_infantry_offensive = 0.10
+			archers_offensive = 0.10
+			land_morale = 0.20
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes 
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		investiture = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	semipelagian = {
+		crusade_name = CRUSADE
+		graphical_culture = westerngfx
+		color = { 230 101 230 }
+		icon = 104
+		heresy_icon = 105
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS PROHPET_PELIAGIUS
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			church_opinion = 15
+			castle_vassal_tax_modifier = 0.20
+			temple_vassal_tax_modifier = -0.55
+			temple_vassal_min_levy = -0.30
+			temple_vassal_max_levy = -0.35
+#			monthly_character_piety = 0.30
+			diplomacy = 1
+			martial = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_greed = 50
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		autocephaly = yes 
+		can_call_crusade = yes
+		can_grant_claim = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_have_antipopes = no
+		investiture = yes
+		short_reign_opinion_year_mult = 4 # The default in LI is 5
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	sethian = {
+		graphical_culture = westerngfx
+		color = { 25 0 0 }
+		icon = 58
+		heresy_icon = 59
+		
+		reformed = sethian_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_UNKNOWN_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_SETH
+		god_names = {
+			GOD_UNKNOWN_GOD GOD_SETH
+		}
+		evil_god_names = {
+			GOD_YALDABAOTH THE_DEMIURGE
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			church_opinion = 20
+			land_organisation = -0.10
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.10
+			temple_vassal_min_levy = -0.15
+			temple_vassal_max_levy = -0.20
+#			monthly_character_prestige = -0.20
+			diplomacy = -1
+			martial = 1
+			stewardship = 1
+#			ai_zeal = 20
+#			ai_honor = 20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			land_morale = 0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		can_call_crusade = no
+		independence_war_score_bonus = 20
+		has_heir_designation = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	
+	slavic_christian = {
+		graphical_culture = westerngfx
+		color = { 155 180 93 }
+		icon = 104
+		heresy_icon = 105
+		
+		reformed = slavic_christian_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_PERUNCHRIST GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DEVIL CHERNOBOG
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			church_opinion = 15
+			castle_vassal_tax_modifier = 0.30
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = -0.55
+			build_cost_modifier = 0.10
+			land_organisation = -0.10
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = -0.10
+			city_vassal_max_levy = -0.25
+			temple_vassal_min_levy = -0.30
+			temple_vassal_max_levy = -0.35
+#			monthly_character_piety = 0.30
+			diplomacy = 1
+			martial = 1
+			stewardship = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 20
+#			ai_greed = 50
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			levy_size = 0.05
+			light_cavalry_offensive = 0.15
+			light_infantry_offensive = 0.15
+			archers_offensive = 0.15
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_cavalry_defensive = 0.20
+			light_infantry_defensive = 0.20
+			archers_defensive = 0.20
+			land_morale = 0.30
+		}
+		
+		aggression = 1.5
+		can_call_crusade = no
+		independence_war_score_bonus = 10
+		short_reign_opinion_year_mult = 6 # The default in LI is 5
+		
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	unctionist = {
+		graphical_culture = westerngfx
+		color = { 0 0 255 }
+		icon = 104
+		heresy_icon = 105
+		
+		
+		
+		high_god_name = GOD_GOD
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_BIBLE
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.01
+			church_opinion = -15
+			castle_vassal_tax_modifier = 0.20
+			build_cost_modifier = -0.10
+			land_organisation = 0.20
+			temple_vassal_max_levy = 0.05
+#			monthly_character_prestige = 0.20
+#			monthly_character_piety = -0.20
+			diplomacy = 2
+			stewardship = 2
+			learning = -2
+			fertility = -0.10
+#			ai_ambition = 40
+#			ai_zeal = 20
+#			ai_honor = 40
+#			ai_rationality = 70
+		}
+		unit_home_modifier = {
+			key = "OFF_RELIGION"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.50
+		}
+		
+		can_call_crusade = no
+		priests_can_marry = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		has_heir_designation = yes
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+
+		# Christian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = donatist 
+		intermarry = fraticelli
+		intermarry = iconoclast
+		intermarry = marcionist 
+		intermarry = melkite
+		intermarry = montanist
+		intermarry = nestorian
+		intermarry = pelagian
+		intermarry = solomonic_christ
+		intermarry = valentinian 
+		intermarry = waldensian
+		intermarry = christian_populist_reformed
+		intermarry = priscillian_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+egyptian_group = {
+	crusade_cb = crusade_egyptian
+	graphical_culture = muslimgfx
+	playable = yes
+	has_coa_on_barony_only = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Reformed
+	amun_reformed = {
+		allow_in_ruler_designer = no
+		graphical_culture = egyptiangfx
+		color = { 236 190 51 }
+		icon = 112
+		heresy_icon = 113
+		
+		high_god_name = GOD_AMONRA
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = BOOK_OF_THE_DEAD
+		god_names = {
+			GOD_AMONRA GOD_HORUS GOD_ISIS GOD_OSIRIS GOD_ANUBIS
+		}
+		evil_god_names = {
+			GOD_APEP GOD_SET
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.04
+			general_opinion = 10
+			castle_vassal_tax_modifier = -0.20
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = 0.40
+			build_cost_modifier = -0.40
+			land_organisation = 0.25
+			castle_vassal_min_levy = -0.20
+			castle_vassal_max_levy = -0.20
+			city_vassal_min_levy = 0.20
+			city_vassal_max_levy = 0.10
+			temple_vassal_min_levy = 0.30
+			temple_vassal_max_levy = 0.30
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.20
+			stewardship = 2
+			learning = -1
+			fertility = -0.10
+#			ai_ambition = -30
+#			ai_zeal = 40
+#			ai_honor = 110
+#			ai_rationality = 70
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_infantry_offensive = 0.20
+			light_cavalry_offensive = 0.20
+			archers_offensive = 0.20
+			land_morale = -0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 1.70
+		}
+		
+		can_call_crusade = no
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_have_antipopes = no
+		priests_can_marry = yes
+		investiture = yes
+		max_consorts = 3
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 0 # The default in LI is 5
+		has_heir_designation = yes
+
+		# Ancient Egyptian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = amun
+		intermarry = isis
+		intermarry = aten_reformed
+		intermarry = isis_reformed
+		intermarry = set_reformed
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	aten_reformed = {
+		crusade_name = CRUSADE
+		allow_in_ruler_designer = no
+		graphical_culture = egyptiangfx
+		color = { 250 211 111 }
+		icon = 112
+		heresy_icon = 113
+		
+		high_god_name = GOD_ATEN
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_ATEN
+		god_names = {
+			GOD_ATEN
+		}
+		evil_god_names = {
+			KUK
+		}
+	
+		character_modifier = {
+			general_opinion = 10
+			church_opinion = 5
+			castle_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = 0.10
+			land_organisation = 0.35
+			city_vassal_min_levy = 0.25
+			city_vassal_max_levy = 0.15
+			temple_vassal_min_levy = 0.40
+			temple_vassal_max_levy = 0.40
+#			monthly_character_prestige = 0.90
+#			monthly_character_piety = 0.20
+			assassinate_chance_modifier = 0.20
+			arrest_chance_modifier = 0.20
+			diplomacy = -1
+			martial = 3
+			stewardship = 1
+			intrigue = -1
+			learning = -1
+			fertility = -0.10
+#			ai_ambition = -30
+#			ai_zeal = 70
+#			ai_honor = 70
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_infantry_offensive = 0.20
+			light_cavalry_offensive = 0.20
+			archers_offensive = 0.20
+			land_morale = 0.40
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_infantry_defensive = 0.50
+			light_cavalry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.20
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	isis_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = egyptiangfx
+		color = { 168 18 93 }
+		icon = 112
+		heresy_icon = 113
+		
+		high_god_name = GOD_OSIRIS
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = BOOK_OF_THE_DEAD
+		god_names = {
+			GOD_ISIS GOD_OSIRIS
+		}
+		evil_god_names = {
+			GOD_SET
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.06
+			general_opinion = 10
+			church_opinion = 25
+			castle_vassal_tax_modifier = -0.20
+			city_vassal_tax_modifier = 0.25
+			temple_vassal_tax_modifier = 0.40
+			build_cost_modifier = -0.25
+			land_organisation = 0.35
+			castle_vassal_min_levy = -0.20
+			castle_vassal_max_levy = -0.20
+			city_vassal_min_levy = 0.40
+			city_vassal_max_levy = 0.55
+			temple_vassal_min_levy = -0.10
+			temple_vassal_max_levy = -0.10
+#			monthly_character_prestige = 1.40
+#			monthly_character_piety = 0.60
+			martial = -1
+			stewardship = -1
+			intrigue = 1
+			learning = 1
+			fertility = -0.05
+#			ai_ambition = -25
+#			ai_zeal = 30
+#			ai_honor = 45
+#			ai_greed = 50
+#			ai_rationality = -10
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_infantry_offensive = 0.10
+			light_cavalry_offensive = 0.10
+			archers_offensive = 0.10
+			knights_offensive = 0.50
+			heavy_infantry_offensive = 0.50
+			pikemen_offensive = 0.50
+			land_morale = -0.05
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_infantry_defensive = 0.70
+			light_cavalry_defensive = 0.70
+			archers_defensive = 0.70
+			land_morale = 1.40
+		}
+		
+		can_call_crusade = yes
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_have_antipopes = no
+		investiture = yes
+		short_reign_opinion_year_mult = 3 # The default in LI is 5
+		priests_can_marry = yes
+		
+		# Ancient Egyptian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = amun
+		intermarry = isis
+		intermarry = amun_reformed
+		intermarry = aten_reformed
+		intermarry = set_reformed
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	set_reformed = {
+		allow_in_ruler_designer = no
+		crusade_name = CRUSADE
+		graphical_culture = egyptiangfx
+		color = { 45 30 30 }
+		icon = 112
+		heresy_icon = 113
+		
+		high_god_name = GOD_SET
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = BOOK_OF_THE_DEAD
+		
+		god_names = {
+			GOD_SET
+		}
+		evil_god_names = {
+			GOD_ATEN GOD_APEP
+		}
+		
+		character_modifier = {
+			general_opinion = 10
+			church_opinion = 5
+			castle_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = 0.10
+			land_organisation = 0.35
+			city_vassal_min_levy = 0.25
+			city_vassal_max_levy = 0.15
+			temple_vassal_min_levy = 0.40
+			temple_vassal_max_levy = 0.40
+#			monthly_character_prestige = 0.90
+#			monthly_character_piety = 0.20
+			assassinate_chance_modifier = 0.20
+			arrest_chance_modifier = 0.20
+			diplomacy = -1
+			martial = 3
+			stewardship = 1
+			intrigue = -1
+			learning = -1
+			fertility = -0.10
+#			ai_ambition = -30
+#			ai_zeal = 70
+#			ai_honor = 70
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_offensive = 0.20
+			light_infantry_offensive = 0.20
+			archers_offensive = 0.20
+			land_morale = 0.40
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION"
+			
+			light_cavalry_defensive = 0.50
+			light_infantry_defensive = 0.50
+			archers_defensive = 0.50
+			land_morale = 1.20
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		max_consorts = 3
+		peace_prestige_loss = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 2 # The default in LI is 5
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	######################
+	amun = {
+		graphical_culture = egyptiangfx
+		color = { 236 190 51 }
+		icon = 110
+		heresy_icon = 111
+		
+		reformed = amun_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		high_god_name = GOD_AMONRA
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = BOOK_OF_THE_DEAD
+		god_names = {
+			GOD_AMONRA GOD_HORUS GOD_ISIS GOD_OSIRIS GOD_ANUBIS
+		}
+		evil_god_names = {
+			GOD_APEP GOD_SET
+		}
+		
+		character_modifier = {
+			global_revolt_risk = -0.03
+			general_opinion = 10
+			castle_vassal_tax_modifier = -0.20
+			city_vassal_tax_modifier = 0.10
+			temple_vassal_tax_modifier = 0.40
+			build_cost_modifier = -0.40
+			land_organisation = 0.25
+			castle_vassal_min_levy = -0.20
+			castle_vassal_max_levy = -0.20
+			city_vassal_min_levy = 0.20
+			city_vassal_max_levy = 0.10
+			temple_vassal_min_levy = 0.30
+			temple_vassal_max_levy = 0.30
+#			monthly_character_prestige = 1.00
+#			monthly_character_piety = 0.20
+			stewardship = 2
+			learning = -1
+			fertility = -0.10
+#			ai_ambition = -30
+#			ai_zeal = 40
+#			ai_honor = 110
+#			ai_rationality = 70
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_infantry_offensive = 0.20
+			light_cavalry_offensive = 0.20
+			archers_offensive = 0.20
+			land_morale = -0.10
+		}
+		unit_home_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			heavy_infantry_defensive = 0.50
+			knights_defensive = 0.50
+			pikemen_defensive = 0.50
+			land_morale = 0.70
+		}
+		
+		can_call_crusade = no
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_have_antipopes = no
+		investiture = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 1 # The default in LI is 5
+		priests_can_marry = yes
+		has_heir_designation = yes
+
+		# Ancient Egyptian restrictive (sectarian 1), can be married from the same group or civilization or related ones
+		intermarry = isis
+		intermarry = amun_reformed
+		intermarry = aten_reformed
+		intermarry = isis_reformed
+		intermarry = set_reformed
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	aten = {
+		graphical_culture = egyptiangfx
+		color = { 255 216 116 }
+		icon = 110
+		heresy_icon = 111
+		
+		high_god_name = GOD_ATEN
+		
+		parent = amun
+		reformed = aten_reformed
+		reformer_head_of_religion = no #Reformer is NOT a ruler head
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		scripture_name = THE_ATEN
+		god_names = {
+			GOD_ATEN
+		}
+		evil_god_names = {
+			KUK
+		}
+		
+		character_modifier = {
+			global_revolt_risk = 0.03
+			church_opinion = 5
+			city_vassal_tax_modifier = -0.10
+			temple_vassal_tax_modifier = 0.40
+			land_organisation = 0.30
+			castle_vassal_min_levy = 0.10
+			castle_vassal_max_levy = 0.10
+			city_vassal_min_levy = 0.15
+			city_vassal_max_levy = 0.05
+			temple_vassal_min_levy = 0.60
+			temple_vassal_max_levy = 0.60
+#			monthly_character_prestige = -0.10
+#			monthly_character_piety = 0.70
+			assassinate_chance_modifier = 0.30
+			arrest_chance_modifier = 0.30
+			diplomacy = -3
+			martial = 4
+			intrigue = 1
+			learning = 2
+			fertility = -0.10
+#			ai_ambition = 20
+#			ai_zeal = 120
+#			ai_honor = 30
+#			ai_rationality = -20
+		}
+		unit_modifier = {
+			key = "DEF_RELIGION_HOME_TERRITORY"
+			
+			light_infantry_offensive = 0.30
+			light_cavalry_offensive = 0.30
+			archers_offensive = 0.30
+			land_morale = 0.60
+>>>>>>> origin/master
 		}
 		unit_home_modifier = {
 			key = "DEF_RELIGION"
@@ -14475,8 +20532,55 @@ serer_group = {
 		intermarry = mande_pagan
 		intermarry = serer_reformed
 
+<<<<<<< HEAD
 		religious_clothing_head = 4
 		religious_clothing_priest = 4
+=======
+		# Solar open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = sol
+		intermarry = sol_apollo
+		intermarry = sol_boreas
+		intermarry = sol_islam
+		intermarry = sol_norse
+		intermarry = sol_slav
+		intermarry = sol_boreas_reformed
+		intermarry = sol_islam_reformed
+		intermarry = sol_sahara_reformed
+
+		# Solar restrictive (sectarian 1), can be married only from the same group or civilization
+		intermarry = sol_mani
+		intermarry = sol_sahara
+		intermarry = sol_tsahay
+
+		# Christian open-minded (sectarian 0), can be married from the same group or civilization or related ones
+		intermarry = adoptionist
+		intermarry = apollinarist
+		intermarry = arian
+		intermarry = audianist 
+		intermarry = catholic
+		intermarry = docetist
+		intermarry = mari_christ
+		intermarry = monophysite
+		intermarry = miaphysite
+		intermarry = monothelite
+		intermarry = nasrani
+		intermarry = orthodox
+		intermarry = sabellianist 
+		intermarry = semipelagian
+		intermarry = slavic_christian
+		intermarry = unctionist
+		intermarry = cathar_reformed
+		intermarry = mari_christ_reformed
+		intermarry = montanist_reformed
+		intermarry = slavic_christian_reformed
+		# ! Not in Christian civilization  but in Christian group: not to be married from sectarian 1 Christian faiths
+		intermarry = celtic_christ
+		intermarry = norse_christ
+		intermarry = nasrani_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+>>>>>>> origin/master
 	}
 	
 	anansi = {
